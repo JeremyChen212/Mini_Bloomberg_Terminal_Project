@@ -1,6 +1,6 @@
 """
 ingestion/run_ingestion.py
-───────────────────────────
+
 Master ingestion runner — orchestrates all 4 pipelines.
 
 Usage:
@@ -116,7 +116,7 @@ def load_watchlist_file(path: str) -> list[str]:
         return [line.strip().upper() for line in f if line.strip() and not line.startswith("#")]
 
 
-# ── CLI ────────────────────────────────────────────────────────────────────────
+# CLI
 
 def main():
     parser = argparse.ArgumentParser(

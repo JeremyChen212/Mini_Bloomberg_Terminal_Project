@@ -1,6 +1,6 @@
 """
 ingestion/pipelines/p3_news_sentiment.py
-──────────────────────────────────────────
+
 Pipeline 3: News & Sentiment
 Schedule: Hourly cron
 Sources:  yfinance news feed
