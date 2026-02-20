@@ -35,11 +35,10 @@ def fetch_news(ticker: str, limit: int = 20, force: bool = False) -> list[dict]:
         for item in raw[:limit]:
             articles.append({
                 "ticker":      ticker,
-                "title":       item.get("title"),
-                "publisher":   item.get("publisher"),
-                "url":         item.get("link"),
-                "published_at":datetime.fromtimestamp(item.get("providerPublishTime", 0)).isoformat()
-                               if item.get("providerPublishTime") else None,
+                "title":       content.get("title"),
+                "publisher":   content.get("publisher"),
+                "url":         content.get("link"),
+                "published_at": content.get("pubDate"),
                 "source":      "yfinance",
                 "fetched_at":  datetime.now().isoformat(),
                 # sentiment: placeholder — fill with LLM in Phase 3 AI pipeline
