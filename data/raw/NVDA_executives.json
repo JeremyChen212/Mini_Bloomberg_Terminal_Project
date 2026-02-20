@@ -1,0 +1,112 @@
+[
+  {
+    "ticker": "NVDA",
+    "name": "Mr. Jen-Hsun  Huang",
+    "title": "Co-Founder, CEO, President & Director",
+    "year_born": 1963,
+    "total_pay": 11054945,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640594"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Ms. Colette M. Kress",
+    "title": "Executive VP & CFO",
+    "year_born": 1967,
+    "total_pay": 1512641,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640613"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Ms. Debora  Shoquist",
+    "title": "Executive Vice President of Operations",
+    "year_born": 1955,
+    "total_pay": 1379071,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640619"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Mr. Timothy S. Teter J.D.",
+    "title": "Executive VP, General Counsel & Secretary",
+    "year_born": 1967,
+    "total_pay": 1362989,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640623"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Mr. Ajay K. Puri",
+    "title": "Executive Vice President of Worldwide Field Operations",
+    "year_born": 1955,
+    "total_pay": 2313851,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640627"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Mr. Chris A. Malachowsky",
+    "title": "Co-Founder",
+    "year_born": null,
+    "total_pay": 320000,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640631"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Mr. Donald F. Robertson Jr.",
+    "title": "VP & Chief Accounting Officer",
+    "year_born": 1969,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640635"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Prof. William J. Dally Ph.D.",
+    "title": "Chief Scientist & Senior VP of Research",
+    "year_born": 1961,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640639"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Mr. Toshiya  Hari",
+    "title": "Vice President of Investor Relations & Strategic Finance",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640643"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Ms. Mylene  Mangalindan",
+    "title": "VP of Corporate Communications",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T10:06:14.640647"
+  }
+]

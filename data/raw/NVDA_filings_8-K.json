@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2026-01-23",
+    "accession_number": "0001045810-26-000003",
+    "primary_document": "nvda-20260120.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000003/nvda-20260120.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211303"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-11-19",
+    "accession_number": "0001045810-25-000228",
+    "primary_document": "nvda-20251119.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211328"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-08-27",
+    "accession_number": "0001045810-25-000207",
+    "primary_document": "nvda-20250827.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211348"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-08-05",
+    "accession_number": "0001045810-25-000197",
+    "primary_document": "nvda-20250731.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000197/nvda-20250731.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211355"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-07-01",
+    "accession_number": "0001045810-25-000179",
+    "primary_document": "nvda-20250625.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/nvda-20250625.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211366"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-05-28",
+    "accession_number": "0001045810-25-000115",
+    "primary_document": "nvda-20250528.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/nvda-20250528.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211378"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-04-15",
+    "accession_number": "0001045810-25-000082",
+    "primary_document": "nvda-20250409.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211383"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-03-07",
+    "accession_number": "0001045810-25-000039",
+    "primary_document": "nvda-20250303.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/nvda-20250303.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211394"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-02-26",
+    "accession_number": "0001045810-25-000021",
+    "primary_document": "nvda-20250226.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/nvda-20250226.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211399"
+  },
+  {
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form_type": "8-K",
+    "filed_date": "2025-01-17",
+    "accession_number": "0001045810-25-000007",
+    "primary_document": "nvda-20250113.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000007/nvda-20250113.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T10:06:14.211403"
+  }
+]

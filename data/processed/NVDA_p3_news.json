@@ -1,0 +1,108 @@
+{
+  "pipeline": "p3_news_sentiment",
+  "ticker": "NVDA",
+  "total": 10,
+  "fetched_at": "2026-02-20T10:06:14.508668",
+  "articles": [
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508614",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508635",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508641",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508644",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508648",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508651",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508654",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508657",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508660",
+      "sentiment": null
+    },
+    {
+      "ticker": "NVDA",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T10:06:14.508664",
+      "sentiment": null
+    }
+  ]
+}

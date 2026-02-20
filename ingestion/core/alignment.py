@@ -31,22 +31,22 @@ log = get_logger("alignment")
 SPARSITY_ORDER = ["executives", "filings", "financials", "news", "prices"]
 
 
-# ── Loaders — read processed JSON/CSV into dated Series/DataFrames ────────────
+# Loaders: read processed JSON/CSV into dated Series/DataFrames
 
 def load_prices(ticker: str) -> pd.DataFrame:
     """Daily OHLCV — densest dataset."""
     path = PROC_DIR.parent / "raw" / f"{ticker}_prices_2y.csv"
     if not path.exists():
         return pd.DataFrame()
-    df = pd.read_csv(path, index_col=0, parse_dates=True)
-    df.index = pd.to_datetime(df.index).normalize()
-    # Flatten MultiIndex columns if present (yfinance sometimes returns these)
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = [col[0].lower() if isinstance(col, tuple) else col.lower() for col in df.columns]
-    else:
-        df.columns = [c.lower() for c in df.columns]
-    return df[["close", "volume"]].rename(columns={"close": "price_close", "volume": "price_volume"})
-
+    df = pd.read_csv(path, skiprows=3, header=0)
+    df.columns = ["date", "close", "high", "low", "open", "volume"]
+    df = df.dropna(subset=["date"])
+    df = df[df["date"].str.match(r"\d{4}-\d{2}-\d{2}", na=False)]
+    df["date"] = pd.to_datetime(df["date"]).dt.normalize()
+    df = df.set_index("date")
+    return df[["close", "volume"]].rename(
+        columns={"close": "price_close", "volume": "price_volume"}
+    )
 
 def load_financials(ticker: str) -> pd.DataFrame:
     """Annual financials — sparse (1 row per year)."""

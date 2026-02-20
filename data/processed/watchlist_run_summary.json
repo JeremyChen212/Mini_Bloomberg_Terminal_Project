@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-02-20T08:43:36.325915",
+  "run_at": "2026-02-20T10:06:15.460479",
   "tickers": [
-    "AAPL"
+    "NVDA"
   ],
   "pipelines": [
     "p1",
@@ -11,7 +11,7 @@
   ],
   "results": [
     {
-      "ticker": "AAPL",
+      "ticker": "NVDA",
       "status": "ok"
     }
   ]

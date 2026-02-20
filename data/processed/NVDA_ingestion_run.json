@@ -1,0 +1,744 @@
+{
+  "ticker": "NVDA",
+  "started_at": "2026-02-20T10:06:09.777997",
+  "p1": {
+    "ticker": "NVDA",
+    "prices": "Price            Close        High         Low        Open     Volume\nTicker            NVDA        NVDA        NVDA        NVDA       NVDA\nDate                                                                 \n2024-02-20   69.413338   71.915941   67.696292   71.906944  704833000\n2024-02-21   67.434433   68.849645   66.211115   67.968132  673755000\n2024-02-22   78.494278   78.531252   74.178681   74.983233  865100000\n2024-02-23   78.773125   82.348129   77.526817   80.745026  829388000\n2024-02-26   79.047974   80.601109   78.461295   79.655629  503973000\n...                ...         ...         ...         ...        ...\n2026-02-13  182.809998  187.500000  181.589996  187.479996  161888000\n2026-02-17  184.970001  187.149994  179.179993  181.750000  162276900\n2026-02-18  187.979996  190.369995  186.759995  188.750000  164749100\n2026-02-19  187.899994  188.429993  185.660004  187.059998  125901800\n2026-02-20  188.667007  190.330002  185.937805  186.520004  108594070\n\n[503 rows x 5 columns]",
+    "income": "      Tax Effect Of Unusual Items  ...  Operating Revenue\nYear                               ...                   \n2025                      0.00000  ...            130.497\n2024                      0.00000  ...             60.922\n2023                     -0.28413  ...             26.974\n2022                      0.00000  ...             26.914\n\n[4 rows x 43 columns]",
+    "balance": "      Ordinary Shares Number  ...  Cash And Cash Equivalents\nYear                          ...                           \n2025               24.477000  ...                      8.589\n2024               24.640000  ...                      7.280\n2023               24.661366  ...                      3.389\n2022               25.060000  ...                      1.990\n\n[4 rows x 80 columns]",
+    "cashflow": "      Free Cash Flow  ...  Net Income From Continuing Operations\nYear                  ...                                       \n2025          60.853  ...                                 72.880\n2024          27.021  ...                                 29.760\n2023           3.808  ...                                  4.368\n2022           8.132  ...                                  9.752\n\n[4 rows x 56 columns]",
+    "metrics": {
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "employees": 36000,
+      "website": "https://www.nvidia.com",
+      "country": "United States",
+      "price": 188.665,
+      "week_52_high": 212.19,
+      "week_52_low": 86.62,
+      "market_cap_b": 4593.67,
+      "pe_trailing": 46.701733,
+      "pe_forward": 24.31714,
+      "ps_ratio": 24.545141,
+      "pb_ratio": 38.56807,
+      "ev_ebitda": 40.074,
+      "eps_ttm": 4.04,
+      "gross_margin_pct": 70.05,
+      "net_margin_pct": 53.01,
+      "op_margin_pct": 63.17,
+      "roe_pct": 107.36,
+      "roa_pct": 53.53,
+      "revenue_growth_pct": 62.5,
+      "earnings_growth_pct": 66.7,
+      "debt_equity": 9.102,
+      "current_ratio": 4.468,
+      "quick_ratio": 3.605,
+      "dividend_yield_pct": 2.0,
+      "payout_ratio_pct": 0.99,
+      "beta": 2.314,
+      "fetched_at": "2026-02-20T10:06:12.188366",
+      "source": "yfinance"
+    },
+    "derived": "      revenue_b  revenue_yoy_pct  ...  fcf_margin_pct  debt_equity\nYear                              ...                             \n2022      26.91              NaN  ...           30.21         0.44\n2023      26.97             0.22  ...           14.12         0.54\n2024      60.92           125.85  ...           44.35         0.26\n2025     130.50           114.20  ...           46.63         0.13\n\n[4 rows x 6 columns]",
+    "summary": {
+      "pipeline": "p1_market_financials",
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "fetched_at": "2026-02-20T10:06:12.188366",
+      "metrics": {
+        "name": "NVIDIA Corporation",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "employees": 36000,
+        "website": "https://www.nvidia.com",
+        "country": "United States",
+        "price": 188.665,
+        "week_52_high": 212.19,
+        "week_52_low": 86.62,
+        "market_cap_b": 4593.67,
+        "pe_trailing": 46.701733,
+        "pe_forward": 24.31714,
+        "ps_ratio": 24.545141,
+        "pb_ratio": 38.56807,
+        "ev_ebitda": 40.074,
+        "eps_ttm": 4.04,
+        "gross_margin_pct": 70.05,
+        "net_margin_pct": 53.01,
+        "op_margin_pct": 63.17,
+        "roe_pct": 107.36,
+        "roa_pct": 53.53,
+        "revenue_growth_pct": 62.5,
+        "earnings_growth_pct": 66.7,
+        "debt_equity": 9.102,
+        "current_ratio": 4.468,
+        "quick_ratio": 3.605,
+        "dividend_yield_pct": 2.0,
+        "payout_ratio_pct": 0.99,
+        "beta": 2.314,
+        "fetched_at": "2026-02-20T10:06:12.188366",
+        "source": "yfinance"
+      },
+      "derived": {
+        "revenue_b": {
+          "2022": 26.91,
+          "2023": 26.97,
+          "2024": 60.92,
+          "2025": 130.5
+        },
+        "revenue_yoy_pct": {
+          "2022": NaN,
+          "2023": 0.22,
+          "2024": 125.85,
+          "2025": 114.2
+        },
+        "net_margin_pct": {
+          "2022": 36.23,
+          "2023": 16.19,
+          "2024": 48.85,
+          "2025": 55.85
+        },
+        "gross_margin_pct": {
+          "2022": 64.93,
+          "2023": 56.93,
+          "2024": 72.72,
+          "2025": 74.99
+        },
+        "fcf_margin_pct": {
+          "2022": 30.21,
+          "2023": 14.12,
+          "2024": 44.35,
+          "2025": 46.63
+        },
+        "debt_equity": {
+          "2022": 0.44,
+          "2023": 0.54,
+          "2024": 0.26,
+          "2025": 0.13
+        }
+      }
+    }
+  },
+  "p2": {
+    "ticker": "NVDA",
+    "filings": [
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-K",
+        "filed_date": "2025-02-26",
+        "accession_number": "0001045810-25-000023",
+        "primary_document": "nvda-20250126.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.271642"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-K",
+        "filed_date": "2024-02-21",
+        "accession_number": "0001045810-24-000029",
+        "primary_document": "nvda-20240128.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.271693"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-K",
+        "filed_date": "2023-02-24",
+        "accession_number": "0001045810-23-000017",
+        "primary_document": "nvda-20230129.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.271720"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-K",
+        "filed_date": "2022-03-18",
+        "accession_number": "0001045810-22-000036",
+        "primary_document": "nvda-20220130.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581022000036/nvda-20220130.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.271736"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-K",
+        "filed_date": "2021-02-26",
+        "accession_number": "0001045810-21-000010",
+        "primary_document": "nvda-20210131.htm",
+        "description": "FY2021 10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581021000010/nvda-20210131.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.271757"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-K",
+        "filed_date": "2020-02-20",
+        "accession_number": "0001045810-20-000010",
+        "primary_document": "nvda-2020x10k.htm",
+        "description": "FY2020 10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581020000010/nvda-2020x10k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.271778"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2025-11-19",
+        "accession_number": "0001045810-25-000230",
+        "primary_document": "nvda-20251026.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767617"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2025-08-27",
+        "accession_number": "0001045810-25-000209",
+        "primary_document": "nvda-20250727.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767667"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2025-05-28",
+        "accession_number": "0001045810-25-000116",
+        "primary_document": "nvda-20250427.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767701"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2024-11-20",
+        "accession_number": "0001045810-24-000316",
+        "primary_document": "nvda-20241027.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767724"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2024-08-28",
+        "accession_number": "0001045810-24-000264",
+        "primary_document": "nvda-20240728.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000264/nvda-20240728.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767741"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2024-05-29",
+        "accession_number": "0001045810-24-000124",
+        "primary_document": "nvda-20240428.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767777"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2023-11-21",
+        "accession_number": "0001045810-23-000227",
+        "primary_document": "nvda-20231029.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767807"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2023-08-28",
+        "accession_number": "0001045810-23-000175",
+        "primary_document": "nvda-20230730.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000175/nvda-20230730.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767819"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2023-05-26",
+        "accession_number": "0001045810-23-000093",
+        "primary_document": "nvda-20230430.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000093/nvda-20230430.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767840"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "10-Q",
+        "filed_date": "2022-11-18",
+        "accession_number": "0001045810-22-000166",
+        "primary_document": "nvda-20221030.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581022000166/nvda-20221030.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:13.767861"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2026-01-23",
+        "accession_number": "0001045810-26-000003",
+        "primary_document": "nvda-20260120.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000003/nvda-20260120.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211303"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-11-19",
+        "accession_number": "0001045810-25-000228",
+        "primary_document": "nvda-20251119.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211328"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-08-27",
+        "accession_number": "0001045810-25-000207",
+        "primary_document": "nvda-20250827.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000207/nvda-20250827.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211348"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-08-05",
+        "accession_number": "0001045810-25-000197",
+        "primary_document": "nvda-20250731.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000197/nvda-20250731.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211355"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-07-01",
+        "accession_number": "0001045810-25-000179",
+        "primary_document": "nvda-20250625.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000179/nvda-20250625.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211366"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-05-28",
+        "accession_number": "0001045810-25-000115",
+        "primary_document": "nvda-20250528.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000115/nvda-20250528.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211378"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-04-15",
+        "accession_number": "0001045810-25-000082",
+        "primary_document": "nvda-20250409.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211383"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-03-07",
+        "accession_number": "0001045810-25-000039",
+        "primary_document": "nvda-20250303.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000039/nvda-20250303.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211394"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-02-26",
+        "accession_number": "0001045810-25-000021",
+        "primary_document": "nvda-20250226.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/nvda-20250226.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211399"
+      },
+      {
+        "ticker": "NVDA",
+        "cik": "0001045810",
+        "form_type": "8-K",
+        "filed_date": "2025-01-17",
+        "accession_number": "0001045810-25-000007",
+        "primary_document": "nvda-20250113.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000007/nvda-20250113.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T10:06:14.211403"
+      }
+    ]
+  },
+  "p3": {
+    "ticker": "NVDA",
+    "articles": [
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508614",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508635",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508641",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508644",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508648",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508651",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508654",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508657",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508660",
+        "sentiment": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.508664",
+        "sentiment": null
+      }
+    ]
+  },
+  "p4": {
+    "ticker": "NVDA",
+    "executives": [
+      {
+        "ticker": "NVDA",
+        "name": "Mr. Jen-Hsun  Huang",
+        "title": "Co-Founder, CEO, President & Director",
+        "year_born": 1963,
+        "total_pay": 11054945,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640594"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Ms. Colette M. Kress",
+        "title": "Executive VP & CFO",
+        "year_born": 1967,
+        "total_pay": 1512641,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640613"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Ms. Debora  Shoquist",
+        "title": "Executive Vice President of Operations",
+        "year_born": 1955,
+        "total_pay": 1379071,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640619"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Mr. Timothy S. Teter J.D.",
+        "title": "Executive VP, General Counsel & Secretary",
+        "year_born": 1967,
+        "total_pay": 1362989,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640623"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Mr. Ajay K. Puri",
+        "title": "Executive Vice President of Worldwide Field Operations",
+        "year_born": 1955,
+        "total_pay": 2313851,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640627"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Mr. Chris A. Malachowsky",
+        "title": "Co-Founder",
+        "year_born": null,
+        "total_pay": 320000,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640631"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Mr. Donald F. Robertson Jr.",
+        "title": "VP & Chief Accounting Officer",
+        "year_born": 1969,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640635"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Prof. William J. Dally Ph.D.",
+        "title": "Chief Scientist & Senior VP of Research",
+        "year_born": 1961,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640639"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Mr. Toshiya  Hari",
+        "title": "Vice President of Investor Relations & Strategic Finance",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640643"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Ms. Mylene  Mangalindan",
+        "title": "VP of Corporate Communications",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T10:06:14.640647"
+      }
+    ],
+    "institutions": [
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Vanguard Group Inc",
+        "pctHeld": 0.0933,
+        "Shares": 2266683275,
+        "Value": 427689128209,
+        "pctChange": 0.0194
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Blackrock Inc.",
+        "pctHeld": 0.08,
+        "Shares": 1943812884,
+        "Value": 366768329271,
+        "pctChange": 0.0075
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "State Street Corporation",
+        "pctHeld": 0.040799998,
+        "Shares": 991480489,
+        "Value": 187077493646,
+        "pctChange": 0.0117
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "FMR, LLC",
+        "pctHeld": 0.04,
+        "Shares": 971063283,
+        "Value": 183225073182,
+        "pctChange": -0.0117999995
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Geode Capital Management, LLC",
+        "pctHeld": 0.0242,
+        "Shares": 588803093,
+        "Value": 111098310165,
+        "pctChange": 0.0058
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "JPMORGAN CHASE & CO",
+        "pctHeld": 0.0188,
+        "Shares": 456141138,
+        "Value": 86066989509,
+        "pctChange": -0.5332
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Price (T.Rowe) Associates Inc",
+        "pctHeld": 0.0154,
+        "Shares": 373187926,
+        "Value": 70414962906,
+        "pctChange": -0.056999996
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "NORGES BANK",
+        "pctHeld": 0.0137,
+        "Shares": 333748700,
+        "Value": 62973372644,
+        "pctChange": 0.026099999
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Morgan Stanley",
+        "pctHeld": 0.013300001,
+        "Shares": 323733984,
+        "Value": 61083745980,
+        "pctChange": 0.0023999999
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Northern Trust Corporation",
+        "pctHeld": 0.0104,
+        "Shares": 253789803,
+        "Value": 47886328359,
+        "pctChange": -0.0218
+      }
+    ]
+  },
+  "finished_at": "2026-02-20T10:06:14.754940"
+}

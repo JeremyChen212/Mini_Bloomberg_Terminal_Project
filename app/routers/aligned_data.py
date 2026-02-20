@@ -9,7 +9,7 @@ Returns all pipeline datasets synchronized to a unified timeline,
 ready to directly populate the UI.
 """
 
-from __future__ import annotations
+#from __future__ import annotations
 
 import sys
 from datetime import date, timedelta
@@ -142,6 +142,12 @@ async def get_aligned_data(
         from ingestion.core.alignment import align, align_to_sparse_ref
 
         df = align_to_sparse_ref(ticker, start, end) if mode == "sparse" else align(ticker, start, end)
+        import pandas as pd
+
+        # Ensure datetime index (drop any rows that can't be parsed as dates)
+        df = df.copy()
+        df.index = pd.to_datetime(df.index, errors="coerce")
+        df = df[~df.index.isna()]
 
         if df.empty:
             return {
@@ -183,7 +189,10 @@ async def get_aligned_data(
 
         # Serialize rows 
         rows = [
-            {"date": idx.date().isoformat(), **{col: _serialize(row[col]) for col in df.columns}}
+            {
+                "date": idx.date().isoformat() if hasattr(idx, "date") else str(idx),
+                **{col: _serialize(row[col]) for col in df.columns}
+            }
             for idx, row in df.iterrows()
         ]
 
