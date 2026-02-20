@@ -1,0 +1,4 @@
+2026-02-20 04:07:34,348  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 04:07:34,362  INFO      run_ingestion  INGESTION START: AAPL  pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 04:08:49,476  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 04:08:49,490  INFO      run_ingestion  INGESTION START: AMZN  pipelines=['p1', 'p2', 'p3', 'p4']
