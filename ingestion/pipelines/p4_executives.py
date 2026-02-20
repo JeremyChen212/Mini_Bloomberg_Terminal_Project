@@ -1,6 +1,6 @@
 """
 ingestion/pipelines/p4_executives.py
-──────────────────────────────────────
+
 Pipeline 4: Executives & Ownership
 Schedule: Weekly cron
 Sources:  yfinance (officers, institutional holders)

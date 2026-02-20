@@ -1,6 +1,6 @@
 """
 ingestion/pipelines/p1_market_financials.py
-─────────────────────────────────────────────
+
 Pipeline 1: Market Data & Financials
 Schedule: Daily cron
 Sources:  OpenBB (yfinance provider)
@@ -22,13 +22,13 @@ from ingestion.core.utils import get_logger, is_stale, pct
 log = get_logger("p1_market_financials")
 
 
-# ── Cache helpers ─────────────────────────────────────────────────────────────
+# Cache Helpers
 
 def _raw(ticker: str, dataset: str, ext: str = "csv") -> Path:
     return RAW_DIR / f"{ticker}_{dataset}.{ext}"
 
 
-# ── Fetch functions ────────────────────────────────────────────────────────────
+# Fetch Functions
 
 def fetch_price_history(ticker: str, period: str = "2y", force: bool = False) -> pd.DataFrame:
     """OHLCV price history — Pipeline 1 market data."""
@@ -200,7 +200,7 @@ def compute_derived(income: pd.DataFrame, balance: pd.DataFrame, cashflow: pd.Da
     return derived
 
 
-# ── Pipeline entry point ───────────────────────────────────────────────────────
+# Pipeline Entry Point
 
 def run(ticker: str, force: bool = False) -> dict:
     """

@@ -71,4 +71,3 @@ data/
     ├── AAPL_derived.csv
     └── watchlist_run_summary.json
 ```
-

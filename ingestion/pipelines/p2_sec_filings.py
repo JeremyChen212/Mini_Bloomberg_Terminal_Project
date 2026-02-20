@@ -1,6 +1,6 @@
 """
 ingestion/pipelines/p2_sec_filings.py
-───────────────────────────────────────
+
 Pipeline 2: SEC Filings
 Schedule: On new filing trigger (EventBridge + EDGAR RSS)
 Sources:  SEC EDGAR direct + OpenBB SEC provider
@@ -33,13 +33,13 @@ SEC_RATE_LIMIT = 0.2   # 5 requests/sec max (SEC allows 10, we use 5 to be safe)
 SUPPORTED_FORMS = ["10-K", "10-Q", "8-K", "DEF 14A", "S-1", "4"]
 
 
-# ── Cache helpers ─────────────────────────────────────────────────────────────
+# Cache Helpers
 
 def _raw(ticker: str, dataset: str) -> Path:
     return RAW_DIR / f"{ticker}_{dataset}.json"
 
 
-# ── EDGAR CIK lookup ──────────────────────────────────────────────────────────
+# EDGAR CIK lookup
 
 def get_cik(ticker: str) -> str | None:
     """Look up CIK number for a ticker from SEC EDGAR."""
@@ -72,7 +72,7 @@ def get_cik(ticker: str) -> str | None:
         return None
 
 
-# ── Fetch filings ─────────────────────────────────────────────────────────────
+# Fetch filings
 
 def fetch_filings(ticker: str, form_type: str = "10-K", limit: int = 10, force: bool = False) -> list[dict]:
     """
@@ -135,7 +135,7 @@ def fetch_filings(ticker: str, form_type: str = "10-K", limit: int = 10, force: 
         return []
 
 
-# ── Pipeline entry point ───────────────────────────────────────────────────────
+# Pipeline Entry Point
 
 def run(ticker: str, force: bool = False) -> dict:
     """

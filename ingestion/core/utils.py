@@ -1,6 +1,6 @@
 """
 ingestion/core/utils.py
-────────────────────────
+
 Shared logging + cache helpers used by all pipelines.
 """
 
