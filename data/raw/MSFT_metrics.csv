@@ -1,0 +1,32 @@
+,Value
+name,Microsoft Corporation
+sector,Technology
+industry,Software - Infrastructure
+employees,228000
+website,https://www.microsoft.com
+country,United States
+price,398.46
+week_52_high,555.45
+week_52_low,344.79
+market_cap_b,2961.51
+pe_trailing,24.93492
+pe_forward,21.13892
+ps_ratio,9.695453
+pb_ratio,7.5731254
+ev_ebitda,17.075
+eps_ttm,15.98
+gross_margin_pct,68.59
+net_margin_pct,39.04
+op_margin_pct,47.09
+roe_pct,34.39
+roa_pct,14.86
+revenue_growth_pct,16.7
+earnings_growth_pct,59.8
+debt_equity,31.539
+current_ratio,1.386
+quick_ratio,1.239
+dividend_yield_pct,91.0
+payout_ratio_pct,21.28
+beta,1.084
+fetched_at,2026-02-20T05:16:40.697486
+source,yfinance

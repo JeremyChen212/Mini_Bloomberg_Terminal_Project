@@ -1,0 +1,199 @@
+{
+  "pipeline": "p4_executives",
+  "ticker": "MSFT",
+  "fetched_at": "2026-02-20T05:16:43.663334",
+  "executives": [
+    {
+      "ticker": "MSFT",
+      "name": "Mr. Satya  Nadella",
+      "title": "Chairman & CEO",
+      "year_born": 1967,
+      "total_pay": 12251294,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543789"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Mr. Bradford L. Smith LCA",
+      "title": "President & Vice Chairman",
+      "year_born": 1959,
+      "total_pay": 4532750,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543812"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Ms. Amy E. Hood",
+      "title": "Executive VP & CFO",
+      "year_born": 1972,
+      "total_pay": 4444191,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543821"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Mr. Takeshi  Numoto",
+      "title": "Executive VP & Chief Marketing Officer",
+      "year_born": 1971,
+      "total_pay": 2871250,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543827"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Mr. Judson B. Althoff",
+      "title": "Executive VP & CEO of Commercial Business",
+      "year_born": 1973,
+      "total_pay": 4490115,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543834"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Ms. Carolina  Dybeck Happe",
+      "title": "Executive VP & COO",
+      "year_born": 1972,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543841"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Ms. Alice L. Jolla",
+      "title": "Corporate VP & Chief Accounting Officer",
+      "year_born": 1966,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543848"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Mr. Matthew  Kerner",
+      "title": "CTO & Corporate VP of Worldwide Sales and Solutions",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543855"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Jonathan  Neilson",
+      "title": "Vice President of Investor Relations",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543862"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Mr. Jonathan M. Palmer",
+      "title": "Corporate Vice President & Chief Legal Officer",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.543869"
+    }
+  ],
+  "institutions": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.0967,
+      "Shares": 717942580,
+      "Value": 286071394292,
+      "pctChange": 0.0227
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.081099994,
+      "Shares": 601897495,
+      "Value": 239832070714,
+      "pctChange": 0.017
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.041199997,
+      "Shares": 306150608,
+      "Value": 121988768647,
+      "pctChange": 0.021300001
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.0271,
+      "Shares": 200948745,
+      "Value": 80070035215,
+      "pctChange": -0.045300003
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.024600001,
+      "Shares": 182618400,
+      "Value": 72766126103,
+      "pctChange": 0.0106
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "JPMORGAN CHASE & CO",
+      "pctHeld": 0.0199,
+      "Shares": 147759850,
+      "Value": 58876388568,
+      "pctChange": -0.5348
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Price (T.Rowe) Associates Inc",
+      "pctHeld": 0.016900001,
+      "Shares": 125709121,
+      "Value": 50090055279,
+      "pctChange": -0.048899997
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0163,
+      "Shares": 121220561,
+      "Value": 48301543700,
+      "pctChange": 0.0082
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "NORGES BANK",
+      "pctHeld": 0.014099999,
+      "Shares": 104761241,
+      "Value": 41743163193,
+      "pctChange": 0.032
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Capital International Investors",
+      "pctHeld": 0.011,
+      "Shares": 81585381,
+      "Value": 32508510216,
+      "pctChange": 0.0276
+    }
+  ]
+}

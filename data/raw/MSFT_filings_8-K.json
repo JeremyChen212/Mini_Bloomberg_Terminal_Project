@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2026-01-28",
+    "accession_number": "0001193125-26-027198",
+    "primary_document": "msft-20260128.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585710"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2025-12-08",
+    "accession_number": "0001193125-25-311196",
+    "primary_document": "d34077d8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585746"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2025-10-29",
+    "accession_number": "0001193125-25-256310",
+    "primary_document": "msft-20251028.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585764"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2025-09-30",
+    "accession_number": "0001193125-25-225125",
+    "primary_document": "d863209d8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525225125/d863209d8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585772"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2025-07-30",
+    "accession_number": "0000950170-25-100226",
+    "primary_document": "msft-20250730.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-20250730.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585787"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2025-07-01",
+    "accession_number": "0001193125-25-154103",
+    "primary_document": "d84624d8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/d84624d8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585793"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2025-04-30",
+    "accession_number": "0000950170-25-061032",
+    "primary_document": "msft-20250430.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-20250430.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585809"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2025-01-29",
+    "accession_number": "0000950170-25-010484",
+    "primary_document": "msft-20250129.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-20250129.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585822"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2025-01-22",
+    "accession_number": "0001193125-25-010492",
+    "primary_document": "d929748d8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525010492/d929748d8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585827"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "8-K",
+    "filed_date": "2024-12-11",
+    "accession_number": "0001193125-24-275524",
+    "primary_document": "d865252d8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524275524/d865252d8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:42.585835"
+  }
+]
