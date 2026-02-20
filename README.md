@@ -1,6 +1,6 @@
 # Mini_Bloomberg_Terminal_Project
 
-Steps to use Ingestion Layer
+### Steps to use Ingestion Layer
 1. Be in bash and make sure you are in the right folder
 2. Install Dependencies
    pip install yfinance pandas requests
