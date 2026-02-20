@@ -1,0 +1,112 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Mr. Timothy D. Cook",
+    "title": "CEO & Director",
+    "year_born": 1961,
+    "total_pay": 16759518,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002032"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Mr. Kevan  Parekh",
+    "title": "Senior VP & CFO",
+    "year_born": 1972,
+    "total_pay": 4034174,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002049"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Mr. Sabih  Khan",
+    "title": "Senior VP & Chief Operating Officer",
+    "year_born": 1967,
+    "total_pay": 5021905,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002056"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Ms. Katherine L. Adams",
+    "title": "Senior VP, General Counsel & Secretary",
+    "year_born": 1964,
+    "total_pay": 5022482,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002060"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Ms. Deirdre  O'Brien",
+    "title": "Senior Vice President of Retail & People",
+    "year_born": 1967,
+    "total_pay": 5037867,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002064"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Mr. Ben  Borders",
+    "title": "Principal Accounting Officer",
+    "year_born": 1981,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002069"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Suhasini  Chandramouli",
+    "title": "Director of Investor Relations",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002073"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Ms. Kristin Huguet Quayle",
+    "title": "Vice President of Worldwide Communications",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002077"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Mr. Greg  Joswiak",
+    "title": "Senior Vice President of Worldwide Marketing",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002081"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Mr. Adrian  Perica",
+    "title": "Vice President of Corporate Development",
+    "year_born": 1974,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:07:39.002085"
+  }
+]

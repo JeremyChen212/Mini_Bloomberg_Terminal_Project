@@ -1,0 +1,108 @@
+{
+  "pipeline": "p3_news_sentiment",
+  "ticker": "AMZN",
+  "total": 10,
+  "fetched_at": "2026-02-20T04:08:54.368179",
+  "articles": [
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368098",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368127",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368135",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368140",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368145",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368151",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368156",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368161",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368166",
+      "sentiment": null
+    },
+    {
+      "ticker": "AMZN",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:08:54.368172",
+      "sentiment": null
+    }
+  ]
+}

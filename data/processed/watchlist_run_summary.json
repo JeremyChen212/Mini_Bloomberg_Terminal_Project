@@ -1,0 +1,18 @@
+{
+  "run_at": "2026-02-20T04:08:55.279218",
+  "tickers": [
+    "AMZN"
+  ],
+  "pipelines": [
+    "p1",
+    "p2",
+    "p3",
+    "p4"
+  ],
+  "results": [
+    {
+      "ticker": "AMZN",
+      "status": "ok"
+    }
+  ]
+}

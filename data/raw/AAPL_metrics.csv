@@ -1,0 +1,32 @@
+,Value
+name,Apple Inc.
+sector,Technology
+industry,Consumer Electronics
+employees,150000
+website,https://www.apple.com
+country,United States
+price,260.58
+week_52_high,288.62
+week_52_low,169.21
+market_cap_b,3829.99
+pe_trailing,32.98481
+pe_forward,28.068216
+ps_ratio,8.792093
+pb_ratio,43.444477
+ev_ebitda,25.174
+eps_ttm,7.9
+gross_margin_pct,47.33
+net_margin_pct,27.04
+op_margin_pct,35.37
+roe_pct,152.02
+roa_pct,24.38
+revenue_growth_pct,15.7
+earnings_growth_pct,18.3
+debt_equity,102.63
+current_ratio,0.974
+quick_ratio,0.845
+dividend_yield_pct,40.0
+payout_ratio_pct,13.04
+beta,1.107
+fetched_at,2026-02-20T04:07:36.988163
+source,yfinance
