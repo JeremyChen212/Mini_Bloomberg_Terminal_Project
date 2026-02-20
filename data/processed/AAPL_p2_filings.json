@@ -2,7 +2,7 @@
   "pipeline": "p2_sec_filings",
   "ticker": "AAPL",
   "total": 30,
-  "fetched_at": "2026-02-20T04:07:38.671320",
+  "fetched_at": "2026-02-20T08:43:34.210300",
   "filings": [
     {
       "ticker": "AAPL",
