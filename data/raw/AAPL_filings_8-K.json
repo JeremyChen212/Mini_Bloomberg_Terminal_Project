@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2026-01-29",
+    "accession_number": "0000320193-26-000005",
+    "primary_document": "aapl-20260129.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664436"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2026-01-02",
+    "accession_number": "0001140361-26-000199",
+    "primary_document": "ef20060722_8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126000199/ef20060722_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664463"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2025-12-05",
+    "accession_number": "0001140361-25-044561",
+    "primary_document": "ef20060722_8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/ef20060722_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664469"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2025-10-30",
+    "accession_number": "0000320193-25-000077",
+    "primary_document": "aapl-20251030.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664476"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2025-07-31",
+    "accession_number": "0000320193-25-000071",
+    "primary_document": "aapl-20250731.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000071/aapl-20250731.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664488"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2025-07-25",
+    "accession_number": "0001140361-25-027340",
+    "primary_document": "ef20052355_8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125027340/ef20052355_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664494"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2025-07-09",
+    "accession_number": "0001140361-25-025275",
+    "primary_document": "ef20051741_8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125025275/ef20051741_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664500"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2025-05-12",
+    "accession_number": "0001140361-25-018400",
+    "primary_document": "ef20048691_8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/ef20048691_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664505"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2025-05-01",
+    "accession_number": "0000320193-25-000055",
+    "primary_document": "aapl-20250501.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000055/aapl-20250501.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664511"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "8-K",
+    "filed_date": "2025-02-25",
+    "accession_number": "0001140361-25-005876",
+    "primary_document": "ef20044022_8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125005876/ef20044022_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.664522"
+  }
+]

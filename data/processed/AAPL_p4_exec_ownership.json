@@ -1,0 +1,199 @@
+{
+  "pipeline": "p4_executives",
+  "ticker": "AAPL",
+  "fetched_at": "2026-02-20T04:07:39.096711",
+  "executives": [
+    {
+      "ticker": "AAPL",
+      "name": "Mr. Timothy D. Cook",
+      "title": "CEO & Director",
+      "year_born": 1961,
+      "total_pay": 16759518,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002032"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Mr. Kevan  Parekh",
+      "title": "Senior VP & CFO",
+      "year_born": 1972,
+      "total_pay": 4034174,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002049"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Mr. Sabih  Khan",
+      "title": "Senior VP & Chief Operating Officer",
+      "year_born": 1967,
+      "total_pay": 5021905,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002056"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Ms. Katherine L. Adams",
+      "title": "Senior VP, General Counsel & Secretary",
+      "year_born": 1964,
+      "total_pay": 5022482,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002060"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Ms. Deirdre  O'Brien",
+      "title": "Senior Vice President of Retail & People",
+      "year_born": 1967,
+      "total_pay": 5037867,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002064"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Mr. Ben  Borders",
+      "title": "Principal Accounting Officer",
+      "year_born": 1981,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002069"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Suhasini  Chandramouli",
+      "title": "Director of Investor Relations",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002073"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Ms. Kristin Huguet Quayle",
+      "title": "Vice President of Worldwide Communications",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002077"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Mr. Greg  Joswiak",
+      "title": "Senior Vice President of Worldwide Marketing",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002081"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Mr. Adrian  Perica",
+      "title": "Vice President of Corporate Development",
+      "year_born": 1974,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:39.002085"
+    }
+  ],
+  "institutions": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.097200006,
+      "Shares": 1426283914,
+      "Value": 371661043158,
+      "pctChange": 0.019199999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.078600004,
+      "Shares": 1154665731,
+      "Value": 300882780679,
+      "pctChange": 0.0073
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.041100003,
+      "Shares": 604056505,
+      "Value": 157405035961,
+      "pctChange": 0.011
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.024400001,
+      "Shares": 358032517,
+      "Value": 93296108472,
+      "pctChange": 0.0052
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.0209,
+      "Shares": 307397264,
+      "Value": 80101574925,
+      "pctChange": 0.0137
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.015700001,
+      "Shares": 230483035,
+      "Value": 60059266165,
+      "pctChange": 0.006
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Berkshire Hathaway, Inc",
+      "pctHeld": 0.0155,
+      "Shares": 227917808,
+      "Value": 59390819348,
+      "pctChange": -0.0432
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "JPMORGAN CHASE & CO",
+      "pctHeld": 0.0154,
+      "Shares": 225419111,
+      "Value": 58739708917,
+      "pctChange": -0.5237
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Price (T.Rowe) Associates Inc",
+      "pctHeld": 0.0139,
+      "Shares": 203499482,
+      "Value": 53027892287,
+      "pctChange": -0.0435
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "NORGES BANK",
+      "pctHeld": 0.013099999,
+      "Shares": 192255086,
+      "Value": 50097827728,
+      "pctChange": 0.0128999995
+    }
+  ]
+}

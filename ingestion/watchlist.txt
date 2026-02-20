@@ -1,0 +1,12 @@
+# OpenTerminal Watchlist
+# One ticker per line, # for comments
+AAPL
+MSFT
+GOOGL
+AMZN
+NVDA
+META
+TSLA
+NFLX
+CRM
+AMD

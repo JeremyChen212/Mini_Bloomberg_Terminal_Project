@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2026-01-30",
+    "accession_number": "0000320193-26-000006",
+    "primary_document": "aapl-20251227.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296326"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2025-08-01",
+    "accession_number": "0000320193-25-000073",
+    "primary_document": "aapl-20250628.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296358"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2025-05-02",
+    "accession_number": "0000320193-25-000057",
+    "primary_document": "aapl-20250329.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296366"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2025-01-31",
+    "accession_number": "0000320193-25-000008",
+    "primary_document": "aapl-20241228.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296377"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2024-08-02",
+    "accession_number": "0000320193-24-000081",
+    "primary_document": "aapl-20240629.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296392"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2024-05-03",
+    "accession_number": "0000320193-24-000069",
+    "primary_document": "aapl-20240330.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296398"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2024-02-02",
+    "accession_number": "0000320193-24-000006",
+    "primary_document": "aapl-20231230.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000006/aapl-20231230.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296412"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2023-08-04",
+    "accession_number": "0000320193-23-000077",
+    "primary_document": "aapl-20230701.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000077/aapl-20230701.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296423"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2023-05-05",
+    "accession_number": "0000320193-23-000064",
+    "primary_document": "aapl-20230401.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000064/aapl-20230401.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296429"
+  },
+  {
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "form_type": "10-Q",
+    "filed_date": "2023-02-03",
+    "accession_number": "0000320193-23-000006",
+    "primary_document": "aapl-20221231.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/aapl-20221231.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T04:07:38.296444"
+  }
+]

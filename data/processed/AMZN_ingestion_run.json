@@ -1,0 +1,755 @@
+{
+  "ticker": "AMZN",
+  "started_at": "2026-02-20T04:08:49.496575",
+  "p1": {
+    "ticker": "AMZN",
+    "prices": "Price            Close        High         Low        Open    Volume\nTicker            AMZN        AMZN        AMZN        AMZN      AMZN\nDate                                                                \n2024-02-20  167.080002  168.710007  165.740005  167.830002  41980300\n2024-02-21  168.589996  170.229996  167.139999  168.940002  44420100\n2024-02-22  174.580002  174.800003  171.770004  173.100006  55392400\n2024-02-23  174.990005  175.750000  173.699997  174.279999  59715200\n2024-02-26  174.729996  176.369995  174.259995  175.699997  44368600\n...                ...         ...         ...         ...       ...\n2026-02-12  199.600006  203.960007  197.559998  203.960007  83975400\n2026-02-13  198.789993  201.160004  197.279999  198.880005  66321600\n2026-02-17  201.149994  201.740005  196.000000  198.130005  69879200\n2026-02-18  204.789993  206.860001  201.509995  202.070007  51003300\n2026-02-19  204.860001  205.639999  202.809998  203.800003  35518700\n\n[502 rows x 5 columns]",
+    "income": "      Tax Effect Of Unusual Items  ...  Operating Revenue\nYear                               ...                   \n2025                     3.004931  ...            716.924\n2024                    -0.247916  ...            637.959\n2023                     0.199057  ...            574.785\n2022                    -3.415860  ...            513.983\n\n[4 rows x 46 columns]",
+    "balance": "      Treasury Shares Number  ...  Cash And Cash Equivalents\nYear                          ...                           \n2025                   0.515  ...                     86.810\n2024                   0.515  ...                     78.779\n2023                   0.515  ...                     73.387\n2022                   0.515  ...                     53.888\n2021                     NaN  ...                        NaN\n\n[5 rows x 61 columns]",
+    "cashflow": "      Free Cash Flow  ...  Net Income From Continuing Operations\nYear                  ...                                       \n2025           7.695  ...                                 77.670\n2024          32.878  ...                                 59.248\n2023          32.217  ...                                 30.425\n2022         -16.893  ...                                 -2.722\n2021             NaN  ...                                    NaN\n\n[5 rows x 52 columns]",
+    "metrics": {
+      "name": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "employees": 1576000,
+      "website": "https://www.amazon.com",
+      "country": "United States",
+      "price": 204.86,
+      "week_52_high": 258.6,
+      "week_52_low": 161.38,
+      "market_cap_b": 2199.16,
+      "pe_trailing": 28.571827,
+      "pe_forward": 22.113297,
+      "ps_ratio": 3.0674882,
+      "pb_ratio": 5.347987,
+      "ev_ebitda": 15.471,
+      "eps_ttm": 7.17,
+      "gross_margin_pct": 50.29,
+      "net_margin_pct": 10.83,
+      "op_margin_pct": 10.53,
+      "roe_pct": 22.29,
+      "roa_pct": 6.93,
+      "revenue_growth_pct": 13.6,
+      "earnings_growth_pct": 5.0,
+      "debt_equity": 43.435,
+      "current_ratio": 1.051,
+      "quick_ratio": 0.844,
+      "dividend_yield_pct": null,
+      "payout_ratio_pct": 0.0,
+      "beta": 1.385,
+      "fetched_at": "2026-02-20T04:08:52.158773",
+      "source": "yfinance"
+    },
+    "derived": "      revenue_b  revenue_yoy_pct  ...  fcf_margin_pct  debt_equity\nYear                              ...                             \n2022     513.98              NaN  ...           -3.29         0.96\n2023     574.78            11.83  ...            5.61         0.67\n2024     637.96            10.99  ...            5.15         0.46\n2025     716.92            12.38  ...            1.07         0.37\n\n[4 rows x 6 columns]",
+    "summary": {
+      "pipeline": "p1_market_financials",
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "fetched_at": "2026-02-20T04:08:52.158773",
+      "metrics": {
+        "name": "Amazon.com, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "employees": 1576000,
+        "website": "https://www.amazon.com",
+        "country": "United States",
+        "price": 204.86,
+        "week_52_high": 258.6,
+        "week_52_low": 161.38,
+        "market_cap_b": 2199.16,
+        "pe_trailing": 28.571827,
+        "pe_forward": 22.113297,
+        "ps_ratio": 3.0674882,
+        "pb_ratio": 5.347987,
+        "ev_ebitda": 15.471,
+        "eps_ttm": 7.17,
+        "gross_margin_pct": 50.29,
+        "net_margin_pct": 10.83,
+        "op_margin_pct": 10.53,
+        "roe_pct": 22.29,
+        "roa_pct": 6.93,
+        "revenue_growth_pct": 13.6,
+        "earnings_growth_pct": 5.0,
+        "debt_equity": 43.435,
+        "current_ratio": 1.051,
+        "quick_ratio": 0.844,
+        "payout_ratio_pct": 0.0,
+        "beta": 1.385,
+        "fetched_at": "2026-02-20T04:08:52.158773",
+        "source": "yfinance"
+      },
+      "derived": {
+        "revenue_b": {
+          "2022": 513.98,
+          "2023": 574.78,
+          "2024": 637.96,
+          "2025": 716.92
+        },
+        "revenue_yoy_pct": {
+          "2022": NaN,
+          "2023": 11.83,
+          "2024": 10.99,
+          "2025": 12.38
+        },
+        "net_margin_pct": {
+          "2022": -0.53,
+          "2023": 5.29,
+          "2024": 9.29,
+          "2025": 10.83
+        },
+        "gross_margin_pct": {
+          "2022": 43.81,
+          "2023": 46.98,
+          "2024": 48.85,
+          "2025": 50.29
+        },
+        "fcf_margin_pct": {
+          "2022": -3.29,
+          "2023": 5.61,
+          "2024": 5.15,
+          "2025": 1.07
+        },
+        "debt_equity": {
+          "2022": 0.96,
+          "2023": 0.67,
+          "2024": 0.46,
+          "2025": 0.37
+        }
+      }
+    }
+  },
+  "p2": {
+    "ticker": "AMZN",
+    "filings": [
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-K",
+        "filed_date": "2026-02-06",
+        "accession_number": "0001018724-26-000004",
+        "primary_document": "amzn-20251231.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.118203"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-K",
+        "filed_date": "2025-02-07",
+        "accession_number": "0001018724-25-000004",
+        "primary_document": "amzn-20241231.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.118276"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-K",
+        "filed_date": "2024-02-02",
+        "accession_number": "0001018724-24-000008",
+        "primary_document": "amzn-20231231.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.118346"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-K",
+        "filed_date": "2023-02-03",
+        "accession_number": "0001018724-23-000004",
+        "primary_document": "amzn-20221231.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000004/amzn-20221231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.118410"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-K",
+        "filed_date": "2022-02-04",
+        "accession_number": "0001018724-22-000005",
+        "primary_document": "amzn-20211231.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872422000005/amzn-20211231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.118465"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-K",
+        "filed_date": "2021-02-03",
+        "accession_number": "0001018724-21-000004",
+        "primary_document": "amzn-20201231.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872421000004/amzn-20201231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.118518"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-K",
+        "filed_date": "2020-01-31",
+        "accession_number": "0001018724-20-000004",
+        "primary_document": "amzn-20191231x10k.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872420000004/amzn-20191231x10k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.118562"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2025-10-31",
+        "accession_number": "0001018724-25-000123",
+        "primary_document": "amzn-20250930.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.532873"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2025-08-01",
+        "accession_number": "0001018724-25-000086",
+        "primary_document": "amzn-20250630.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.532909"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2025-05-02",
+        "accession_number": "0001018724-25-000036",
+        "primary_document": "amzn-20250331.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.532927"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2024-11-01",
+        "accession_number": "0001018724-24-000161",
+        "primary_document": "amzn-20240930.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.532954"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2024-08-02",
+        "accession_number": "0001018724-24-000130",
+        "primary_document": "amzn-20240630.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000130/amzn-20240630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.532966"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2024-05-01",
+        "accession_number": "0001018724-24-000083",
+        "primary_document": "amzn-20240331.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.532990"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2023-10-27",
+        "accession_number": "0001018724-23-000018",
+        "primary_document": "amzn-20230930.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000018/amzn-20230930.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.533035"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2023-08-04",
+        "accession_number": "0001018724-23-000012",
+        "primary_document": "amzn-20230630.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000012/amzn-20230630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.533053"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2023-04-28",
+        "accession_number": "0001018724-23-000008",
+        "primary_document": "amzn-20230331.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000008/amzn-20230331.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.533074"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "10-Q",
+        "filed_date": "2022-10-28",
+        "accession_number": "0001018724-22-000023",
+        "primary_document": "amzn-20220930.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872422000023/amzn-20220930.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.533099"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2026-02-05",
+        "accession_number": "0001018724-26-000002",
+        "primary_document": "amzn-20260205.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20260205.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929133"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2025-11-20",
+        "accession_number": "0001104659-25-114647",
+        "primary_document": "tm2530638d3_8k.htm",
+        "description": "FORM 8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925114647/tm2530638d3_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929208"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2025-10-30",
+        "accession_number": "0001018724-25-000121",
+        "primary_document": "amzn-20251030.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20251030.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929231"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2025-07-31",
+        "accession_number": "0001018724-25-000084",
+        "primary_document": "amzn-20250731.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000084/amzn-20250731.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929251"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2025-05-22",
+        "accession_number": "0001104659-25-052014",
+        "primary_document": "tm2515134d1_8k.htm",
+        "description": "FORM 8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925052014/tm2515134d1_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929266"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2025-05-01",
+        "accession_number": "0001018724-25-000034",
+        "primary_document": "amzn-20250501.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000034/amzn-20250501.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929284"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2025-04-10",
+        "accession_number": "0001104659-25-033450",
+        "primary_document": "tm254123d2_8k.htm",
+        "description": "FORM 8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925033450/tm254123d2_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929295"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2025-02-06",
+        "accession_number": "0001018724-25-000002",
+        "primary_document": "amzn-20250206.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20250206.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929314"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2024-10-31",
+        "accession_number": "0001018724-24-000158",
+        "primary_document": "amzn-20241031.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000158/amzn-20241031.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929341"
+      },
+      {
+        "ticker": "AMZN",
+        "cik": "0001018724",
+        "form_type": "8-K",
+        "filed_date": "2024-08-01",
+        "accession_number": "0001018724-24-000128",
+        "primary_document": "amzn-20240801.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000128/amzn-20240801.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:08:53.929359"
+      }
+    ]
+  },
+  "p3": {
+    "ticker": "AMZN",
+    "articles": [
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368098",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368127",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368135",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368140",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368145",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368151",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368156",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368161",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368166",
+        "sentiment": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.368172",
+        "sentiment": null
+      }
+    ]
+  },
+  "p4": {
+    "ticker": "AMZN",
+    "executives": [
+      {
+        "ticker": "AMZN",
+        "name": "Mr. Jeffrey P. Bezos",
+        "title": "Founder & Executive Chairman",
+        "year_born": 1964,
+        "total_pay": 1681840,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516494"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Mr. Andrew R. Jassy",
+        "title": "President, CEO & Director",
+        "year_born": 1968,
+        "total_pay": 1596889,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516512"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Mr. Brian T. Olsavsky",
+        "title": "Senior VP & CFO",
+        "year_born": 1964,
+        "total_pay": 371900,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516517"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Mr. David A. Zapolsky J.D.",
+        "title": "Senior VP and Chief Global Affairs & Legal Officer",
+        "year_born": 1964,
+        "total_pay": 371900,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516521"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Mr. Douglas J. Herrington",
+        "title": "Chief Executive Officer of Worldwide Amazon Stores",
+        "year_born": 1967,
+        "total_pay": 386435,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516526"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Mr. Matthew S. Garman",
+        "title": "Chief Executive Officer of Amazon Web Series",
+        "year_born": 1977,
+        "total_pay": 384275,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516530"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Ms. Shelley L. Reynolds",
+        "title": "VP, Worldwide Controller & Principal Accounting Officer",
+        "year_born": 1965,
+        "total_pay": 163200,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516533"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Dr. Werner  Vogels",
+        "title": "Chief Technology Officer",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516537"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Mr. Dave  Fildes",
+        "title": "Vice President of Investor Relations",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516541"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Drew  Herdener",
+        "title": "Senior Vice President of Communications & Corporate Responsibility",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:08:54.516545"
+      }
+    ],
+    "institutions": [
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Vanguard Group Inc",
+        "pctHeld": 0.0788,
+        "Shares": 845400528,
+        "Value": 173188752682,
+        "pctChange": -0.0058
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Blackrock Inc.",
+        "pctHeld": 0.0684,
+        "Shares": 734375864,
+        "Value": 150444239947,
+        "pctChange": 0.0167
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "State Street Corporation",
+        "pctHeld": 0.036199998,
+        "Shares": 388653121,
+        "Value": 79619478605,
+        "pctChange": 0.0183
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "FMR, LLC",
+        "pctHeld": 0.0309,
+        "Shares": 331470804,
+        "Value": 67905109109,
+        "pctChange": 0.007900001
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Geode Capital Management, LLC",
+        "pctHeld": 0.021,
+        "Shares": 225120994,
+        "Value": 46118286968,
+        "pctChange": 0.0111
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Morgan Stanley",
+        "pctHeld": 0.0150999995,
+        "Shares": 161580340,
+        "Value": 33101348551,
+        "pctChange": -0.007900001
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "JPMORGAN CHASE & CO",
+        "pctHeld": 0.0149,
+        "Shares": 160046290,
+        "Value": 32787083067,
+        "pctChange": -0.56189996
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "NORGES BANK",
+        "pctHeld": 0.013300001,
+        "Shares": 142399855,
+        "Value": 29172034382,
+        "pctChange": 0.13859999
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Price (T.Rowe) Associates Inc",
+        "pctHeld": 0.012200001,
+        "Shares": 130958176,
+        "Value": 26828092015,
+        "pctChange": -0.0842
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Northern Trust Corporation",
+        "pctHeld": 0.0088,
+        "Shares": 94745484,
+        "Value": 19409559910,
+        "pctChange": -0.0238
+      }
+    ]
+  },
+  "finished_at": "2026-02-20T04:08:54.617493"
+}
