@@ -72,14 +72,3 @@ data/
     └── watchlist_run_summary.json
 ```
 
-## Phase 2: DynamoDB Writer
-
-The `storage/` folder is reserved for the DynamoDB persistence layer.
-Once you're ready to move to AWS, add a `dynamo_writer.py` there that
-reads from `data/processed/` and writes to your DynamoDB tables.
-
-## Phase 3: AI / RAG
-
-The `*_summary.json` files are already structured for RAG ingestion.
-Feed them into a vector store (OpenSearch / Bedrock) or pass directly
-to GPT/Claude API with context.
