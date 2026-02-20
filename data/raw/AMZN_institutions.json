@@ -1,0 +1,82 @@
+[
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Vanguard Group Inc",
+    "pctHeld": 0.0788,
+    "Shares": 845400528,
+    "Value": 173188752682,
+    "pctChange": -0.0058
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Blackrock Inc.",
+    "pctHeld": 0.0684,
+    "Shares": 734375864,
+    "Value": 150444239947,
+    "pctChange": 0.0167
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "State Street Corporation",
+    "pctHeld": 0.036199998,
+    "Shares": 388653121,
+    "Value": 79619478605,
+    "pctChange": 0.0183
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "FMR, LLC",
+    "pctHeld": 0.0309,
+    "Shares": 331470804,
+    "Value": 67905109109,
+    "pctChange": 0.007900001
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Geode Capital Management, LLC",
+    "pctHeld": 0.021,
+    "Shares": 225120994,
+    "Value": 46118286968,
+    "pctChange": 0.0111
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Morgan Stanley",
+    "pctHeld": 0.0150999995,
+    "Shares": 161580340,
+    "Value": 33101348551,
+    "pctChange": -0.007900001
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "JPMORGAN CHASE & CO",
+    "pctHeld": 0.0149,
+    "Shares": 160046290,
+    "Value": 32787083067,
+    "pctChange": -0.56189996
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "NORGES BANK",
+    "pctHeld": 0.013300001,
+    "Shares": 142399855,
+    "Value": 29172034382,
+    "pctChange": 0.13859999
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Price (T.Rowe) Associates Inc",
+    "pctHeld": 0.012200001,
+    "Shares": 130958176,
+    "Value": 26828092015,
+    "pctChange": -0.0842
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Northern Trust Corporation",
+    "pctHeld": 0.0088,
+    "Shares": 94745484,
+    "Value": 19409559910,
+    "pctChange": -0.0238
+  }
+]

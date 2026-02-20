@@ -1,0 +1,78 @@
+{
+  "pipeline": "p1_market_financials",
+  "ticker": "AMZN",
+  "name": "Amazon.com, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "fetched_at": "2026-02-20T04:08:52.158773",
+  "metrics": {
+    "name": "Amazon.com, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "employees": 1576000,
+    "website": "https://www.amazon.com",
+    "country": "United States",
+    "price": 204.86,
+    "week_52_high": 258.6,
+    "week_52_low": 161.38,
+    "market_cap_b": 2199.16,
+    "pe_trailing": 28.571827,
+    "pe_forward": 22.113297,
+    "ps_ratio": 3.0674882,
+    "pb_ratio": 5.347987,
+    "ev_ebitda": 15.471,
+    "eps_ttm": 7.17,
+    "gross_margin_pct": 50.29,
+    "net_margin_pct": 10.83,
+    "op_margin_pct": 10.53,
+    "roe_pct": 22.29,
+    "roa_pct": 6.93,
+    "revenue_growth_pct": 13.6,
+    "earnings_growth_pct": 5.0,
+    "debt_equity": 43.435,
+    "current_ratio": 1.051,
+    "quick_ratio": 0.844,
+    "payout_ratio_pct": 0.0,
+    "beta": 1.385,
+    "fetched_at": "2026-02-20T04:08:52.158773",
+    "source": "yfinance"
+  },
+  "derived": {
+    "revenue_b": {
+      "2022": 513.98,
+      "2023": 574.78,
+      "2024": 637.96,
+      "2025": 716.92
+    },
+    "revenue_yoy_pct": {
+      "2022": NaN,
+      "2023": 11.83,
+      "2024": 10.99,
+      "2025": 12.38
+    },
+    "net_margin_pct": {
+      "2022": -0.53,
+      "2023": 5.29,
+      "2024": 9.29,
+      "2025": 10.83
+    },
+    "gross_margin_pct": {
+      "2022": 43.81,
+      "2023": 46.98,
+      "2024": 48.85,
+      "2025": 50.29
+    },
+    "fcf_margin_pct": {
+      "2022": -3.29,
+      "2023": 5.61,
+      "2024": 5.15,
+      "2025": 1.07
+    },
+    "debt_equity": {
+      "2022": 0.96,
+      "2023": 0.67,
+      "2024": 0.46,
+      "2025": 0.37
+    }
+  }
+}

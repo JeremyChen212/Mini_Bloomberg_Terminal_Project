@@ -1,0 +1,108 @@
+{
+  "pipeline": "p3_news_sentiment",
+  "ticker": "AAPL",
+  "total": 10,
+  "fetched_at": "2026-02-20T04:07:38.886337",
+  "articles": [
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886281",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886302",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886308",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886312",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886316",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886320",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886323",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886326",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886329",
+      "sentiment": null
+    },
+    {
+      "ticker": "AAPL",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T04:07:38.886333",
+      "sentiment": null
+    }
+  ]
+}

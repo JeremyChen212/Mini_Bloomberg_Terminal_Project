@@ -1,0 +1,798 @@
+{
+  "ticker": "AAPL",
+  "started_at": "2026-02-20T04:07:34.367320",
+  "p1": {
+    "ticker": "AAPL",
+    "prices": "Price            Close        High         Low        Open    Volume\nTicker            AAPL        AAPL        AAPL        AAPL      AAPL\nDate                                                                \n2024-02-20  179.922531  180.784680  178.376603  180.150453  53665600\n2024-02-21  180.675735  181.240587  179.030703  180.299158  41371400\n2024-02-22  182.707199  183.291889  180.814436  181.825226  52292200\n2024-02-23  180.873886  183.371148  180.586493  183.341420  45119700\n2024-02-26  179.526169  181.111730  179.020759  180.596430  40867400\n...                ...         ...         ...         ...       ...\n2026-02-12  261.730011  275.720001  260.179993  275.589996  81077200\n2026-02-13  255.779999  262.230011  255.449997  262.010010  56290700\n2026-02-17  263.880005  266.290009  255.539993  258.049988  58469100\n2026-02-18  264.350006  266.820007  262.450012  263.600006  34203300\n2026-02-19  260.579987  264.480011  260.049988  262.600006  30716500\n\n[502 rows x 5 columns]",
+    "income": "      Tax Effect Of Unusual Items  ...  Operating Revenue\nYear                               ...                   \n2025                          0.0  ...            416.161\n2024                          0.0  ...            391.035\n2023                          0.0  ...            383.285\n2022                          0.0  ...            394.328\n2021                          NaN  ...                NaN\n\n[5 rows x 39 columns]",
+    "balance": "      Treasury Shares Number  ...  Cash Financial\nYear                          ...                \n2025                     NaN  ...          28.267\n2024                     NaN  ...          27.199\n2023                     0.0  ...          28.359\n2022                     NaN  ...          18.546\n2021                     NaN  ...             NaN\n\n[5 rows x 69 columns]",
+    "cashflow": "      Free Cash Flow  ...  Net Income From Continuing Operations\nYear                  ...                                       \n2025          98.767  ...                                112.010\n2024         108.807  ...                                 93.736\n2023          99.584  ...                                 96.995\n2022         111.443  ...                                 99.803\n2021             NaN  ...                                    NaN\n\n[5 rows x 53 columns]",
+    "metrics": {
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "employees": 150000,
+      "website": "https://www.apple.com",
+      "country": "United States",
+      "price": 260.58,
+      "week_52_high": 288.62,
+      "week_52_low": 169.21,
+      "market_cap_b": 3829.99,
+      "pe_trailing": 32.98481,
+      "pe_forward": 28.068216,
+      "ps_ratio": 8.792093,
+      "pb_ratio": 43.444477,
+      "ev_ebitda": 25.174,
+      "eps_ttm": 7.9,
+      "gross_margin_pct": 47.33,
+      "net_margin_pct": 27.04,
+      "op_margin_pct": 35.37,
+      "roe_pct": 152.02,
+      "roa_pct": 24.38,
+      "revenue_growth_pct": 15.7,
+      "earnings_growth_pct": 18.3,
+      "debt_equity": 102.63,
+      "current_ratio": 0.974,
+      "quick_ratio": 0.845,
+      "dividend_yield_pct": 40.0,
+      "payout_ratio_pct": 13.04,
+      "beta": 1.107,
+      "fetched_at": "2026-02-20T04:07:36.988163",
+      "source": "yfinance"
+    },
+    "derived": "      revenue_b  revenue_yoy_pct  ...  fcf_margin_pct  debt_equity\nYear                              ...                             \n2021        NaN              NaN  ...             NaN          NaN\n2022     394.33              NaN  ...           28.26         2.61\n2023     383.28            -2.80  ...           25.98         1.79\n2024     391.04             2.02  ...           27.83         1.87\n2025     416.16             6.43  ...           23.73         1.34\n\n[5 rows x 6 columns]",
+    "summary": {
+      "pipeline": "p1_market_financials",
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "fetched_at": "2026-02-20T04:07:36.988163",
+      "metrics": {
+        "name": "Apple Inc.",
+        "sector": "Technology",
+        "industry": "Consumer Electronics",
+        "employees": 150000,
+        "website": "https://www.apple.com",
+        "country": "United States",
+        "price": 260.58,
+        "week_52_high": 288.62,
+        "week_52_low": 169.21,
+        "market_cap_b": 3829.99,
+        "pe_trailing": 32.98481,
+        "pe_forward": 28.068216,
+        "ps_ratio": 8.792093,
+        "pb_ratio": 43.444477,
+        "ev_ebitda": 25.174,
+        "eps_ttm": 7.9,
+        "gross_margin_pct": 47.33,
+        "net_margin_pct": 27.04,
+        "op_margin_pct": 35.37,
+        "roe_pct": 152.02,
+        "roa_pct": 24.38,
+        "revenue_growth_pct": 15.7,
+        "earnings_growth_pct": 18.3,
+        "debt_equity": 102.63,
+        "current_ratio": 0.974,
+        "quick_ratio": 0.845,
+        "dividend_yield_pct": 40.0,
+        "payout_ratio_pct": 13.04,
+        "beta": 1.107,
+        "fetched_at": "2026-02-20T04:07:36.988163",
+        "source": "yfinance"
+      },
+      "derived": {
+        "revenue_b": {
+          "2021": NaN,
+          "2022": 394.33,
+          "2023": 383.28,
+          "2024": 391.04,
+          "2025": 416.16
+        },
+        "revenue_yoy_pct": {
+          "2021": NaN,
+          "2022": NaN,
+          "2023": -2.8,
+          "2024": 2.02,
+          "2025": 6.43
+        },
+        "net_margin_pct": {
+          "2021": NaN,
+          "2022": 25.31,
+          "2023": 25.31,
+          "2024": 23.97,
+          "2025": 26.92
+        },
+        "gross_margin_pct": {
+          "2021": NaN,
+          "2022": 43.31,
+          "2023": 44.13,
+          "2024": 46.21,
+          "2025": 46.91
+        },
+        "fcf_margin_pct": {
+          "2021": NaN,
+          "2022": 28.26,
+          "2023": 25.98,
+          "2024": 27.83,
+          "2025": 23.73
+        },
+        "debt_equity": {
+          "2021": NaN,
+          "2022": 2.61,
+          "2023": 1.79,
+          "2024": 1.87,
+          "2025": 1.34
+        }
+      }
+    }
+  },
+  "p2": {
+    "ticker": "AAPL",
+    "filings": [
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2025-10-31",
+        "accession_number": "0000320193-25-000079",
+        "primary_document": "aapl-20250927.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902549"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2024-11-01",
+        "accession_number": "0000320193-24-000123",
+        "primary_document": "aapl-20240928.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902595"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2023-11-03",
+        "accession_number": "0000320193-23-000106",
+        "primary_document": "aapl-20230930.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902623"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2022-10-28",
+        "accession_number": "0000320193-22-000108",
+        "primary_document": "aapl-20220924.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902646"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2021-10-29",
+        "accession_number": "0000320193-21-000105",
+        "primary_document": "aapl-20210925.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902669"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2020-10-30",
+        "accession_number": "0000320193-20-000096",
+        "primary_document": "aapl-20200926.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902690"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2019-10-31",
+        "accession_number": "0000320193-19-000119",
+        "primary_document": "a10-k20199282019.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000119/a10-k20199282019.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902711"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2018-11-05",
+        "accession_number": "0000320193-18-000145",
+        "primary_document": "a10-k20189292018.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019318000145/a10-k20189292018.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902733"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2017-11-03",
+        "accession_number": "0000320193-17-000070",
+        "primary_document": "a10-k20179302017.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019317000070/a10-k20179302017.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902757"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-K",
+        "filed_date": "2016-10-26",
+        "accession_number": "0001628280-16-020309",
+        "primary_document": "a201610-k9242016.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/a201610-k9242016.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:37.902796"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2026-01-30",
+        "accession_number": "0000320193-26-000006",
+        "primary_document": "aapl-20251227.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296326"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2025-08-01",
+        "accession_number": "0000320193-25-000073",
+        "primary_document": "aapl-20250628.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296358"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2025-05-02",
+        "accession_number": "0000320193-25-000057",
+        "primary_document": "aapl-20250329.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296366"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2025-01-31",
+        "accession_number": "0000320193-25-000008",
+        "primary_document": "aapl-20241228.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296377"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2024-08-02",
+        "accession_number": "0000320193-24-000081",
+        "primary_document": "aapl-20240629.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296392"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2024-05-03",
+        "accession_number": "0000320193-24-000069",
+        "primary_document": "aapl-20240330.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296398"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2024-02-02",
+        "accession_number": "0000320193-24-000006",
+        "primary_document": "aapl-20231230.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000006/aapl-20231230.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296412"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2023-08-04",
+        "accession_number": "0000320193-23-000077",
+        "primary_document": "aapl-20230701.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000077/aapl-20230701.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296423"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2023-05-05",
+        "accession_number": "0000320193-23-000064",
+        "primary_document": "aapl-20230401.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000064/aapl-20230401.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296429"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "10-Q",
+        "filed_date": "2023-02-03",
+        "accession_number": "0000320193-23-000006",
+        "primary_document": "aapl-20221231.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/aapl-20221231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.296444"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2026-01-29",
+        "accession_number": "0000320193-26-000005",
+        "primary_document": "aapl-20260129.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664436"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2026-01-02",
+        "accession_number": "0001140361-26-000199",
+        "primary_document": "ef20060722_8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126000199/ef20060722_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664463"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2025-12-05",
+        "accession_number": "0001140361-25-044561",
+        "primary_document": "ef20060722_8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/ef20060722_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664469"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2025-10-30",
+        "accession_number": "0000320193-25-000077",
+        "primary_document": "aapl-20251030.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664476"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2025-07-31",
+        "accession_number": "0000320193-25-000071",
+        "primary_document": "aapl-20250731.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000071/aapl-20250731.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664488"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2025-07-25",
+        "accession_number": "0001140361-25-027340",
+        "primary_document": "ef20052355_8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125027340/ef20052355_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664494"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2025-07-09",
+        "accession_number": "0001140361-25-025275",
+        "primary_document": "ef20051741_8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125025275/ef20051741_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664500"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2025-05-12",
+        "accession_number": "0001140361-25-018400",
+        "primary_document": "ef20048691_8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/ef20048691_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664505"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2025-05-01",
+        "accession_number": "0000320193-25-000055",
+        "primary_document": "aapl-20250501.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000055/aapl-20250501.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664511"
+      },
+      {
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "form_type": "8-K",
+        "filed_date": "2025-02-25",
+        "accession_number": "0001140361-25-005876",
+        "primary_document": "ef20044022_8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125005876/ef20044022_8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T04:07:38.664522"
+      }
+    ]
+  },
+  "p3": {
+    "ticker": "AAPL",
+    "articles": [
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886281",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886302",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886308",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886312",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886316",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886320",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886323",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886326",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886329",
+        "sentiment": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:38.886333",
+        "sentiment": null
+      }
+    ]
+  },
+  "p4": {
+    "ticker": "AAPL",
+    "executives": [
+      {
+        "ticker": "AAPL",
+        "name": "Mr. Timothy D. Cook",
+        "title": "CEO & Director",
+        "year_born": 1961,
+        "total_pay": 16759518,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002032"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Mr. Kevan  Parekh",
+        "title": "Senior VP & CFO",
+        "year_born": 1972,
+        "total_pay": 4034174,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002049"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Mr. Sabih  Khan",
+        "title": "Senior VP & Chief Operating Officer",
+        "year_born": 1967,
+        "total_pay": 5021905,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002056"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Ms. Katherine L. Adams",
+        "title": "Senior VP, General Counsel & Secretary",
+        "year_born": 1964,
+        "total_pay": 5022482,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002060"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Ms. Deirdre  O'Brien",
+        "title": "Senior Vice President of Retail & People",
+        "year_born": 1967,
+        "total_pay": 5037867,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002064"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Mr. Ben  Borders",
+        "title": "Principal Accounting Officer",
+        "year_born": 1981,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002069"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Suhasini  Chandramouli",
+        "title": "Director of Investor Relations",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002073"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Ms. Kristin Huguet Quayle",
+        "title": "Vice President of Worldwide Communications",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002077"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Mr. Greg  Joswiak",
+        "title": "Senior Vice President of Worldwide Marketing",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002081"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Mr. Adrian  Perica",
+        "title": "Vice President of Corporate Development",
+        "year_born": 1974,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T04:07:39.002085"
+      }
+    ],
+    "institutions": [
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Vanguard Group Inc",
+        "pctHeld": 0.097200006,
+        "Shares": 1426283914,
+        "Value": 371661043158,
+        "pctChange": 0.019199999
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Blackrock Inc.",
+        "pctHeld": 0.078600004,
+        "Shares": 1154665731,
+        "Value": 300882780679,
+        "pctChange": 0.0073
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "State Street Corporation",
+        "pctHeld": 0.041100003,
+        "Shares": 604056505,
+        "Value": 157405035961,
+        "pctChange": 0.011
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Geode Capital Management, LLC",
+        "pctHeld": 0.024400001,
+        "Shares": 358032517,
+        "Value": 93296108472,
+        "pctChange": 0.0052
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "FMR, LLC",
+        "pctHeld": 0.0209,
+        "Shares": 307397264,
+        "Value": 80101574925,
+        "pctChange": 0.0137
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Morgan Stanley",
+        "pctHeld": 0.015700001,
+        "Shares": 230483035,
+        "Value": 60059266165,
+        "pctChange": 0.006
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Berkshire Hathaway, Inc",
+        "pctHeld": 0.0155,
+        "Shares": 227917808,
+        "Value": 59390819348,
+        "pctChange": -0.0432
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "JPMORGAN CHASE & CO",
+        "pctHeld": 0.0154,
+        "Shares": 225419111,
+        "Value": 58739708917,
+        "pctChange": -0.5237
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Price (T.Rowe) Associates Inc",
+        "pctHeld": 0.0139,
+        "Shares": 203499482,
+        "Value": 53027892287,
+        "pctChange": -0.0435
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "NORGES BANK",
+        "pctHeld": 0.013099999,
+        "Shares": 192255086,
+        "Value": 50097827728,
+        "pctChange": 0.0128999995
+      }
+    ]
+  },
+  "finished_at": "2026-02-20T04:07:39.101098"
+}

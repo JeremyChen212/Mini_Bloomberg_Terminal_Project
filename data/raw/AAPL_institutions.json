@@ -1,0 +1,82 @@
+[
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Vanguard Group Inc",
+    "pctHeld": 0.097200006,
+    "Shares": 1426283914,
+    "Value": 371661043158,
+    "pctChange": 0.019199999
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Blackrock Inc.",
+    "pctHeld": 0.078600004,
+    "Shares": 1154665731,
+    "Value": 300882780679,
+    "pctChange": 0.0073
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "State Street Corporation",
+    "pctHeld": 0.041100003,
+    "Shares": 604056505,
+    "Value": 157405035961,
+    "pctChange": 0.011
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Geode Capital Management, LLC",
+    "pctHeld": 0.024400001,
+    "Shares": 358032517,
+    "Value": 93296108472,
+    "pctChange": 0.0052
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "FMR, LLC",
+    "pctHeld": 0.0209,
+    "Shares": 307397264,
+    "Value": 80101574925,
+    "pctChange": 0.0137
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Morgan Stanley",
+    "pctHeld": 0.015700001,
+    "Shares": 230483035,
+    "Value": 60059266165,
+    "pctChange": 0.006
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Berkshire Hathaway, Inc",
+    "pctHeld": 0.0155,
+    "Shares": 227917808,
+    "Value": 59390819348,
+    "pctChange": -0.0432
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "JPMORGAN CHASE & CO",
+    "pctHeld": 0.0154,
+    "Shares": 225419111,
+    "Value": 58739708917,
+    "pctChange": -0.5237
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Price (T.Rowe) Associates Inc",
+    "pctHeld": 0.0139,
+    "Shares": 203499482,
+    "Value": 53027892287,
+    "pctChange": -0.0435
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "NORGES BANK",
+    "pctHeld": 0.013099999,
+    "Shares": 192255086,
+    "Value": 50097827728,
+    "pctChange": 0.0128999995
+  }
+]

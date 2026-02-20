@@ -1,0 +1,112 @@
+[
+  {
+    "ticker": "AMZN",
+    "name": "Mr. Jeffrey P. Bezos",
+    "title": "Founder & Executive Chairman",
+    "year_born": 1964,
+    "total_pay": 1681840,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516494"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Mr. Andrew R. Jassy",
+    "title": "President, CEO & Director",
+    "year_born": 1968,
+    "total_pay": 1596889,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516512"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Mr. Brian T. Olsavsky",
+    "title": "Senior VP & CFO",
+    "year_born": 1964,
+    "total_pay": 371900,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516517"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Mr. David A. Zapolsky J.D.",
+    "title": "Senior VP and Chief Global Affairs & Legal Officer",
+    "year_born": 1964,
+    "total_pay": 371900,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516521"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Mr. Douglas J. Herrington",
+    "title": "Chief Executive Officer of Worldwide Amazon Stores",
+    "year_born": 1967,
+    "total_pay": 386435,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516526"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Mr. Matthew S. Garman",
+    "title": "Chief Executive Officer of Amazon Web Series",
+    "year_born": 1977,
+    "total_pay": 384275,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516530"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Ms. Shelley L. Reynolds",
+    "title": "VP, Worldwide Controller & Principal Accounting Officer",
+    "year_born": 1965,
+    "total_pay": 163200,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516533"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Dr. Werner  Vogels",
+    "title": "Chief Technology Officer",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516537"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Mr. Dave  Fildes",
+    "title": "Vice President of Investor Relations",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516541"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Drew  Herdener",
+    "title": "Senior Vice President of Communications & Corporate Responsibility",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T04:08:54.516545"
+  }
+]
