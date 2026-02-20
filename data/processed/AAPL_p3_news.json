@@ -2,7 +2,7 @@
   "pipeline": "p3_news_sentiment",
   "ticker": "AAPL",
   "total": 10,
-  "fetched_at": "2026-02-20T04:07:38.886337",
+  "fetched_at": "2026-02-20T08:43:35.551995",
   "articles": [
     {
       "ticker": "AAPL",
@@ -11,7 +11,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886281",
+      "fetched_at": "2026-02-20T08:43:35.551894",
       "sentiment": null
     },
     {
@@ -21,7 +21,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886302",
+      "fetched_at": "2026-02-20T08:43:35.551929",
       "sentiment": null
     },
     {
@@ -31,7 +31,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886308",
+      "fetched_at": "2026-02-20T08:43:35.551938",
       "sentiment": null
     },
     {
@@ -41,7 +41,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886312",
+      "fetched_at": "2026-02-20T08:43:35.551944",
       "sentiment": null
     },
     {
@@ -51,7 +51,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886316",
+      "fetched_at": "2026-02-20T08:43:35.551956",
       "sentiment": null
     },
     {
@@ -61,7 +61,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886320",
+      "fetched_at": "2026-02-20T08:43:35.551963",
       "sentiment": null
     },
     {
@@ -71,7 +71,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886323",
+      "fetched_at": "2026-02-20T08:43:35.551969",
       "sentiment": null
     },
     {
@@ -81,7 +81,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886326",
+      "fetched_at": "2026-02-20T08:43:35.551975",
       "sentiment": null
     },
     {
@@ -91,7 +91,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886329",
+      "fetched_at": "2026-02-20T08:43:35.551981",
       "sentiment": null
     },
     {
@@ -101,7 +101,7 @@
       "url": null,
       "published_at": null,
       "source": "yfinance",
-      "fetched_at": "2026-02-20T04:07:38.886333",
+      "fetched_at": "2026-02-20T08:43:35.551987",
       "sentiment": null
     }
   ]

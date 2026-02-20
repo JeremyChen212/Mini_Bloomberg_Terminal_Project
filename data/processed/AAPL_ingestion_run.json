@@ -1,9 +1,9 @@
 {
   "ticker": "AAPL",
-  "started_at": "2026-02-20T04:07:34.367320",
+  "started_at": "2026-02-20T08:43:33.857051",
   "p1": {
     "ticker": "AAPL",
-    "prices": "Price            Close        High         Low        Open    Volume\nTicker            AAPL        AAPL        AAPL        AAPL      AAPL\nDate                                                                \n2024-02-20  179.922531  180.784680  178.376603  180.150453  53665600\n2024-02-21  180.675735  181.240587  179.030703  180.299158  41371400\n2024-02-22  182.707199  183.291889  180.814436  181.825226  52292200\n2024-02-23  180.873886  183.371148  180.586493  183.341420  45119700\n2024-02-26  179.526169  181.111730  179.020759  180.596430  40867400\n...                ...         ...         ...         ...       ...\n2026-02-12  261.730011  275.720001  260.179993  275.589996  81077200\n2026-02-13  255.779999  262.230011  255.449997  262.010010  56290700\n2026-02-17  263.880005  266.290009  255.539993  258.049988  58469100\n2026-02-18  264.350006  266.820007  262.450012  263.600006  34203300\n2026-02-19  260.579987  264.480011  260.049988  262.600006  30716500\n\n[502 rows x 5 columns]",
+    "prices": "                         Close  ...    Volume\nPrice                           ...          \nTicker                    AAPL  ...      AAPL\nDate                       NaN  ...       NaN\n2024-02-20   179.9225311279297  ...  53665600\n2024-02-21   180.6757354736328  ...  41371400\n2024-02-22   182.7071990966797  ...  52292200\n...                        ...  ...       ...\n2026-02-12   261.7300109863281  ...  81077200\n2026-02-13  255.77999877929688  ...  56290700\n2026-02-17   263.8800048828125  ...  58469100\n2026-02-18   264.3500061035156  ...  34203300\n2026-02-19   260.5799865722656  ...  30716500\n\n[504 rows x 5 columns]",
     "income": "      Tax Effect Of Unusual Items  ...  Operating Revenue\nYear                               ...                   \n2025                          0.0  ...            416.161\n2024                          0.0  ...            391.035\n2023                          0.0  ...            383.285\n2022                          0.0  ...            394.328\n2021                          NaN  ...                NaN\n\n[5 rows x 39 columns]",
     "balance": "      Treasury Shares Number  ...  Cash Financial\nYear                          ...                \n2025                     NaN  ...          28.267\n2024                     NaN  ...          27.199\n2023                     0.0  ...          28.359\n2022                     NaN  ...          18.546\n2021                     NaN  ...             NaN\n\n[5 rows x 69 columns]",
     "cashflow": "      Free Cash Flow  ...  Net Income From Continuing Operations\nYear                  ...                                       \n2025          98.767  ...                                112.010\n2024         108.807  ...                                 93.736\n2023          99.584  ...                                 96.995\n2022         111.443  ...                                 99.803\n2021             NaN  ...                                    NaN\n\n[5 rows x 53 columns]",
@@ -11,32 +11,32 @@
       "name": "Apple Inc.",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "employees": 150000,
+      "employees": "150000",
       "website": "https://www.apple.com",
       "country": "United States",
-      "price": 260.58,
-      "week_52_high": 288.62,
-      "week_52_low": 169.21,
-      "market_cap_b": 3829.99,
-      "pe_trailing": 32.98481,
-      "pe_forward": 28.068216,
-      "ps_ratio": 8.792093,
-      "pb_ratio": 43.444477,
-      "ev_ebitda": 25.174,
-      "eps_ttm": 7.9,
-      "gross_margin_pct": 47.33,
-      "net_margin_pct": 27.04,
-      "op_margin_pct": 35.37,
-      "roe_pct": 152.02,
-      "roa_pct": 24.38,
-      "revenue_growth_pct": 15.7,
-      "earnings_growth_pct": 18.3,
-      "debt_equity": 102.63,
-      "current_ratio": 0.974,
-      "quick_ratio": 0.845,
-      "dividend_yield_pct": 40.0,
-      "payout_ratio_pct": 13.04,
-      "beta": 1.107,
+      "price": "260.58",
+      "week_52_high": "288.62",
+      "week_52_low": "169.21",
+      "market_cap_b": "3829.99",
+      "pe_trailing": "32.98481",
+      "pe_forward": "28.068216",
+      "ps_ratio": "8.792093",
+      "pb_ratio": "43.444477",
+      "ev_ebitda": "25.174",
+      "eps_ttm": "7.9",
+      "gross_margin_pct": "47.33",
+      "net_margin_pct": "27.04",
+      "op_margin_pct": "35.37",
+      "roe_pct": "152.02",
+      "roa_pct": "24.38",
+      "revenue_growth_pct": "15.7",
+      "earnings_growth_pct": "18.3",
+      "debt_equity": "102.63",
+      "current_ratio": "0.974",
+      "quick_ratio": "0.845",
+      "dividend_yield_pct": "40.0",
+      "payout_ratio_pct": "13.04",
+      "beta": "1.107",
       "fetched_at": "2026-02-20T04:07:36.988163",
       "source": "yfinance"
     },
@@ -52,32 +52,32 @@
         "name": "Apple Inc.",
         "sector": "Technology",
         "industry": "Consumer Electronics",
-        "employees": 150000,
+        "employees": "150000",
         "website": "https://www.apple.com",
         "country": "United States",
-        "price": 260.58,
-        "week_52_high": 288.62,
-        "week_52_low": 169.21,
-        "market_cap_b": 3829.99,
-        "pe_trailing": 32.98481,
-        "pe_forward": 28.068216,
-        "ps_ratio": 8.792093,
-        "pb_ratio": 43.444477,
-        "ev_ebitda": 25.174,
-        "eps_ttm": 7.9,
-        "gross_margin_pct": 47.33,
-        "net_margin_pct": 27.04,
-        "op_margin_pct": 35.37,
-        "roe_pct": 152.02,
-        "roa_pct": 24.38,
-        "revenue_growth_pct": 15.7,
-        "earnings_growth_pct": 18.3,
-        "debt_equity": 102.63,
-        "current_ratio": 0.974,
-        "quick_ratio": 0.845,
-        "dividend_yield_pct": 40.0,
-        "payout_ratio_pct": 13.04,
-        "beta": 1.107,
+        "price": "260.58",
+        "week_52_high": "288.62",
+        "week_52_low": "169.21",
+        "market_cap_b": "3829.99",
+        "pe_trailing": "32.98481",
+        "pe_forward": "28.068216",
+        "ps_ratio": "8.792093",
+        "pb_ratio": "43.444477",
+        "ev_ebitda": "25.174",
+        "eps_ttm": "7.9",
+        "gross_margin_pct": "47.33",
+        "net_margin_pct": "27.04",
+        "op_margin_pct": "35.37",
+        "roe_pct": "152.02",
+        "roa_pct": "24.38",
+        "revenue_growth_pct": "15.7",
+        "earnings_growth_pct": "18.3",
+        "debt_equity": "102.63",
+        "current_ratio": "0.974",
+        "quick_ratio": "0.845",
+        "dividend_yield_pct": "40.0",
+        "payout_ratio_pct": "13.04",
+        "beta": "1.107",
         "fetched_at": "2026-02-20T04:07:36.988163",
         "source": "yfinance"
       },
@@ -502,7 +502,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886281",
+        "fetched_at": "2026-02-20T08:43:35.551894",
         "sentiment": null
       },
       {
@@ -512,7 +512,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886302",
+        "fetched_at": "2026-02-20T08:43:35.551929",
         "sentiment": null
       },
       {
@@ -522,7 +522,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886308",
+        "fetched_at": "2026-02-20T08:43:35.551938",
         "sentiment": null
       },
       {
@@ -532,7 +532,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886312",
+        "fetched_at": "2026-02-20T08:43:35.551944",
         "sentiment": null
       },
       {
@@ -542,7 +542,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886316",
+        "fetched_at": "2026-02-20T08:43:35.551956",
         "sentiment": null
       },
       {
@@ -552,7 +552,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886320",
+        "fetched_at": "2026-02-20T08:43:35.551963",
         "sentiment": null
       },
       {
@@ -562,7 +562,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886323",
+        "fetched_at": "2026-02-20T08:43:35.551969",
         "sentiment": null
       },
       {
@@ -572,7 +572,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886326",
+        "fetched_at": "2026-02-20T08:43:35.551975",
         "sentiment": null
       },
       {
@@ -582,7 +582,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886329",
+        "fetched_at": "2026-02-20T08:43:35.551981",
         "sentiment": null
       },
       {
@@ -592,7 +592,7 @@
         "url": null,
         "published_at": null,
         "source": "yfinance",
-        "fetched_at": "2026-02-20T04:07:38.886333",
+        "fetched_at": "2026-02-20T08:43:35.551987",
         "sentiment": null
       }
     ]
@@ -794,5 +794,5 @@
       }
     ]
   },
-  "finished_at": "2026-02-20T04:07:39.101098"
+  "finished_at": "2026-02-20T08:43:35.624499"
 }
