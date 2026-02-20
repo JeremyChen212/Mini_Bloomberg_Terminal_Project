@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-02-20T04:08:55.279218",
+  "run_at": "2026-02-20T05:16:44.434757",
   "tickers": [
-    "AMZN"
+    "MSFT"
   ],
   "pipelines": [
     "p1",
@@ -11,7 +11,7 @@
   ],
   "results": [
     {
-      "ticker": "AMZN",
+      "ticker": "MSFT",
       "status": "ok"
     }
   ]

@@ -1,0 +1,112 @@
+[
+  {
+    "ticker": "MSFT",
+    "name": "Mr. Satya  Nadella",
+    "title": "Chairman & CEO",
+    "year_born": 1967,
+    "total_pay": 12251294,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543789"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Mr. Bradford L. Smith LCA",
+    "title": "President & Vice Chairman",
+    "year_born": 1959,
+    "total_pay": 4532750,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543812"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Ms. Amy E. Hood",
+    "title": "Executive VP & CFO",
+    "year_born": 1972,
+    "total_pay": 4444191,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543821"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Mr. Takeshi  Numoto",
+    "title": "Executive VP & Chief Marketing Officer",
+    "year_born": 1971,
+    "total_pay": 2871250,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543827"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Mr. Judson B. Althoff",
+    "title": "Executive VP & CEO of Commercial Business",
+    "year_born": 1973,
+    "total_pay": 4490115,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543834"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Ms. Carolina  Dybeck Happe",
+    "title": "Executive VP & COO",
+    "year_born": 1972,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543841"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Ms. Alice L. Jolla",
+    "title": "Corporate VP & Chief Accounting Officer",
+    "year_born": 1966,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543848"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Mr. Matthew  Kerner",
+    "title": "CTO & Corporate VP of Worldwide Sales and Solutions",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543855"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Jonathan  Neilson",
+    "title": "Vice President of Investor Relations",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543862"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Mr. Jonathan M. Palmer",
+    "title": "Corporate Vice President & Chief Legal Officer",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-20T05:16:43.543869"
+  }
+]

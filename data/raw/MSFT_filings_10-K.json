@@ -1,0 +1,74 @@
+[
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "10-K",
+    "filed_date": "2025-07-30",
+    "accession_number": "0000950170-25-100235",
+    "primary_document": "msft-20250630.htm",
+    "description": "10-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:41.663740"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "10-K",
+    "filed_date": "2024-07-30",
+    "accession_number": "0000950170-24-087843",
+    "primary_document": "msft-20240630.htm",
+    "description": "10-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:41.663878"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "10-K",
+    "filed_date": "2023-07-27",
+    "accession_number": "0000950170-23-035122",
+    "primary_document": "msft-20230630.htm",
+    "description": "10-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:41.663950"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "10-K",
+    "filed_date": "2022-07-28",
+    "accession_number": "0001564590-22-026876",
+    "primary_document": "msft-10k_20220630.htm",
+    "description": "10-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:41.664006"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "10-K",
+    "filed_date": "2021-07-29",
+    "accession_number": "0001564590-21-039151",
+    "primary_document": "msft-10k_20210630.htm",
+    "description": "10-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459021039151/msft-10k_20210630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:41.664060"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "form_type": "10-K",
+    "filed_date": "2020-07-30",
+    "accession_number": "0001564590-20-034944",
+    "primary_document": "msft-10k_20200630.htm",
+    "description": "10-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459020034944/msft-10k_20200630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T05:16:41.664115"
+  }
+]

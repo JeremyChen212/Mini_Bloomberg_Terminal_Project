@@ -1,0 +1,108 @@
+{
+  "pipeline": "p3_news_sentiment",
+  "ticker": "MSFT",
+  "total": 10,
+  "fetched_at": "2026-02-20T05:16:43.405973",
+  "articles": [
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405917",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405941",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405947",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405950",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405953",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405957",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405959",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405962",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405965",
+      "sentiment": null
+    },
+    {
+      "ticker": "MSFT",
+      "title": null,
+      "publisher": null,
+      "url": null,
+      "published_at": null,
+      "source": "yfinance",
+      "fetched_at": "2026-02-20T05:16:43.405968",
+      "sentiment": null
+    }
+  ]
+}

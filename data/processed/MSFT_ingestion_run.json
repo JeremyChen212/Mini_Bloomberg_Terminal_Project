@@ -1,0 +1,744 @@
+{
+  "ticker": "MSFT",
+  "started_at": "2026-02-20T05:16:36.675606",
+  "p1": {
+    "ticker": "MSFT",
+    "prices": "Price            Close        High         Low        Open    Volume\nTicker            MSFT        MSFT        MSFT        MSFT      MSFT\nDate                                                                \n2024-02-20  396.701141  398.375425  391.993401  397.144321  24307900\n2024-02-21  396.100433  396.208786  391.215420  394.120838  18518900\n2024-02-22  405.427216  406.589371  402.393788  403.989294  27009900\n2024-02-23  404.137054  409.573600  402.787769  409.386500  16295900\n2024-02-26  401.379364  405.929520  401.202062  405.240090  16193500\n...                ...         ...         ...         ...       ...\n2026-02-12  400.924896  405.274983  397.103632  404.077704  40802400\n2026-02-13  400.406097  404.616489  397.143525  403.528974  34091600\n2026-02-17  395.956238  399.607907  393.631557  398.310879  32078800\n2026-02-18  398.690002  401.643253  395.417473  397.223349  23223400\n2026-02-19  398.459991  404.429993  396.670013  400.690002  28133600\n\n[502 rows x 5 columns]",
+    "income": "      Tax Effect Of Unusual Items  ...  Operating Revenue\nYear                               ...                   \n2025                    -0.077088  ...            281.724\n2024                    -0.099918  ...            245.122\n2023                    -0.002850  ...            211.915\n2022                     0.043754  ...            198.270\n\n[4 rows x 47 columns]",
+    "balance": "      Ordinary Shares Number  ...  Cash Financial\nYear                          ...                \n2025                7.434159  ...          11.711\n2024                7.434139  ...          11.571\n2023                7.432000  ...           8.478\n2022                7.464000  ...           8.258\n2021                     NaN  ...             NaN\n\n[5 rows x 78 columns]",
+    "cashflow": "      Free Cash Flow  ...  Net Income From Continuing Operations\nYear                  ...                                       \n2025          71.611  ...                                101.832\n2024          74.071  ...                                 88.136\n2023          59.475  ...                                 72.361\n2022          65.149  ...                                 72.738\n2021             NaN  ...                                    NaN\n\n[5 rows x 59 columns]",
+    "metrics": {
+      "name": "Microsoft Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "employees": 228000,
+      "website": "https://www.microsoft.com",
+      "country": "United States",
+      "price": 398.46,
+      "week_52_high": 555.45,
+      "week_52_low": 344.79,
+      "market_cap_b": 2961.51,
+      "pe_trailing": 24.93492,
+      "pe_forward": 21.13892,
+      "ps_ratio": 9.695453,
+      "pb_ratio": 7.5731254,
+      "ev_ebitda": 17.075,
+      "eps_ttm": 15.98,
+      "gross_margin_pct": 68.59,
+      "net_margin_pct": 39.04,
+      "op_margin_pct": 47.09,
+      "roe_pct": 34.39,
+      "roa_pct": 14.86,
+      "revenue_growth_pct": 16.7,
+      "earnings_growth_pct": 59.8,
+      "debt_equity": 31.539,
+      "current_ratio": 1.386,
+      "quick_ratio": 1.239,
+      "dividend_yield_pct": 91.0,
+      "payout_ratio_pct": 21.28,
+      "beta": 1.084,
+      "fetched_at": "2026-02-20T05:16:40.697486",
+      "source": "yfinance"
+    },
+    "derived": "      revenue_b  revenue_yoy_pct  ...  fcf_margin_pct  debt_equity\nYear                              ...                             \n2022     198.27              NaN  ...           32.86         0.37\n2023     211.92             6.88  ...           28.07         0.29\n2024     245.12            15.67  ...           30.22         0.25\n2025     281.72            14.93  ...           25.42         0.18\n\n[4 rows x 6 columns]",
+    "summary": {
+      "pipeline": "p1_market_financials",
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "fetched_at": "2026-02-20T05:16:40.697486",
+      "metrics": {
+        "name": "Microsoft Corporation",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "employees": 228000,
+        "website": "https://www.microsoft.com",
+        "country": "United States",
+        "price": 398.46,
+        "week_52_high": 555.45,
+        "week_52_low": 344.79,
+        "market_cap_b": 2961.51,
+        "pe_trailing": 24.93492,
+        "pe_forward": 21.13892,
+        "ps_ratio": 9.695453,
+        "pb_ratio": 7.5731254,
+        "ev_ebitda": 17.075,
+        "eps_ttm": 15.98,
+        "gross_margin_pct": 68.59,
+        "net_margin_pct": 39.04,
+        "op_margin_pct": 47.09,
+        "roe_pct": 34.39,
+        "roa_pct": 14.86,
+        "revenue_growth_pct": 16.7,
+        "earnings_growth_pct": 59.8,
+        "debt_equity": 31.539,
+        "current_ratio": 1.386,
+        "quick_ratio": 1.239,
+        "dividend_yield_pct": 91.0,
+        "payout_ratio_pct": 21.28,
+        "beta": 1.084,
+        "fetched_at": "2026-02-20T05:16:40.697486",
+        "source": "yfinance"
+      },
+      "derived": {
+        "revenue_b": {
+          "2022": 198.27,
+          "2023": 211.92,
+          "2024": 245.12,
+          "2025": 281.72
+        },
+        "revenue_yoy_pct": {
+          "2022": NaN,
+          "2023": 6.88,
+          "2024": 15.67,
+          "2025": 14.93
+        },
+        "net_margin_pct": {
+          "2022": 36.69,
+          "2023": 34.15,
+          "2024": 35.96,
+          "2025": 36.15
+        },
+        "gross_margin_pct": {
+          "2022": 68.4,
+          "2023": 68.92,
+          "2024": 69.76,
+          "2025": 68.82
+        },
+        "fcf_margin_pct": {
+          "2022": 32.86,
+          "2023": 28.07,
+          "2024": 30.22,
+          "2025": 25.42
+        },
+        "debt_equity": {
+          "2022": 0.37,
+          "2023": 0.29,
+          "2024": 0.25,
+          "2025": 0.18
+        }
+      }
+    }
+  },
+  "p2": {
+    "ticker": "MSFT",
+    "filings": [
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-K",
+        "filed_date": "2025-07-30",
+        "accession_number": "0000950170-25-100235",
+        "primary_document": "msft-20250630.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:41.663740"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-K",
+        "filed_date": "2024-07-30",
+        "accession_number": "0000950170-24-087843",
+        "primary_document": "msft-20240630.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:41.663878"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-K",
+        "filed_date": "2023-07-27",
+        "accession_number": "0000950170-23-035122",
+        "primary_document": "msft-20230630.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:41.663950"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-K",
+        "filed_date": "2022-07-28",
+        "accession_number": "0001564590-22-026876",
+        "primary_document": "msft-10k_20220630.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:41.664006"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-K",
+        "filed_date": "2021-07-29",
+        "accession_number": "0001564590-21-039151",
+        "primary_document": "msft-10k_20210630.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459021039151/msft-10k_20210630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:41.664060"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-K",
+        "filed_date": "2020-07-30",
+        "accession_number": "0001564590-20-034944",
+        "primary_document": "msft-10k_20200630.htm",
+        "description": "10-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459020034944/msft-10k_20200630.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:41.664115"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2026-01-28",
+        "accession_number": "0001193125-26-027207",
+        "primary_document": "msft-20251231.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074074"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2025-10-29",
+        "accession_number": "0001193125-25-256321",
+        "primary_document": "msft-20250930.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074110"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2025-04-30",
+        "accession_number": "0000950170-25-061046",
+        "primary_document": "msft-20250331.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074134"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2025-01-29",
+        "accession_number": "0000950170-25-010491",
+        "primary_document": "msft-20241231.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074145"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2024-10-30",
+        "accession_number": "0000950170-24-118967",
+        "primary_document": "msft-20240930.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074157"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2024-04-25",
+        "accession_number": "0000950170-24-048288",
+        "primary_document": "msft-20240331.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074185"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2024-01-30",
+        "accession_number": "0000950170-24-008814",
+        "primary_document": "msft-20231231.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008814/msft-20231231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074200"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2023-10-24",
+        "accession_number": "0000950170-23-054855",
+        "primary_document": "msft-20230930.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074215"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2023-04-25",
+        "accession_number": "0000950170-23-014423",
+        "primary_document": "msft-20230331.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023014423/msft-20230331.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074237"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "10-Q",
+        "filed_date": "2023-01-24",
+        "accession_number": "0001564590-23-000733",
+        "primary_document": "msft-10q_20221231.htm",
+        "description": "10-Q",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459023000733/msft-10q_20221231.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.074248"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2026-01-28",
+        "accession_number": "0001193125-26-027198",
+        "primary_document": "msft-20260128.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585710"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2025-12-08",
+        "accession_number": "0001193125-25-311196",
+        "primary_document": "d34077d8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585746"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2025-10-29",
+        "accession_number": "0001193125-25-256310",
+        "primary_document": "msft-20251028.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585764"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2025-09-30",
+        "accession_number": "0001193125-25-225125",
+        "primary_document": "d863209d8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525225125/d863209d8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585772"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2025-07-30",
+        "accession_number": "0000950170-25-100226",
+        "primary_document": "msft-20250730.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-20250730.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585787"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2025-07-01",
+        "accession_number": "0001193125-25-154103",
+        "primary_document": "d84624d8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/d84624d8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585793"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2025-04-30",
+        "accession_number": "0000950170-25-061032",
+        "primary_document": "msft-20250430.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-20250430.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585809"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2025-01-29",
+        "accession_number": "0000950170-25-010484",
+        "primary_document": "msft-20250129.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-20250129.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585822"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2025-01-22",
+        "accession_number": "0001193125-25-010492",
+        "primary_document": "d929748d8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525010492/d929748d8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585827"
+      },
+      {
+        "ticker": "MSFT",
+        "cik": "0000789019",
+        "form_type": "8-K",
+        "filed_date": "2024-12-11",
+        "accession_number": "0001193125-24-275524",
+        "primary_document": "d865252d8k.htm",
+        "description": "8-K",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524275524/d865252d8k.htm",
+        "source": "sec_edgar",
+        "fetched_at": "2026-02-20T05:16:42.585835"
+      }
+    ]
+  },
+  "p3": {
+    "ticker": "MSFT",
+    "articles": [
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405917",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405941",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405947",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405950",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405953",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405957",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405959",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405962",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405965",
+        "sentiment": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": null,
+        "publisher": null,
+        "url": null,
+        "published_at": null,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.405968",
+        "sentiment": null
+      }
+    ]
+  },
+  "p4": {
+    "ticker": "MSFT",
+    "executives": [
+      {
+        "ticker": "MSFT",
+        "name": "Mr. Satya  Nadella",
+        "title": "Chairman & CEO",
+        "year_born": 1967,
+        "total_pay": 12251294,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543789"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Mr. Bradford L. Smith LCA",
+        "title": "President & Vice Chairman",
+        "year_born": 1959,
+        "total_pay": 4532750,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543812"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Ms. Amy E. Hood",
+        "title": "Executive VP & CFO",
+        "year_born": 1972,
+        "total_pay": 4444191,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543821"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Mr. Takeshi  Numoto",
+        "title": "Executive VP & Chief Marketing Officer",
+        "year_born": 1971,
+        "total_pay": 2871250,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543827"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Mr. Judson B. Althoff",
+        "title": "Executive VP & CEO of Commercial Business",
+        "year_born": 1973,
+        "total_pay": 4490115,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543834"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Ms. Carolina  Dybeck Happe",
+        "title": "Executive VP & COO",
+        "year_born": 1972,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543841"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Ms. Alice L. Jolla",
+        "title": "Corporate VP & Chief Accounting Officer",
+        "year_born": 1966,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543848"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Mr. Matthew  Kerner",
+        "title": "CTO & Corporate VP of Worldwide Sales and Solutions",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543855"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Jonathan  Neilson",
+        "title": "Vice President of Investor Relations",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543862"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Mr. Jonathan M. Palmer",
+        "title": "Corporate Vice President & Chief Legal Officer",
+        "year_born": null,
+        "total_pay": null,
+        "exercised_value": 0,
+        "unexercised_value": 0,
+        "source": "yfinance",
+        "fetched_at": "2026-02-20T05:16:43.543869"
+      }
+    ],
+    "institutions": [
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Vanguard Group Inc",
+        "pctHeld": 0.0967,
+        "Shares": 717942580,
+        "Value": 286071394292,
+        "pctChange": 0.0227
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Blackrock Inc.",
+        "pctHeld": 0.081099994,
+        "Shares": 601897495,
+        "Value": 239832070714,
+        "pctChange": 0.017
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "State Street Corporation",
+        "pctHeld": 0.041199997,
+        "Shares": 306150608,
+        "Value": 121988768647,
+        "pctChange": 0.021300001
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "FMR, LLC",
+        "pctHeld": 0.0271,
+        "Shares": 200948745,
+        "Value": 80070035215,
+        "pctChange": -0.045300003
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Geode Capital Management, LLC",
+        "pctHeld": 0.024600001,
+        "Shares": 182618400,
+        "Value": 72766126103,
+        "pctChange": 0.0106
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "JPMORGAN CHASE & CO",
+        "pctHeld": 0.0199,
+        "Shares": 147759850,
+        "Value": 58876388568,
+        "pctChange": -0.5348
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Price (T.Rowe) Associates Inc",
+        "pctHeld": 0.016900001,
+        "Shares": 125709121,
+        "Value": 50090055279,
+        "pctChange": -0.048899997
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Morgan Stanley",
+        "pctHeld": 0.0163,
+        "Shares": 121220561,
+        "Value": 48301543700,
+        "pctChange": 0.0082
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "NORGES BANK",
+        "pctHeld": 0.014099999,
+        "Shares": 104761241,
+        "Value": 41743163193,
+        "pctChange": 0.032
+      },
+      {
+        "Date Reported": "2025-12-31T00:00:00",
+        "Holder": "Capital International Investors",
+        "pctHeld": 0.011,
+        "Shares": 81585381,
+        "Value": 32508510216,
+        "pctChange": 0.0276
+      }
+    ]
+  },
+  "finished_at": "2026-02-20T05:16:43.670090"
+}
