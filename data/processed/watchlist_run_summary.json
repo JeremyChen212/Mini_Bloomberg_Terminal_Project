@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-02-20T10:06:15.460479",
+  "run_at": "2026-02-20T17:58:12.271204",
   "tickers": [
-    "NVDA"
+    "NFLX"
   ],
   "pipelines": [
     "p1",
@@ -11,7 +11,7 @@
   ],
   "results": [
     {
-      "ticker": "NVDA",
+      "ticker": "NFLX",
       "status": "ok"
     }
   ]

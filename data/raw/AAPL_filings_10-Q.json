@@ -9,7 +9,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296326"
+    "fetched_at": "2026-02-20T17:08:19.819939"
   },
   {
     "ticker": "AAPL",
@@ -21,7 +21,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296358"
+    "fetched_at": "2026-02-20T17:08:19.819953"
   },
   {
     "ticker": "AAPL",
@@ -33,7 +33,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296366"
+    "fetched_at": "2026-02-20T17:08:19.819957"
   },
   {
     "ticker": "AAPL",
@@ -45,7 +45,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296377"
+    "fetched_at": "2026-02-20T17:08:19.819961"
   },
   {
     "ticker": "AAPL",
@@ -57,7 +57,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296392"
+    "fetched_at": "2026-02-20T17:08:19.819966"
   },
   {
     "ticker": "AAPL",
@@ -69,7 +69,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296398"
+    "fetched_at": "2026-02-20T17:08:19.819968"
   },
   {
     "ticker": "AAPL",
@@ -81,7 +81,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000006/aapl-20231230.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296412"
+    "fetched_at": "2026-02-20T17:08:19.819974"
   },
   {
     "ticker": "AAPL",
@@ -93,7 +93,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000077/aapl-20230701.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296423"
+    "fetched_at": "2026-02-20T17:08:19.819978"
   },
   {
     "ticker": "AAPL",
@@ -105,7 +105,7 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000064/aapl-20230401.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296429"
+    "fetched_at": "2026-02-20T17:08:19.819980"
   },
   {
     "ticker": "AAPL",
@@ -117,6 +117,6 @@
     "description": "10-Q",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/aapl-20221231.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T04:07:38.296444"
+    "fetched_at": "2026-02-20T17:08:19.819986"
   }
 ]

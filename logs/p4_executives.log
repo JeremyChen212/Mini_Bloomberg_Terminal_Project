@@ -4,3 +4,17 @@
 2026-02-20 04:08:54,527  INFO      p4_executives  [AMZN] institutions: fetching...
 2026-02-20 10:06:14,538  INFO      p4_executives  [NVDA] executives: fetching...
 2026-02-20 10:06:14,652  INFO      p4_executives  [NVDA] institutions: fetching...
+2026-02-20 17:08:20,204  INFO      p4_executives  ── P4 START: AAPL ──
+2026-02-20 17:08:20,204  INFO      p4_executives  [AAPL] executives: cache hit
+2026-02-20 17:08:20,205  INFO      p4_executives  [AAPL] institutions: cache hit
+2026-02-20 17:08:20,206  INFO      p4_executives  ── P4 DONE: AAPL ──
+2026-02-20 17:55:55,021  INFO      p4_executives  ── P4 START: AAPL ──
+2026-02-20 17:55:55,021  INFO      p4_executives  [AAPL] executives: cache hit
+2026-02-20 17:55:55,022  INFO      p4_executives  [AAPL] institutions: cache hit
+2026-02-20 17:55:55,022  INFO      p4_executives  ── P4 DONE: AAPL ──
+2026-02-20 17:58:11,763  INFO      p4_executives  ── P4 START: NFLX ──
+2026-02-20 17:58:11,763  INFO      p4_executives  [NFLX] executives: fetching...
+2026-02-20 17:58:11,763  ERROR     p4_executives  [NFLX] executives: failed — No module named 'yfinance'
+2026-02-20 17:58:11,763  INFO      p4_executives  [NFLX] institutions: fetching...
+2026-02-20 17:58:11,763  ERROR     p4_executives  [NFLX] institutions: failed — No module named 'yfinance'
+2026-02-20 17:58:11,764  INFO      p4_executives  ── P4 DONE: NFLX ──

@@ -1,0 +1,10 @@
+{
+  "pipeline": "p1_market_financials",
+  "ticker": "NFLX",
+  "name": null,
+  "sector": null,
+  "industry": null,
+  "fetched_at": null,
+  "metrics": {},
+  "derived": {}
+}

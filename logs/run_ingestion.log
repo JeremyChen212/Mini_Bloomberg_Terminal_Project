@@ -4,3 +4,21 @@
 2026-02-20 04:08:49,490  INFO      run_ingestion  INGESTION START: AMZN  pipelines=['p1', 'p2', 'p3', 'p4']
 2026-02-20 10:06:09,599  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
 2026-02-20 10:06:09,769  INFO      run_ingestion  INGESTION START: NVDA  pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 17:08:18,913  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 17:08:18,913  INFO      run_ingestion  ═══════════════════════════════════════════════════════
+2026-02-20 17:08:18,913  INFO      run_ingestion  INGESTION START: AAPL  pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 17:08:18,913  INFO      run_ingestion  ═══════════════════════════════════════════════════════
+2026-02-20 17:08:20,307  INFO      run_ingestion  [AAPL] Run summary → AAPL_ingestion_run.json
+2026-02-20 17:08:20,814  INFO      run_ingestion  Watchlist complete. Summary → watchlist_run_summary.json
+2026-02-20 17:55:54,986  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 17:55:54,987  INFO      run_ingestion  ═══════════════════════════════════════════════════════
+2026-02-20 17:55:54,987  INFO      run_ingestion  INGESTION START: AAPL  pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 17:55:54,987  INFO      run_ingestion  ═══════════════════════════════════════════════════════
+2026-02-20 17:55:55,068  INFO      run_ingestion  [AAPL] Run summary → AAPL_ingestion_run.json
+2026-02-20 17:55:55,574  INFO      run_ingestion  Watchlist complete. Summary → watchlist_run_summary.json
+2026-02-20 17:58:10,246  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 17:58:10,246  INFO      run_ingestion  ═══════════════════════════════════════════════════════
+2026-02-20 17:58:10,246  INFO      run_ingestion  INGESTION START: NFLX  pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-20 17:58:10,246  INFO      run_ingestion  ═══════════════════════════════════════════════════════
+2026-02-20 17:58:11,766  INFO      run_ingestion  [NFLX] Run summary → NFLX_ingestion_run.json
+2026-02-20 17:58:12,272  INFO      run_ingestion  Watchlist complete. Summary → watchlist_run_summary.json

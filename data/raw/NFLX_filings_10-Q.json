@@ -1,0 +1,110 @@
+[
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2025-10-22",
+    "accession_number": "0001065280-25-000406",
+    "primary_document": "nflx-20250930.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000406/nflx-20250930.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389246"
+  },
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2025-07-18",
+    "accession_number": "0001065280-25-000323",
+    "primary_document": "nflx-20250630.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000323/nflx-20250630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389259"
+  },
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2025-04-18",
+    "accession_number": "0001065280-25-000176",
+    "primary_document": "nflx-20250331.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000176/nflx-20250331.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389267"
+  },
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2024-10-18",
+    "accession_number": "0001065280-24-000287",
+    "primary_document": "nflx-20240930.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000287/nflx-20240930.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389279"
+  },
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2024-07-19",
+    "accession_number": "0001065280-24-000200",
+    "primary_document": "nflx-20240630.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000200/nflx-20240630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389285"
+  },
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2024-04-22",
+    "accession_number": "0001065280-24-000128",
+    "primary_document": "nflx-20240331.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000128/nflx-20240331.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389289"
+  },
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2023-10-20",
+    "accession_number": "0001065280-23-000273",
+    "primary_document": "nflx-20230930.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000273/nflx-20230930.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389299"
+  },
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2023-07-21",
+    "accession_number": "0001065280-23-000198",
+    "primary_document": "nflx-20230630.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000198/nflx-20230630.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389304"
+  },
+  {
+    "ticker": "NFLX",
+    "cik": "0001065280",
+    "form_type": "10-Q",
+    "filed_date": "2023-04-21",
+    "accession_number": "0001065280-23-000120",
+    "primary_document": "nflx-20230331.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000120/nflx-20230331.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-20T17:58:11.389309"
+  }
+]

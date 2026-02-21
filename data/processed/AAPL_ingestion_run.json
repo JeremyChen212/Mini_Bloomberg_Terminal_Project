@@ -1,12 +1,12 @@
 {
   "ticker": "AAPL",
-  "started_at": "2026-02-20T08:43:33.857051",
+  "started_at": "2026-02-20T17:55:54.987202",
   "p1": {
     "ticker": "AAPL",
-    "prices": "                         Close  ...    Volume\nPrice                           ...          \nTicker                    AAPL  ...      AAPL\nDate                       NaN  ...       NaN\n2024-02-20   179.9225311279297  ...  53665600\n2024-02-21   180.6757354736328  ...  41371400\n2024-02-22   182.7071990966797  ...  52292200\n...                        ...  ...       ...\n2026-02-12   261.7300109863281  ...  81077200\n2026-02-13  255.77999877929688  ...  56290700\n2026-02-17   263.8800048828125  ...  58469100\n2026-02-18   264.3500061035156  ...  34203300\n2026-02-19   260.5799865722656  ...  30716500\n\n[504 rows x 5 columns]",
-    "income": "      Tax Effect Of Unusual Items  ...  Operating Revenue\nYear                               ...                   \n2025                          0.0  ...            416.161\n2024                          0.0  ...            391.035\n2023                          0.0  ...            383.285\n2022                          0.0  ...            394.328\n2021                          NaN  ...                NaN\n\n[5 rows x 39 columns]",
-    "balance": "      Treasury Shares Number  ...  Cash Financial\nYear                          ...                \n2025                     NaN  ...          28.267\n2024                     NaN  ...          27.199\n2023                     0.0  ...          28.359\n2022                     NaN  ...          18.546\n2021                     NaN  ...             NaN\n\n[5 rows x 69 columns]",
-    "cashflow": "      Free Cash Flow  ...  Net Income From Continuing Operations\nYear                  ...                                       \n2025          98.767  ...                                112.010\n2024         108.807  ...                                 93.736\n2023          99.584  ...                                 96.995\n2022         111.443  ...                                 99.803\n2021             NaN  ...                                    NaN\n\n[5 rows x 53 columns]",
+    "prices": "                         Close                High                 Low                Open    Volume\nPrice                                                                                               \nTicker                    AAPL                AAPL                AAPL                AAPL      AAPL\nDate                       NaN                 NaN                 NaN                 NaN       NaN\n2024-02-20   179.9225311279297  180.78467987026374  178.37660298808711   180.1504525533752  53665600\n2024-02-21   180.6757354736328  181.24058700664372  179.03070272630967   180.2991577041748  41371400\n2024-02-22   182.7071990966797  183.29188949706392   180.8144364958238  181.82522643308513  52292200\n...                        ...                 ...                 ...                 ...       ...\n2026-02-12   261.7300109863281   275.7200012207031  260.17999267578125   275.5899963378906  81077200\n2026-02-13  255.77999877929688   262.2300109863281   255.4499969482422    262.010009765625  56290700\n2026-02-17   263.8800048828125   266.2900085449219   255.5399932861328  258.04998779296875  58469100\n2026-02-18   264.3500061035156  266.82000732421875  262.45001220703125   263.6000061035156  34203300\n2026-02-19   260.5799865722656   264.4800109863281  260.04998779296875   262.6000061035156  30716500\n\n[504 rows x 5 columns]",
+    "income": "      Tax Effect Of Unusual Items  Tax Rate For Calcs  Normalized EBITDA  ...  Cost Of Revenue  Total Revenue  Operating Revenue\nYear                                                                      ...                                                   \n2025                          0.0        1.560000e-10            144.748  ...          220.960        416.161            416.161\n2024                          0.0        2.410000e-10            134.661  ...          210.352        391.035            391.035\n2023                          0.0        1.470000e-10            125.820  ...          214.137        383.285            383.285\n2022                          0.0        1.620000e-10            130.541  ...          223.546        394.328            394.328\n2021                          NaN                 NaN                NaN  ...              NaN            NaN                NaN\n\n[5 rows x 39 columns]",
+    "balance": "      Treasury Shares Number  Ordinary Shares Number  ...  Cash Equivalents  Cash Financial\nYear                                                  ...                                  \n2025                     NaN               14.773260  ...             7.667          28.267\n2024                     NaN               15.116786  ...             2.744          27.199\n2023                     0.0               15.550061  ...             1.606          28.359\n2022                     NaN               15.943425  ...             5.100          18.546\n2021                     NaN                     NaN  ...               NaN             NaN\n\n[5 rows x 69 columns]",
+    "cashflow": "      Free Cash Flow  Repurchase Of Capital Stock  ...  Depreciation And Amortization  Net Income From Continuing Operations\nYear                                               ...                                                                      \n2025          98.767                      -90.711  ...                         11.698                                112.010\n2024         108.807                      -94.949  ...                         11.445                                 93.736\n2023          99.584                      -77.550  ...                         11.519                                 96.995\n2022         111.443                      -89.402  ...                         11.104                                 99.803\n2021             NaN                          NaN  ...                            NaN                                    NaN\n\n[5 rows x 53 columns]",
     "metrics": {
       "name": "Apple Inc.",
       "sector": "Technology",
@@ -40,7 +40,7 @@
       "fetched_at": "2026-02-20T04:07:36.988163",
       "source": "yfinance"
     },
-    "derived": "      revenue_b  revenue_yoy_pct  ...  fcf_margin_pct  debt_equity\nYear                              ...                             \n2021        NaN              NaN  ...             NaN          NaN\n2022     394.33              NaN  ...           28.26         2.61\n2023     383.28            -2.80  ...           25.98         1.79\n2024     391.04             2.02  ...           27.83         1.87\n2025     416.16             6.43  ...           23.73         1.34\n\n[5 rows x 6 columns]",
+    "derived": "      revenue_b  revenue_yoy_pct  net_margin_pct  gross_margin_pct  fcf_margin_pct  debt_equity\nYear                                                                                           \n2021        NaN              NaN             NaN               NaN             NaN          NaN\n2022     394.33              NaN           25.31             43.31           28.26         2.61\n2023     383.28            -2.80           25.31             44.13           25.98         1.79\n2024     391.04             2.02           23.97             46.21           27.83         1.87\n2025     416.16             6.43           26.92             46.91           23.73         1.34",
     "summary": {
       "pipeline": "p1_market_financials",
       "ticker": "AAPL",
@@ -140,7 +140,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902549"
+        "fetched_at": "2026-02-20T17:08:19.367990"
       },
       {
         "ticker": "AAPL",
@@ -152,7 +152,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902595"
+        "fetched_at": "2026-02-20T17:08:19.368027"
       },
       {
         "ticker": "AAPL",
@@ -164,7 +164,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902623"
+        "fetched_at": "2026-02-20T17:08:19.368047"
       },
       {
         "ticker": "AAPL",
@@ -176,7 +176,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902646"
+        "fetched_at": "2026-02-20T17:08:19.368065"
       },
       {
         "ticker": "AAPL",
@@ -188,7 +188,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902669"
+        "fetched_at": "2026-02-20T17:08:19.368082"
       },
       {
         "ticker": "AAPL",
@@ -200,7 +200,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902690"
+        "fetched_at": "2026-02-20T17:08:19.368098"
       },
       {
         "ticker": "AAPL",
@@ -212,7 +212,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000119/a10-k20199282019.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902711"
+        "fetched_at": "2026-02-20T17:08:19.368115"
       },
       {
         "ticker": "AAPL",
@@ -224,7 +224,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019318000145/a10-k20189292018.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902733"
+        "fetched_at": "2026-02-20T17:08:19.368131"
       },
       {
         "ticker": "AAPL",
@@ -236,7 +236,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019317000070/a10-k20179302017.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902757"
+        "fetched_at": "2026-02-20T17:08:19.368150"
       },
       {
         "ticker": "AAPL",
@@ -248,7 +248,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/a201610-k9242016.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:37.902796"
+        "fetched_at": "2026-02-20T17:08:19.368179"
       },
       {
         "ticker": "AAPL",
@@ -260,7 +260,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296326"
+        "fetched_at": "2026-02-20T17:08:19.819939"
       },
       {
         "ticker": "AAPL",
@@ -272,7 +272,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296358"
+        "fetched_at": "2026-02-20T17:08:19.819953"
       },
       {
         "ticker": "AAPL",
@@ -284,7 +284,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296366"
+        "fetched_at": "2026-02-20T17:08:19.819957"
       },
       {
         "ticker": "AAPL",
@@ -296,7 +296,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296377"
+        "fetched_at": "2026-02-20T17:08:19.819961"
       },
       {
         "ticker": "AAPL",
@@ -308,7 +308,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296392"
+        "fetched_at": "2026-02-20T17:08:19.819966"
       },
       {
         "ticker": "AAPL",
@@ -320,7 +320,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296398"
+        "fetched_at": "2026-02-20T17:08:19.819968"
       },
       {
         "ticker": "AAPL",
@@ -332,7 +332,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000006/aapl-20231230.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296412"
+        "fetched_at": "2026-02-20T17:08:19.819974"
       },
       {
         "ticker": "AAPL",
@@ -344,7 +344,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000077/aapl-20230701.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296423"
+        "fetched_at": "2026-02-20T17:08:19.819978"
       },
       {
         "ticker": "AAPL",
@@ -356,7 +356,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000064/aapl-20230401.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296429"
+        "fetched_at": "2026-02-20T17:08:19.819980"
       },
       {
         "ticker": "AAPL",
@@ -368,7 +368,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/aapl-20221231.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.296444"
+        "fetched_at": "2026-02-20T17:08:19.819986"
       },
       {
         "ticker": "AAPL",
@@ -380,7 +380,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664436"
+        "fetched_at": "2026-02-20T17:08:20.201375"
       },
       {
         "ticker": "AAPL",
@@ -392,7 +392,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126000199/ef20060722_8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664463"
+        "fetched_at": "2026-02-20T17:08:20.201402"
       },
       {
         "ticker": "AAPL",
@@ -404,7 +404,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/ef20060722_8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664469"
+        "fetched_at": "2026-02-20T17:08:20.201406"
       },
       {
         "ticker": "AAPL",
@@ -416,7 +416,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664476"
+        "fetched_at": "2026-02-20T17:08:20.201409"
       },
       {
         "ticker": "AAPL",
@@ -428,7 +428,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000071/aapl-20250731.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664488"
+        "fetched_at": "2026-02-20T17:08:20.201416"
       },
       {
         "ticker": "AAPL",
@@ -440,7 +440,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125027340/ef20052355_8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664494"
+        "fetched_at": "2026-02-20T17:08:20.201419"
       },
       {
         "ticker": "AAPL",
@@ -452,7 +452,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125025275/ef20051741_8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664500"
+        "fetched_at": "2026-02-20T17:08:20.201423"
       },
       {
         "ticker": "AAPL",
@@ -464,7 +464,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125018400/ef20048691_8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664505"
+        "fetched_at": "2026-02-20T17:08:20.201426"
       },
       {
         "ticker": "AAPL",
@@ -476,7 +476,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000055/aapl-20250501.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664511"
+        "fetched_at": "2026-02-20T17:08:20.201430"
       },
       {
         "ticker": "AAPL",
@@ -488,114 +488,13 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125005876/ef20044022_8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T04:07:38.664522"
+        "fetched_at": "2026-02-20T17:08:20.201435"
       }
     ]
   },
   "p3": {
     "ticker": "AAPL",
-    "articles": [
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551894",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551929",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551938",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551944",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551956",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551963",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551969",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551975",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551981",
-        "sentiment": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T08:43:35.551987",
-        "sentiment": null
-      }
-    ]
+    "articles": []
   },
   "p4": {
     "ticker": "AAPL",
@@ -794,5 +693,5 @@
       }
     ]
   },
-  "finished_at": "2026-02-20T08:43:35.624499"
+  "finished_at": "2026-02-20T17:55:55.022504"
 }
