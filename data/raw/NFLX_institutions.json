@@ -1,0 +1,82 @@
+[
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Vanguard Group Inc",
+    "pctHeld": 0.0924,
+    "Shares": 390014981,
+    "Value": 30682477841,
+    "pctChange": 0.0125
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Blackrock Inc.",
+    "pctHeld": 0.0825,
+    "Shares": 348145717,
+    "Value": 27388622918,
+    "pctChange": 0.0021
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "FMR, LLC",
+    "pctHeld": 0.0464,
+    "Shares": 195829757,
+    "Value": 15405926624,
+    "pctChange": -0.0721
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "State Street Corporation",
+    "pctHeld": 0.0419,
+    "Shares": 176780995,
+    "Value": 13907360552,
+    "pctChange": 0.0276
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Geode Capital Management, LLC",
+    "pctHeld": 0.023599999,
+    "Shares": 99598678,
+    "Value": 7835427815,
+    "pctChange": -0.008
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Capital World Investors",
+    "pctHeld": 0.0212,
+    "Shares": 89341444,
+    "Value": 7028491235,
+    "pctChange": -0.040900003
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Price (T.Rowe) Associates Inc",
+    "pctHeld": 0.020399999,
+    "Shares": 86058878,
+    "Value": 6770251774,
+    "pctChange": -0.2142
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "Morgan Stanley",
+    "pctHeld": 0.0202,
+    "Shares": 85349973,
+    "Value": 6714482219,
+    "pctChange": 0.003
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "JPMORGAN CHASE & CO",
+    "pctHeld": 0.015,
+    "Shares": 63535182,
+    "Value": 4998312651,
+    "pctChange": -0.6441
+  },
+  {
+    "Date Reported": "2025-12-31T00:00:00",
+    "Holder": "NORGES BANK",
+    "pctHeld": 0.0147,
+    "Shares": 61894705,
+    "Value": 4869256329,
+    "pctChange": 0.045300003
+  }
+]

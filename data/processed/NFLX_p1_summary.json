@@ -1,0 +1,84 @@
+{
+  "pipeline": "p1_market_financials",
+  "ticker": "NFLX",
+  "name": "Netflix, Inc.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
+  "fetched_at": "2026-02-24T21:58:07.460495",
+  "metrics": {
+    "name": "Netflix, Inc.",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "employees": 16000,
+    "website": "https://www.netflix.com",
+    "country": "United States",
+    "price": 78.04,
+    "week_52_high": 134.115,
+    "week_52_low": 75.01,
+    "market_cap_b": 331.04,
+    "pe_trailing": 30.84585,
+    "pe_forward": 20.424988,
+    "ps_ratio": 7.326578,
+    "pb_ratio": 12.379442,
+    "ev_ebitda": 24.701,
+    "eps_ttm": 2.53,
+    "gross_margin_pct": 48.49,
+    "net_margin_pct": 24.3,
+    "op_margin_pct": 24.54,
+    "roe_pct": 42.76,
+    "roa_pct": 15.25,
+    "revenue_growth_pct": 17.6,
+    "earnings_growth_pct": 32.7,
+    "debt_equity": 63.782,
+    "current_ratio": 1.186,
+    "quick_ratio": 1.061,
+    "payout_ratio_pct": 0.0,
+    "beta": 1.712,
+    "fetched_at": "2026-02-24T21:58:07.460495",
+    "source": "yfinance"
+  },
+  "derived": {
+    "revenue_b": {
+      "2021": NaN,
+      "2022": 31.62,
+      "2023": 33.72,
+      "2024": 39.0,
+      "2025": 45.18
+    },
+    "revenue_yoy_pct": {
+      "2021": NaN,
+      "2022": NaN,
+      "2023": 6.67,
+      "2024": 15.65,
+      "2025": 15.85
+    },
+    "net_margin_pct": {
+      "2021": NaN,
+      "2022": 14.21,
+      "2023": 16.04,
+      "2024": 22.34,
+      "2025": 24.3
+    },
+    "gross_margin_pct": {
+      "2021": NaN,
+      "2022": 39.37,
+      "2023": 41.54,
+      "2024": 46.06,
+      "2025": 48.49
+    },
+    "fcf_margin_pct": {
+      "2021": NaN,
+      "2022": 5.12,
+      "2023": 20.54,
+      "2024": 17.75,
+      "2025": 20.94
+    },
+    "debt_equity": {
+      "2021": NaN,
+      "2022": 0.69,
+      "2023": 0.71,
+      "2024": 0.63,
+      "2025": 0.54
+    }
+  }
+}

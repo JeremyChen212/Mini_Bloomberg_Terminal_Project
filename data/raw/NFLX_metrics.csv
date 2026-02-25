@@ -1,0 +1,32 @@
+,Value
+name,"Netflix, Inc."
+sector,Communication Services
+industry,Entertainment
+employees,16000
+website,https://www.netflix.com
+country,United States
+price,78.04
+week_52_high,134.115
+week_52_low,75.01
+market_cap_b,331.04
+pe_trailing,30.84585
+pe_forward,20.424988
+ps_ratio,7.326578
+pb_ratio,12.379442
+ev_ebitda,24.701
+eps_ttm,2.53
+gross_margin_pct,48.49
+net_margin_pct,24.3
+op_margin_pct,24.54
+roe_pct,42.76
+roa_pct,15.25
+revenue_growth_pct,17.6
+earnings_growth_pct,32.7
+debt_equity,63.782
+current_ratio,1.186
+quick_ratio,1.061
+dividend_yield_pct,
+payout_ratio_pct,0.0
+beta,1.712
+fetched_at,2026-02-24T21:58:07.460495
+source,yfinance

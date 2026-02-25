@@ -6,6 +6,12 @@ Mirrors pipeline structure from architecture diagram.
 """
 
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+EVENTREGISTRY_API_KEY = os.getenv("EVENTREGISTRY_API_KEY")
 
 # Directory layout 
 BASE_DIR  = Path(__file__).resolve().parent.parent.parent

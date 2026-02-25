@@ -1,11 +1,11 @@
 {
   "ticker": "MSFT",
-  "started_at": "2026-02-20T05:16:36.675606",
+  "started_at": "2026-02-24T21:56:31.551603",
   "p1": {
     "ticker": "MSFT",
-    "prices": "Price            Close        High         Low        Open    Volume\nTicker            MSFT        MSFT        MSFT        MSFT      MSFT\nDate                                                                \n2024-02-20  396.701141  398.375425  391.993401  397.144321  24307900\n2024-02-21  396.100433  396.208786  391.215420  394.120838  18518900\n2024-02-22  405.427216  406.589371  402.393788  403.989294  27009900\n2024-02-23  404.137054  409.573600  402.787769  409.386500  16295900\n2024-02-26  401.379364  405.929520  401.202062  405.240090  16193500\n...                ...         ...         ...         ...       ...\n2026-02-12  400.924896  405.274983  397.103632  404.077704  40802400\n2026-02-13  400.406097  404.616489  397.143525  403.528974  34091600\n2026-02-17  395.956238  399.607907  393.631557  398.310879  32078800\n2026-02-18  398.690002  401.643253  395.417473  397.223349  23223400\n2026-02-19  398.459991  404.429993  396.670013  400.690002  28133600\n\n[502 rows x 5 columns]",
-    "income": "      Tax Effect Of Unusual Items  ...  Operating Revenue\nYear                               ...                   \n2025                    -0.077088  ...            281.724\n2024                    -0.099918  ...            245.122\n2023                    -0.002850  ...            211.915\n2022                     0.043754  ...            198.270\n\n[4 rows x 47 columns]",
-    "balance": "      Ordinary Shares Number  ...  Cash Financial\nYear                          ...                \n2025                7.434159  ...          11.711\n2024                7.434139  ...          11.571\n2023                7.432000  ...           8.478\n2022                7.464000  ...           8.258\n2021                     NaN  ...             NaN\n\n[5 rows x 78 columns]",
+    "prices": "Price            Close        High         Low        Open    Volume\nTicker            MSFT        MSFT        MSFT        MSFT      MSFT\nDate                                                                \n2024-02-26  401.379364  405.929520  401.202062  405.240090  16193500\n2024-02-27  401.320251  402.147550  397.745120  401.822522  14835800\n2024-02-28  401.556610  403.112712  399.192896  402.009648  13183100\n2024-02-29  407.387177  407.938709  399.783876  402.462760  31947300\n2024-03-01  409.218964  409.583366  404.668808  405.052897  17823400\n...                ...         ...         ...         ...       ...\n2026-02-18  398.690002  401.643253  395.417473  397.223349  23223400\n2026-02-19  398.459991  404.429993  396.670013  400.690002  28234000\n2026-02-20  397.230011  400.119995  395.160004  396.109985  34015200\n2026-02-23  384.470001  395.359985  383.100006  395.000000  43238300\n2026-02-24  389.000000  389.359985  381.709991  384.140015  33805100\n\n[501 rows x 5 columns]",
+    "income": "      Tax Effect Of Unusual Items  Tax Rate For Calcs  ...  Total Revenue  Operating Revenue\nYear                                                   ...                                  \n2025                    -0.077088        1.760000e-10  ...        281.724            281.724\n2024                    -0.099918        1.820000e-10  ...        245.122            245.122\n2023                    -0.002850        1.900000e-10  ...        211.915            211.915\n2022                     0.043754        1.310000e-10  ...        198.270            198.270\n\n[4 rows x 47 columns]",
+    "balance": "      Ordinary Shares Number  Share Issued  Net Debt  ...  Cash And Cash Equivalents  Cash Equivalents  Cash Financial\nYear                                                  ...                                                             \n2025                7.434159      7.434159    12.909  ...                     30.242            18.531          11.711\n2024                7.434139      7.434139    33.315  ...                     18.315             6.744          11.571\n2023                7.432000      7.432000    12.533  ...                     34.704            26.226           8.478\n2022                7.464000      7.464000    35.850  ...                     13.931             5.673           8.258\n2021                     NaN           NaN       NaN  ...                        NaN               NaN             NaN\n\n[5 rows x 78 columns]",
     "cashflow": "      Free Cash Flow  ...  Net Income From Continuing Operations\nYear                  ...                                       \n2025          71.611  ...                                101.832\n2024          74.071  ...                                 88.136\n2023          59.475  ...                                 72.361\n2022          65.149  ...                                 72.738\n2021             NaN  ...                                    NaN\n\n[5 rows x 59 columns]",
     "metrics": {
       "name": "Microsoft Corporation",
@@ -14,16 +14,16 @@
       "employees": 228000,
       "website": "https://www.microsoft.com",
       "country": "United States",
-      "price": 398.46,
+      "price": 389.0,
       "week_52_high": 555.45,
       "week_52_low": 344.79,
-      "market_cap_b": 2961.51,
-      "pe_trailing": 24.93492,
-      "pe_forward": 21.13892,
-      "ps_ratio": 9.695453,
-      "pb_ratio": 7.5731254,
-      "ev_ebitda": 17.075,
-      "eps_ttm": 15.98,
+      "market_cap_b": 2891.2,
+      "pe_trailing": 24.327705,
+      "pe_forward": 20.637053,
+      "ps_ratio": 9.46527,
+      "pb_ratio": 7.3933287,
+      "ev_ebitda": 16.675,
+      "eps_ttm": 15.99,
       "gross_margin_pct": 68.59,
       "net_margin_pct": 39.04,
       "op_margin_pct": 47.09,
@@ -34,20 +34,20 @@
       "debt_equity": 31.539,
       "current_ratio": 1.386,
       "quick_ratio": 1.239,
-      "dividend_yield_pct": 91.0,
+      "dividend_yield_pct": 94.0,
       "payout_ratio_pct": 21.28,
       "beta": 1.084,
-      "fetched_at": "2026-02-20T05:16:40.697486",
+      "fetched_at": "2026-02-24T21:56:36.367791",
       "source": "yfinance"
     },
-    "derived": "      revenue_b  revenue_yoy_pct  ...  fcf_margin_pct  debt_equity\nYear                              ...                             \n2022     198.27              NaN  ...           32.86         0.37\n2023     211.92             6.88  ...           28.07         0.29\n2024     245.12            15.67  ...           30.22         0.25\n2025     281.72            14.93  ...           25.42         0.18\n\n[4 rows x 6 columns]",
+    "derived": "      revenue_b  revenue_yoy_pct  net_margin_pct  gross_margin_pct  fcf_margin_pct  debt_equity\nYear                                                                                           \n2022     198.27              NaN           36.69             68.40           32.86         0.37\n2023     211.92             6.88           34.15             68.92           28.07         0.29\n2024     245.12            15.67           35.96             69.76           30.22         0.25\n2025     281.72            14.93           36.15             68.82           25.42         0.18",
     "summary": {
       "pipeline": "p1_market_financials",
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "fetched_at": "2026-02-20T05:16:40.697486",
+      "fetched_at": "2026-02-24T21:56:36.367791",
       "metrics": {
         "name": "Microsoft Corporation",
         "sector": "Technology",
@@ -55,16 +55,16 @@
         "employees": 228000,
         "website": "https://www.microsoft.com",
         "country": "United States",
-        "price": 398.46,
+        "price": 389.0,
         "week_52_high": 555.45,
         "week_52_low": 344.79,
-        "market_cap_b": 2961.51,
-        "pe_trailing": 24.93492,
-        "pe_forward": 21.13892,
-        "ps_ratio": 9.695453,
-        "pb_ratio": 7.5731254,
-        "ev_ebitda": 17.075,
-        "eps_ttm": 15.98,
+        "market_cap_b": 2891.2,
+        "pe_trailing": 24.327705,
+        "pe_forward": 20.637053,
+        "ps_ratio": 9.46527,
+        "pb_ratio": 7.3933287,
+        "ev_ebitda": 16.675,
+        "eps_ttm": 15.99,
         "gross_margin_pct": 68.59,
         "net_margin_pct": 39.04,
         "op_margin_pct": 47.09,
@@ -75,10 +75,10 @@
         "debt_equity": 31.539,
         "current_ratio": 1.386,
         "quick_ratio": 1.239,
-        "dividend_yield_pct": 91.0,
+        "dividend_yield_pct": 94.0,
         "payout_ratio_pct": 21.28,
         "beta": 1.084,
-        "fetched_at": "2026-02-20T05:16:40.697486",
+        "fetched_at": "2026-02-24T21:56:36.367791",
         "source": "yfinance"
       },
       "derived": {
@@ -134,7 +134,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:41.663740"
+        "fetched_at": "2026-02-24T21:56:39.134720"
       },
       {
         "ticker": "MSFT",
@@ -146,7 +146,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:41.663878"
+        "fetched_at": "2026-02-24T21:56:39.134720"
       },
       {
         "ticker": "MSFT",
@@ -158,7 +158,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:41.663950"
+        "fetched_at": "2026-02-24T21:56:39.134720"
       },
       {
         "ticker": "MSFT",
@@ -170,7 +170,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:41.664006"
+        "fetched_at": "2026-02-24T21:56:39.134720"
       },
       {
         "ticker": "MSFT",
@@ -182,7 +182,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459021039151/msft-10k_20210630.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:41.664060"
+        "fetched_at": "2026-02-24T21:56:39.134720"
       },
       {
         "ticker": "MSFT",
@@ -194,7 +194,7 @@
         "description": "10-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459020034944/msft-10k_20200630.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:41.664115"
+        "fetched_at": "2026-02-24T21:56:39.134720"
       },
       {
         "ticker": "MSFT",
@@ -206,7 +206,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074074"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -218,7 +218,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074110"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -230,7 +230,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074134"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -242,7 +242,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074145"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -254,7 +254,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074157"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -266,7 +266,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074185"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -278,7 +278,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008814/msft-20231231.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074200"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -290,7 +290,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074215"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -302,7 +302,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023014423/msft-20230331.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074237"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -314,7 +314,7 @@
         "description": "10-Q",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459023000733/msft-10q_20221231.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.074248"
+        "fetched_at": "2026-02-24T21:56:40.474286"
       },
       {
         "ticker": "MSFT",
@@ -326,7 +326,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585710"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -338,7 +338,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585746"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -350,7 +350,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585764"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -362,7 +362,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525225125/d863209d8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585772"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -374,7 +374,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-20250730.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585787"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -386,7 +386,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/d84624d8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585793"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -398,7 +398,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-20250430.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585809"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -410,7 +410,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-20250129.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585822"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -422,7 +422,7 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525010492/d929748d8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585827"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       },
       {
         "ticker": "MSFT",
@@ -434,114 +434,13 @@
         "description": "8-K",
         "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524275524/d865252d8k.htm",
         "source": "sec_edgar",
-        "fetched_at": "2026-02-20T05:16:42.585835"
+        "fetched_at": "2026-02-24T21:56:41.916873"
       }
     ]
   },
   "p3": {
     "ticker": "MSFT",
-    "articles": [
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405917",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405941",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405947",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405950",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405953",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405957",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405959",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405962",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405965",
-        "sentiment": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": null,
-        "publisher": null,
-        "url": null,
-        "published_at": null,
-        "source": "yfinance",
-        "fetched_at": "2026-02-20T05:16:43.405968",
-        "sentiment": null
-      }
-    ]
+    "articles": []
   },
   "p4": {
     "ticker": "MSFT",
@@ -740,5 +639,5 @@
       }
     ]
   },
-  "finished_at": "2026-02-20T05:16:43.670090"
+  "finished_at": "2026-02-24T21:56:43.070017"
 }

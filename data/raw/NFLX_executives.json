@@ -1,0 +1,112 @@
+[
+  {
+    "ticker": "NFLX",
+    "name": "Mr. Wilmot Reed Hastings Jr.",
+    "title": "Co-Founder & Chairman",
+    "year_born": 1960,
+    "total_pay": 502215,
+    "exercised_value": 206021120,
+    "unexercised_value": 1415606272,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226694"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Mr. Theodore A. Sarandos",
+    "title": "Co-CEO, President & Director",
+    "year_born": 1965,
+    "total_pay": 16961458,
+    "exercised_value": 32708016,
+    "unexercised_value": 427340448,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226704"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Mr. Gregory K. Peters",
+    "title": "Co-CEO, President & Director",
+    "year_born": 1971,
+    "total_pay": 15613091,
+    "exercised_value": 26574712,
+    "unexercised_value": 204458736,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226707"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Mr. Spencer Adam Neumann",
+    "title": "Chief Financial Officer",
+    "year_born": 1970,
+    "total_pay": 7647331,
+    "exercised_value": 0,
+    "unexercised_value": 107027248,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226710"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Mr. David  Hyman J.D.",
+    "title": "Chief Legal Officer & Secretary",
+    "year_born": 1966,
+    "total_pay": 7515647,
+    "exercised_value": 38790456,
+    "unexercised_value": 87438464,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226713"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Mr. Jeffrey William Karbowski",
+    "title": "Chief Accounting Officer",
+    "year_born": 1979,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226715"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Ms. Elizabeth  Stone",
+    "title": "Chief Product & Technology Officer",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226718"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Mr. Spencer  Wang",
+    "title": "Vice President of Finance, Corporate Development & Investor Relations",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226720"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Ms. Dani  Dudeck",
+    "title": "Chief Communications Officer",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226722"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Ms. Marian  Lee",
+    "title": "Chief Marketing Officer",
+    "year_born": 1980,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-22T20:34:31.226724"
+  }
+]

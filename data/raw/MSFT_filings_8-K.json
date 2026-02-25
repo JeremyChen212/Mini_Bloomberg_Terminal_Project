@@ -9,7 +9,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585710"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -21,7 +21,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585746"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -33,7 +33,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585764"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -45,7 +45,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525225125/d863209d8k.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585772"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -57,7 +57,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-20250730.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585787"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -69,7 +69,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525154103/d84624d8k.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585793"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -81,7 +81,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-20250430.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585809"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -93,7 +93,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-20250129.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585822"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -105,7 +105,7 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525010492/d929748d8k.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585827"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   },
   {
     "ticker": "MSFT",
@@ -117,6 +117,6 @@
     "description": "8-K",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524275524/d865252d8k.htm",
     "source": "sec_edgar",
-    "fetched_at": "2026-02-20T05:16:42.585835"
+    "fetched_at": "2026-02-24T21:56:41.916873"
   }
 ]
