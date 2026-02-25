@@ -4,9 +4,9 @@
 1. Be in bash and activate the environment
 2. Install Dependencies
    
-   `pip install yfinance pandas requests eventregistry`
+   `pip install yfinance pandas requests eventregistry dotenv`
    
-3. Make an accounnt at https://eventregistry.org/ and get your API Key
+3. Make an account at https://eventregistry.org/ and get your API Key
  
 5. Set your EventRegistry API Key
 
