@@ -33,6 +33,12 @@ def _get_client() -> EventRegistry:
     global _er
     if _er is None:
         key = EVENTREGISTRY_API_KEY
+        if not key:
+            raise EnvironmentError(
+                "EVENTREGISTRY_API_KEY is not set. "
+                "Add it to your .env file or environment variables:\n"
+                "  export EVENTREGISTRY_API_KEY=your_key_here"
+            )
         log.info(f"Initialising EventRegistry client (key ends: ...{key[-4:]})")
         _er = EventRegistry(
             apiKey=key,
@@ -48,7 +54,7 @@ def _resolve_uris(er: EventRegistry, ticker: str, keyword: str) -> tuple[str, st
     the SDK caches internally, and the calls are fast.
     """
     concept_uri  = er.getConceptUri(keyword)
-    category_uri = er.getCategoryUri("news business")
+    category_uri = er.getCategoryUri("news")
     log.info(f"[{ticker}] concept_uri={concept_uri}  category_uri={category_uri}")
     return concept_uri, category_uri
 
@@ -100,6 +106,21 @@ def fetch_news(
     try:
         er = _get_client()
         concept_uri, category_uri = _resolve_uris(er, ticker, search_keyword)
+        query_kwargs: dict = {}
+
+        if concept_uri:
+            query_kwargs["conceptUri"] = concept_uri
+        else:
+            # Fallback: plain keyword search so the pipeline doesn't fail
+            query_kwargs["keywords"] = search_keyword
+            log.info(f"[{ticker}] Using keyword fallback: '{search_keyword}'")
+
+        if category_uri:
+            query_kwargs["categoryUri"] = category_uri
+
+        if not query_kwargs:
+            log.error(f"[{ticker}] news: no valid query params — skipping")
+            return []
 
         q = QueryArticlesIter(
             conceptUri  = concept_uri,
@@ -122,6 +143,8 @@ def fetch_news(
         log.info(f"[{ticker}] news: {len(articles)} articles -> {path.name}")
         return articles
 
+    except EnvironmentError:
+        raise
     except Exception as e:
         log.error(f"[{ticker}] news: failed — {e}")
         return []
