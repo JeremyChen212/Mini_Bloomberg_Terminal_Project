@@ -1,0 +1,199 @@
+{
+  "pipeline": "p4_executives",
+  "ticker": "CRM",
+  "fetched_at": "2026-02-24T22:19:37.070914",
+  "executives": [
+    {
+      "ticker": "CRM",
+      "name": "Mr. Marc R. Benioff",
+      "title": "Co-Founder, Chairman & CEO",
+      "year_born": 1965,
+      "total_pay": 9646000,
+      "exercised_value": 72533232,
+      "unexercised_value": 121975536,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Mr. Srinivas  Tallapragada",
+      "title": "President, Chief Engineering & Customer Success Officer",
+      "year_born": 1970,
+      "total_pay": 2512428,
+      "exercised_value": 27424744,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Mr. Parker  Harris",
+      "title": "Co-Founder, CTO of Slack & Director",
+      "year_born": 1967,
+      "total_pay": 2250000,
+      "exercised_value": 26011968,
+      "unexercised_value": 72521712,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Mr. Stephen D. Fisher",
+      "title": "President, CPO, Executive VP and GM of Next Gen CRM & Unified Data",
+      "year_born": 1965,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Mr. Miguel  Milano",
+      "title": "President & Chief Revenue Officer",
+      "year_born": 1969,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Ms. Robin L. Washington CPA",
+      "title": "President, Chief Operating & Financial Officer and Director",
+      "year_born": 1963,
+      "total_pay": 200000,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Mr. David  Schmaier",
+      "title": "President and Chief Strategy Officer",
+      "year_born": 1964,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Mr. Sabastian V. Niles",
+      "title": "President, Chief Legal Officer & Corporate Secretary",
+      "year_born": 1981,
+      "total_pay": 3918008,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Mr. Sundeep G. Reddy",
+      "title": "Executive VP & Chief Accounting Officer",
+      "year_born": 1973,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Mr. Andy  White",
+      "title": "Senior Vice President of Technology",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:19:36.940360"
+    }
+  ],
+  "institutions": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.0959,
+      "Shares": 89843166,
+      "Value": 16658719675,
+      "pctChange": 0.003
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0861,
+      "Shares": 80685764,
+      "Value": 14960754213,
+      "pctChange": -0.006
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.053400002,
+      "Shares": 50080230,
+      "Value": 9285876154,
+      "pctChange": 0.013300001
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Capital International Investors",
+      "pctHeld": 0.0242,
+      "Shares": 22721010,
+      "Value": 4212929632,
+      "pctChange": 0.13319999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.0232,
+      "Shares": 21782556,
+      "Value": 4038921493,
+      "pctChange": 0.0377
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Capital World Investors",
+      "pctHeld": 0.021,
+      "Shares": 19672684,
+      "Value": 3647709031,
+      "pctChange": 0.1355
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.020299999,
+      "Shares": 19009146,
+      "Value": 3524675816,
+      "pctChange": -0.0094
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "NORGES BANK",
+      "pctHeld": 0.0128,
+      "Shares": 12015218,
+      "Value": 2227861699,
+      "pctChange": 0.1594
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Northern Trust Corporation",
+      "pctHeld": 0.0112,
+      "Shares": 10501627,
+      "Value": 1947211659,
+      "pctChange": -0.0062
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.0109,
+      "Shares": 10250709,
+      "Value": 1900686444,
+      "pctChange": 0.0385
+    }
+  ]
+}

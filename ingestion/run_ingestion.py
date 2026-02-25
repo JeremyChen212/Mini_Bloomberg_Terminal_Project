@@ -81,7 +81,7 @@ def run_all_pipelines(ticker: str, pipelines: list[str], force: bool = False) ->
              or isinstance(v, str)},
             f, indent=2, default=str
         )
-    log.info(f"[{ticker}] Run summary → {out.name}")
+    log.info(f"[{ticker}] Run summary -> {out.name}")
     return results
 
 

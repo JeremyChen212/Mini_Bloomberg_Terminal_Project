@@ -1,0 +1,32 @@
+,Value
+name,"Tesla, Inc."
+sector,Consumer Cyclical
+industry,Auto Manufacturers
+employees,134785
+website,https://www.tesla.com
+country,United States
+price,409.38
+week_52_high,498.83
+week_52_low,214.25
+market_cap_b,1536.17
+pe_trailing,386.20758
+pe_forward,145.9819
+ps_ratio,16.199717
+pb_ratio,18.695713
+ev_ebitda,143.536
+eps_ttm,1.06
+gross_margin_pct,18.03
+net_margin_pct,4.0
+op_margin_pct,4.7
+roe_pct,4.93
+roa_pct,2.1
+revenue_growth_pct,-3.1
+earnings_growth_pct,-60.6
+debt_equity,17.763
+current_ratio,2.164
+quick_ratio,1.538
+dividend_yield_pct,
+payout_ratio_pct,0.0
+beta,1.887
+fetched_at,2026-02-24T22:16:54.187641
+source,yfinance

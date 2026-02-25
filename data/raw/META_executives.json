@@ -1,0 +1,112 @@
+[
+  {
+    "ticker": "META",
+    "name": "Mr. Mark Elliot Zuckerberg",
+    "title": "Founder, Chairman & CEO",
+    "year_born": 1984,
+    "total_pay": 27219874,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Ms. Susan J. S. Li",
+    "title": "Chief Financial Officer",
+    "year_born": 1986,
+    "total_pay": 1948846,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Mr. Javier  Olivan",
+    "title": "Chief Operating Officer",
+    "year_born": 1977,
+    "total_pay": 3835042,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Mr. Andrew  Bosworth",
+    "title": "Chief Technology Officer",
+    "year_born": 1982,
+    "total_pay": 1923184,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Mr. Christopher K. Cox",
+    "title": "Chief Product Officer",
+    "year_born": 1983,
+    "total_pay": 1937677,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Mr. Dana  White",
+    "title": "Independent Director",
+    "year_born": null,
+    "total_pay": 272,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Ms. Dina  Powell McCormick",
+    "title": "President & Vice Chairman",
+    "year_born": 1975,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Mr. Aaron A. Anderson",
+    "title": "Chief Accounting Officer",
+    "year_born": null,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Mr. Atish  Banerjea",
+    "title": "Chief Information Officer",
+    "year_born": 1966,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  },
+  {
+    "ticker": "META",
+    "name": "Mr. Henry T. A. Moniz",
+    "title": "Chief Compliance Officer",
+    "year_born": 1966,
+    "total_pay": null,
+    "exercised_value": 0,
+    "unexercised_value": 0,
+    "source": "yfinance",
+    "fetched_at": "2026-02-24T22:23:11.748055"
+  }
+]

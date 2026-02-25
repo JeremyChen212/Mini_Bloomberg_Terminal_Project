@@ -1,0 +1,98 @@
+[
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "form_type": "10-Q",
+    "filed_date": "2025-12-04",
+    "accession_number": "0001108524-25-000238",
+    "primary_document": "crm-20251031.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000238/crm-20251031.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:19:13.044046"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "form_type": "10-Q",
+    "filed_date": "2025-09-04",
+    "accession_number": "0001108524-25-000088",
+    "primary_document": "crm-20250731.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000088/crm-20250731.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:19:13.044046"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "form_type": "10-Q",
+    "filed_date": "2025-05-29",
+    "accession_number": "0001108524-25-000030",
+    "primary_document": "crm-20250430.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:19:13.044046"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "form_type": "10-Q",
+    "filed_date": "2024-12-04",
+    "accession_number": "0001108524-24-000034",
+    "primary_document": "crm-20241031.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000034/crm-20241031.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:19:13.044046"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "form_type": "10-Q",
+    "filed_date": "2024-08-29",
+    "accession_number": "0001108524-24-000022",
+    "primary_document": "crm-20240731.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000022/crm-20240731.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:19:13.044046"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "form_type": "10-Q",
+    "filed_date": "2024-05-30",
+    "accession_number": "0001108524-24-000009",
+    "primary_document": "crm-20240430.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000009/crm-20240430.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:19:13.044046"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "form_type": "10-Q",
+    "filed_date": "2023-11-30",
+    "accession_number": "0001108524-23-000048",
+    "primary_document": "crm-20231031.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852423000048/crm-20231031.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:19:13.044046"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "form_type": "10-Q",
+    "filed_date": "2023-08-31",
+    "accession_number": "0001108524-23-000040",
+    "primary_document": "crm-20230731.htm",
+    "description": "10-Q",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852423000040/crm-20230731.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:19:13.044046"
+  }
+]

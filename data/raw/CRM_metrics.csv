@@ -1,0 +1,32 @@
+,Value
+name,"Salesforce, Inc."
+sector,Technology
+industry,Software - Application
+employees,76453
+website,https://www.salesforce.com
+country,United States
+price,185.42
+week_52_high,313.7
+week_52_low,174.57
+market_cap_b,176.52
+pe_trailing,24.755674
+pe_forward,14.137967
+ps_ratio,4.378298
+pb_ratio,2.9100554
+ev_ebitda,14.749
+eps_ttm,7.49
+gross_margin_pct,77.73
+net_margin_pct,17.91
+op_margin_pct,23.86
+roe_pct,12.18
+roa_pct,5.95
+revenue_growth_pct,8.6
+earnings_growth_pct,38.6
+debt_equity,19.385
+current_ratio,0.984
+quick_ratio,0.785
+dividend_yield_pct,90.0
+payout_ratio_pct,22.0
+beta,1.276
+fetched_at,2026-02-24T22:19:09.668807
+source,yfinance

@@ -1,0 +1,26 @@
+[
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "10-K",
+    "filed_date": "2026-01-29",
+    "accession_number": "0001628280-26-003942",
+    "primary_document": "meta-20251231.htm",
+    "description": "10-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:22:59.765153"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "10-K",
+    "filed_date": "2025-01-30",
+    "accession_number": "0001326801-25-000017",
+    "primary_document": "meta-20241231.htm",
+    "description": "10-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:22:59.765153"
+  }
+]

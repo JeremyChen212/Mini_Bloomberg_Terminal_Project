@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2026-01-28",
+    "accession_number": "0001628280-26-003832",
+    "primary_document": "meta-20260128.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-20260128.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2026-01-16",
+    "accession_number": "0001628280-26-002429",
+    "primary_document": "meta-20260112.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026002429/meta-20260112.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2025-12-19",
+    "accession_number": "0001628280-25-058337",
+    "primary_document": "meta-20251219.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025058337/meta-20251219.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2025-12-12",
+    "accession_number": "0001628280-25-056768",
+    "primary_document": "meta-20251205.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025056768/meta-20251205.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2025-11-03",
+    "accession_number": "0001193125-25-262593",
+    "primary_document": "d75422d8k.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2025-10-29",
+    "accession_number": "0001628280-25-047114",
+    "primary_document": "meta-20251029.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-20251029.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2025-07-30",
+    "accession_number": "0001628280-25-036719",
+    "primary_document": "meta-20250730.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-20250730.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2025-05-30",
+    "accession_number": "0001326801-25-000090",
+    "primary_document": "meta-20250528.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2025-04-30",
+    "accession_number": "0001326801-25-000050",
+    "primary_document": "meta-20250430.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-20250430.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  },
+  {
+    "ticker": "META",
+    "cik": "0001326801",
+    "form_type": "8-K",
+    "filed_date": "2025-04-11",
+    "accession_number": "0001326801-25-000027",
+    "primary_document": "meta-20250411.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000027/meta-20250411.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:23:01.470081"
+  }
+]

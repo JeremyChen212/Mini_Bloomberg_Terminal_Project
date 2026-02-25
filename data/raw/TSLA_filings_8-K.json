@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2026-01-28",
+    "accession_number": "0001628280-26-003837",
+    "primary_document": "tsla-20260128.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003837/tsla-20260128.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2026-01-02",
+    "accession_number": "0001628280-26-000016",
+    "primary_document": "tsla-20260102.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026000016/tsla-20260102.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2025-11-07",
+    "accession_number": "0001104659-25-108507",
+    "primary_document": "tm2530590d1_8k.htm",
+    "description": "FORM 8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108507/tm2530590d1_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2025-10-22",
+    "accession_number": "0001628280-25-045861",
+    "primary_document": "tsla-20251022.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045861/tsla-20251022.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2025-10-02",
+    "accession_number": "0001628280-25-043530",
+    "primary_document": "tsla-20251002.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025043530/tsla-20251002.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2025-09-05",
+    "accession_number": "0001104659-25-087862",
+    "primary_document": "tm2525337d1_8k.htm",
+    "description": "FORM 8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925087862/tm2525337d1_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2025-08-04",
+    "accession_number": "0001104659-25-073263",
+    "primary_document": "tm2522385d1_8k.htm",
+    "description": "FORM 8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925073263/tm2522385d1_8k.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2025-07-23",
+    "accession_number": "0001628280-25-035738",
+    "primary_document": "tsla-20250723.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035738/tsla-20250723.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2025-07-10",
+    "accession_number": "0001628280-25-034692",
+    "primary_document": "tsla-20250709.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025034692/tsla-20250709.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "0001318605",
+    "form_type": "8-K",
+    "filed_date": "2025-07-02",
+    "accession_number": "0001628280-25-033842",
+    "primary_document": "tsla-20250702.htm",
+    "description": "8-K",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025033842/tsla-20250702.htm",
+    "source": "sec_edgar",
+    "fetched_at": "2026-02-24T22:16:59.540931"
+  }
+]

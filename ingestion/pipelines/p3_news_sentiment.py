@@ -29,8 +29,10 @@ _er: EventRegistry | None = None
 def _get_client() -> EventRegistry:
     global _er
     if _er is None:
+        key = EVENTREGISTRY_API_KEY
+        log.info(f"Initialising EventRegistry client (key ends: ...{key[-4:]})")
         _er = EventRegistry(
-            apiKey=EVENTREGISTRY_API_KEY,
+            apiKey=key,
             allowUseOfArchive=False,
         )
     return _er

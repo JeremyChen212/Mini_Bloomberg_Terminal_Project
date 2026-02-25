@@ -1,0 +1,84 @@
+{
+  "pipeline": "p1_market_financials",
+  "ticker": "TSLA",
+  "name": "Tesla, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "fetched_at": "2026-02-24T22:16:54.187641",
+  "metrics": {
+    "name": "Tesla, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "employees": 134785,
+    "website": "https://www.tesla.com",
+    "country": "United States",
+    "price": 409.38,
+    "week_52_high": 498.83,
+    "week_52_low": 214.25,
+    "market_cap_b": 1536.17,
+    "pe_trailing": 386.20758,
+    "pe_forward": 145.9819,
+    "ps_ratio": 16.199717,
+    "pb_ratio": 18.695713,
+    "ev_ebitda": 143.536,
+    "eps_ttm": 1.06,
+    "gross_margin_pct": 18.03,
+    "net_margin_pct": 4.0,
+    "op_margin_pct": 4.7,
+    "roe_pct": 4.93,
+    "roa_pct": 2.1,
+    "revenue_growth_pct": -3.1,
+    "earnings_growth_pct": -60.6,
+    "debt_equity": 17.763,
+    "current_ratio": 2.164,
+    "quick_ratio": 1.538,
+    "payout_ratio_pct": 0.0,
+    "beta": 1.887,
+    "fetched_at": "2026-02-24T22:16:54.187641",
+    "source": "yfinance"
+  },
+  "derived": {
+    "revenue_b": {
+      "2021": NaN,
+      "2022": 81.46,
+      "2023": 96.77,
+      "2024": 97.69,
+      "2025": 94.83
+    },
+    "revenue_yoy_pct": {
+      "2021": NaN,
+      "2022": NaN,
+      "2023": 18.8,
+      "2024": 0.95,
+      "2025": -2.93
+    },
+    "net_margin_pct": {
+      "2021": NaN,
+      "2022": 15.45,
+      "2023": 15.5,
+      "2024": 7.3,
+      "2025": 4.0
+    },
+    "gross_margin_pct": {
+      "2021": NaN,
+      "2022": 25.6,
+      "2023": 18.25,
+      "2024": 17.86,
+      "2025": 18.03
+    },
+    "fcf_margin_pct": {
+      "2021": NaN,
+      "2022": 9.27,
+      "2023": 4.5,
+      "2024": 3.67,
+      "2025": 6.56
+    },
+    "debt_equity": {
+      "2021": NaN,
+      "2022": 0.13,
+      "2023": 0.15,
+      "2024": 0.19,
+      "2025": 0.18
+    }
+  }
+}

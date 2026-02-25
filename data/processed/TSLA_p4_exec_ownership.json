@@ -1,0 +1,199 @@
+{
+  "pipeline": "p4_executives",
+  "ticker": "TSLA",
+  "fetched_at": "2026-02-24T22:17:06.199782",
+  "executives": [
+    {
+      "ticker": "TSLA",
+      "name": "Mr. Elon R. Musk",
+      "title": "Co-Founder, Technoking of Tesla, CEO & Director",
+      "year_born": 1971,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Mr. Vaibhav  Taneja",
+      "title": "Chief Financial Officer",
+      "year_born": 1978,
+      "total_pay": 306846,
+      "exercised_value": 9653338,
+      "unexercised_value": 347210016,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Mr. Xiaotong  Zhu",
+      "title": "Senior Vice President of APAC & Global Vehicle Manufacturing",
+      "year_born": 1980,
+      "total_pay": 518250,
+      "exercised_value": 0,
+      "unexercised_value": 697024064,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Travis  Axelrod",
+      "title": "Head of Investor Relations",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Mr. Brandon  Ehrhart",
+      "title": "General Counsel & Corporate Secretary",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Mr. Franz  von Holzhausen",
+      "title": "Chief Designer",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Mr. John  Walker",
+      "title": "Vice President of Sales - North America",
+      "year_born": 1963,
+      "total_pay": 121550,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Mr. Rodney D. Westmoreland Jr.",
+      "title": "Director of Construction Management",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Mr. Lars  Moravy",
+      "title": "Vice President of Vehicle Engineering",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Ashok  Elluswamy",
+      "title": "Executive Officer",
+      "year_born": null,
+      "total_pay": null,
+      "exercised_value": 0,
+      "unexercised_value": 0,
+      "source": "yfinance",
+      "fetched_at": "2026-02-24T22:17:05.518741"
+    }
+  ],
+  "institutions": [
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Vanguard Group Inc",
+      "pctHeld": 0.069,
+      "Shares": 258925024,
+      "Value": 105998727589,
+      "pctChange": 0.025899999
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0558,
+      "Shares": 209563808,
+      "Value": 85791232742,
+      "pctChange": 0.0137
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0306,
+      "Shares": 114842934,
+      "Value": 47014400881,
+      "pctChange": 0.0095
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.0175,
+      "Shares": 65700975,
+      "Value": 26896665466,
+      "pctChange": 0.0058
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "JPMORGAN CHASE & CO",
+      "pctHeld": 0.0119,
+      "Shares": 44591616,
+      "Value": 18254915975,
+      "pctChange": -0.50049996
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Capital World Investors",
+      "pctHeld": 0.0113,
+      "Shares": 42484452,
+      "Value": 17392285167,
+      "pctChange": -0.0352
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.0105,
+      "Shares": 39484462,
+      "Value": 16164149246,
+      "pctChange": 0.094
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "NORGES BANK",
+      "pctHeld": 0.0101,
+      "Shares": 38086143,
+      "Value": 15591705407,
+      "pctChange": 0.0218
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0095,
+      "Shares": 35783015,
+      "Value": 14648850855,
+      "pctChange": -0.0101
+    },
+    {
+      "Date Reported": "2025-12-31T00:00:00",
+      "Holder": "Goldman Sachs Group Inc",
+      "pctHeld": 0.0073,
+      "Shares": 27412984,
+      "Value": 11222327523,
+      "pctChange": -0.08270001
+    }
+  ]
+}

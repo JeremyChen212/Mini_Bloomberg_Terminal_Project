@@ -1,0 +1,32 @@
+,Value
+name,"Meta Platforms, Inc."
+sector,Communication Services
+industry,Internet Content & Information
+employees,78865
+website,https://www.meta.com
+country,United States
+price,639.3
+week_52_high,796.25
+week_52_low,479.8
+market_cap_b,1617.14
+pe_trailing,27.25064
+pe_forward,17.857044
+ps_ratio,8.046858
+pb_ratio,7.4452353
+ev_ebitda,15.905
+eps_ttm,23.46
+gross_margin_pct,82.0
+net_margin_pct,30.08
+op_margin_pct,41.31
+roe_pct,30.24
+roa_pct,16.21
+revenue_growth_pct,23.8
+earnings_growth_pct,10.7
+debt_equity,39.164
+current_ratio,2.599
+quick_ratio,2.423
+dividend_yield_pct,33.0
+payout_ratio_pct,8.94
+beta,1.284
+fetched_at,2026-02-24T22:22:57.071877
+source,yfinance
