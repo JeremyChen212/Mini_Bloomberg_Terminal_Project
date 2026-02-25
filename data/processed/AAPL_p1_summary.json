@@ -1,0 +1,85 @@
+{
+  "pipeline": "p1_market_financials",
+  "ticker": "AAPL",
+  "name": "Apple Inc.",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "fetched_at": "2026-02-25T00:19:00.514907",
+  "metrics": {
+    "name": "Apple Inc.",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "employees": 150000,
+    "website": "https://www.apple.com",
+    "country": "United States",
+    "price": 272.14,
+    "week_52_high": 288.62,
+    "week_52_low": 169.21,
+    "market_cap_b": 3999.89,
+    "pe_trailing": 34.491764,
+    "pe_forward": 29.26498,
+    "ps_ratio": 9.182135,
+    "pb_ratio": 45.37179,
+    "ev_ebitda": 26.284,
+    "eps_ttm": 7.89,
+    "gross_margin_pct": 47.33,
+    "net_margin_pct": 27.04,
+    "op_margin_pct": 35.37,
+    "roe_pct": 152.02,
+    "roa_pct": 24.38,
+    "revenue_growth_pct": 15.7,
+    "earnings_growth_pct": 18.3,
+    "debt_equity": 102.63,
+    "current_ratio": 0.974,
+    "quick_ratio": 0.845,
+    "dividend_yield_pct": 38.0,
+    "payout_ratio_pct": 13.04,
+    "beta": 1.107,
+    "fetched_at": "2026-02-25T00:19:00.514907",
+    "source": "yfinance"
+  },
+  "derived": {
+    "revenue_b": {
+      "2021": null,
+      "2022": 394.33,
+      "2023": 383.28,
+      "2024": 391.04,
+      "2025": 416.16
+    },
+    "revenue_yoy_pct": {
+      "2021": null,
+      "2022": null,
+      "2023": -2.8,
+      "2024": 2.02,
+      "2025": 6.43
+    },
+    "net_margin_pct": {
+      "2021": null,
+      "2022": 25.31,
+      "2023": 25.31,
+      "2024": 23.97,
+      "2025": 26.92
+    },
+    "gross_margin_pct": {
+      "2021": null,
+      "2022": 43.31,
+      "2023": 44.13,
+      "2024": 46.21,
+      "2025": 46.91
+    },
+    "fcf_margin_pct": {
+      "2021": null,
+      "2022": 28.26,
+      "2023": 25.98,
+      "2024": 27.83,
+      "2025": 23.73
+    },
+    "debt_equity": {
+      "2021": null,
+      "2022": 2.61,
+      "2023": 1.79,
+      "2024": 1.87,
+      "2025": 1.34
+    }
+  }
+}

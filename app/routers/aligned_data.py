@@ -187,6 +187,21 @@ async def get_aligned_data(
             for col in df.columns
         ]
 
+        # Map column -> dataset using the metadata we already built
+        col_to_dataset = {c["key"]: c["dataset"] for c in columns_meta}
+
+        data_start: dict[str, str] = {}
+        for col in df.columns:
+            first_idx = df[col].first_valid_index()
+            if first_idx is None:
+                continue
+            ds = col_to_dataset.get(col, "other")
+            # Keep the earliest date per dataset across all its columns
+            prev = data_start.get(ds)
+            first_date = first_idx.date().isoformat() if hasattr(first_idx, "date") else str(first_idx)
+            if prev is None or first_date < prev:
+                data_start[ds] = first_date
+            
         # Serialize rows 
         rows = [
             {
@@ -213,6 +228,7 @@ async def get_aligned_data(
                 ),
                 "datasets_requested": sorted(requested_datasets),
                 "datasets_present":   sorted({_dataset_for_col(c) for c in df.columns} - {"other"}),
+                "data_start": data_start,
                 "note": (
                     "Null values mean no data existed at or before that date. "
                     "No values are fabricated."

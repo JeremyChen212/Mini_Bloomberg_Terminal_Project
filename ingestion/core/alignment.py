@@ -13,6 +13,7 @@ This produces a unified timeline per ticker where every date has consistent,
 non-hallucinated data across all pipeline outputs.
 """
 
+
 from __future__ import annotations
 
 import json
@@ -24,6 +25,17 @@ import pandas as pd
 
 from ingestion.core.config import PROC_DIR
 from ingestion.core.utils import get_logger
+def _to_utc_naive_index(df: pd.DataFrame) -> pd.DataFrame:
+    """Ensure DatetimeIndex is timezone-naive (UTC) for safe comparisons/joins."""
+    if df is None or df.empty:
+        return df
+    idx = pd.to_datetime(df.index, errors="coerce")
+    # If tz-aware, convert to UTC then drop tz; if tz-naive, leave as-is.
+    if getattr(idx, "tz", None) is not None:
+        idx = idx.tz_convert("UTC").tz_localize(None)
+    df = df.copy()
+    df.index = idx
+    return df[~df.index.isna()]
 
 log = get_logger("alignment")
 
@@ -50,19 +62,37 @@ def load_prices(ticker: str) -> pd.DataFrame:
 
 def load_financials(ticker: str) -> pd.DataFrame:
     """Annual financials — sparse (1 row per year)."""
-    path = PROC_DIR / f"{ticker}_p1_summary.json"
-    if not path.exists():
-        return pd.DataFrame()
+    # Prefer derived CSV if it exists
+    csv_path = PROC_DIR / f"{ticker}_derived.csv"
+    json_path = PROC_DIR / f"{ticker}_p1_summary.json"
+
     try:
-        data = json.loads(path.read_text())
-        derived = data.get("derived", {})
-        if not derived:
+        if csv_path.exists():
+            df = pd.read_csv(csv_path)
+	
+            # Handle either: year is a column, or year is the first unnamed column (index-like)
+            if "year" not in df.columns:
+                first = df.columns[0]
+                df = df.rename(columns={first: "year"})
+
+            df["year"] = df["year"].astype(int)
+            df = df.set_index("year")
+
+        elif json_path.exists():
+            data = json.loads(json_path.read_text())
+            derived = data.get("derived", {})
+            if not derived:
+                return pd.DataFrame()
+            df = pd.DataFrame(derived)
+
+        else:
             return pd.DataFrame()
-        df = pd.DataFrame(derived)
-        # derived index is year integers — convert to year-end dates
-        df.index = pd.to_datetime([f"{y}-12-31" for y in df.index])
-        df.index = df.index.normalize()
+
+        # Anchor annual rows to year-start so they align onto daily dates for that year
+        df.index = pd.to_datetime([f"{int(y)}-01-01" for y in df.index]).normalize()
+        df = df.sort_index()
         return df
+
     except Exception as e:
         log.warning(f"[{ticker}] load_financials: {e}")
         return pd.DataFrame()
@@ -83,7 +113,7 @@ def load_filings(ticker: str) -> pd.DataFrame:
             d = f.get("filed_date")
             if d:
                 rows.append({
-                    "date":             pd.to_datetime(d).normalize(),
+                    "date": pd.to_datetime(d, utc=True).tz_localize(None).normalize(),
                     "filing_type":      f.get("form_type"),
                     "filing_url":       f.get("filing_url"),
                     "accession_number": f.get("accession_number"),
@@ -152,34 +182,12 @@ def load_executives(ticker: str) -> pd.DataFrame:
         log.warning(f"[{ticker}] load_executives: {e}")
         return pd.DataFrame()
 
-
 # Core Alignment Function
-
-def align(
-    ticker: str,
-    start: date,
-    end: date,
-) -> pd.DataFrame:
-    """
-    Align all pipeline datasets for a ticker over [start, end].
-
-    Steps:
-    1. Load all datasets
-    2. Pick the sparsest available dataset as the reference clock
-    3. Build a unified date index from start → end (business days)
-    4. Join all datasets onto that index using backward-fill (ffill)
-       so each date carries the last known value — no data fabrication
-    5. Return a clean DataFrame with one row per date
-
-    Returns:
-        pd.DataFrame with DatetimeIndex and columns from all pipelines.
-        Columns are NaN where no data exists at or before that date.
-    """
+def align(ticker: str, start: date, end: date) -> pd.DataFrame:
     ticker = ticker.upper()
     start_dt = pd.Timestamp(start).normalize()
     end_dt   = pd.Timestamp(end).normalize()
 
-    # Load all datasets
     datasets = {
         "prices":     load_prices(ticker),
         "financials": load_financials(ticker),
@@ -187,8 +195,8 @@ def align(
         "news":       load_news(ticker),
         "executives": load_executives(ticker),
     }
+    datasets = {k: _to_utc_naive_index(v) for k, v in datasets.items()}
 
-    # Log what's available
     available = {k: len(v) for k, v in datasets.items() if not v.empty}
     log.info(f"[{ticker}] available datasets: {available}")
 
@@ -196,25 +204,37 @@ def align(
         log.warning(f"[{ticker}] No data available for alignment")
         return pd.DataFrame()
 
-    # Build unified daily index over the requested range
+    # clip requested range to available data across all datasets
+    earliest = min(df.index.min() for df in datasets.values() if not df.empty).normalize()
+    latest   = max(df.index.max() for df in datasets.values() if not df.empty).normalize()
+
+    if end_dt < earliest or start_dt > latest:
+        log.warning(
+            f"[{ticker}] requested range outside available data: {start_dt.date()}->{end_dt.date()} "
+            f"(available {earliest.date()}->{latest.date()})"
+        )
+        return pd.DataFrame(index=pd.DatetimeIndex([], name="date"))
+
+    if start_dt < earliest:
+        log.info(f"[{ticker}] shifting start {start_dt.date()} -> {earliest.date()} (earliest available)")
+        start_dt = earliest
+
+    if end_dt > latest:
+        log.info(f"[{ticker}] shifting end {end_dt.date()} -> {latest.date()} (latest available)")
+        end_dt = latest
+
+    # Build unified daily index over the clipped range
     date_index = pd.date_range(start=start_dt, end=end_dt, freq="D")
 
-    # Start with an empty frame on the full date index
     aligned = pd.DataFrame(index=date_index)
     aligned.index.name = "date"
 
-    # Join each dataset using ffill (backward fill) — carries last known value forward
     for name, df in datasets.items():
         if df.empty:
             continue
-        # Reindex onto the full date range, then ffill
-        # Only fill forward from the first available data point
-        df_reindexed = df.reindex(date_index, method=None)  # sparse join
-        df_filled = df_reindexed.ffill()                    # carry forward
+        df_reindexed = df.reindex(date_index, method=None)
+        df_filled = df_reindexed.ffill()
         aligned = aligned.join(df_filled, how="left")
-
-    # Clip to requested range
-    aligned = aligned.loc[start_dt:end_dt]
 
     log.info(f"[{ticker}] aligned: {len(aligned)} rows × {len(aligned.columns)} cols "
              f"({start_dt.date()} -> {end_dt.date()})")
@@ -240,6 +260,8 @@ def align_to_sparse_ref(
         "news":       load_news(ticker),
         "executives": load_executives(ticker),
     }
+
+    datasets = {k: _to_utc_naive_index(v) for k, v in datasets.items()}
 
     # Find sparsest available dataset
     ref_name = None

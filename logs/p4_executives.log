@@ -53,3 +53,19 @@
 2026-02-25 00:02:39,588  INFO      p4_executives  [NFLX] executives: cache hit
 2026-02-25 00:02:39,591  INFO      p4_executives  [NFLX] institutions: cache hit
 2026-02-25 00:02:39,594  INFO      p4_executives  -- P4 DONE: NFLX --
+2026-02-25 00:19:08,932  INFO      p4_executives  -- P4 START: AAPL --
+2026-02-25 00:19:08,933  INFO      p4_executives  [AAPL] executives: fetching...
+2026-02-25 00:19:09,040  INFO      p4_executives  [AAPL] executives: 10 officers saved -> AAPL_executives.json
+2026-02-25 00:19:09,041  INFO      p4_executives  [AAPL] institutions: fetching...
+2026-02-25 00:19:09,126  INFO      p4_executives  [AAPL] institutions: 10 holders -> AAPL_institutions.json
+2026-02-25 00:19:09,128  INFO      p4_executives  -- P4 DONE: AAPL --
+2026-02-25 00:28:20,900  INFO      p4_executives  -- P4 START: MSFT --
+2026-02-25 00:28:20,902  INFO      p4_executives  [MSFT] executives: fetching...
+2026-02-25 00:28:21,012  INFO      p4_executives  [MSFT] executives: 10 officers saved -> MSFT_executives.json
+2026-02-25 00:28:21,014  INFO      p4_executives  [MSFT] institutions: fetching...
+2026-02-25 00:28:21,103  INFO      p4_executives  [MSFT] institutions: 10 holders -> MSFT_institutions.json
+2026-02-25 00:28:21,106  INFO      p4_executives  -- P4 DONE: MSFT --
+2026-02-25 01:48:06,056  INFO      p4_executives  -- P4 START: NFLX --
+2026-02-25 01:48:06,172  INFO      p4_executives  [NFLX] executives: cache hit
+2026-02-25 01:48:06,275  INFO      p4_executives  [NFLX] institutions: cache hit
+2026-02-25 01:48:06,419  INFO      p4_executives  -- P4 DONE: NFLX --

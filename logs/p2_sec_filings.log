@@ -100,3 +100,31 @@
 2026-02-25 00:02:39,568  INFO      p2_sec_filings  [NFLX] 8-K: cache hit
 2026-02-25 00:02:39,572  INFO      p2_sec_filings  [NFLX] 23 total filings -> NFLX_p2_filings.json
 2026-02-25 00:02:39,572  INFO      p2_sec_filings  -- P2 DONE: NFLX --
+2026-02-25 00:19:00,538  INFO      p2_sec_filings  -- P2 START: AAPL --
+2026-02-25 00:19:00,539  INFO      p2_sec_filings  [AAPL] Looking up CIK...
+2026-02-25 00:19:01,370  INFO      p2_sec_filings  [AAPL] CIK found: 0000320193
+2026-02-25 00:19:01,376  INFO      p2_sec_filings  [AAPL] 10-K: fetching from EDGAR...
+2026-02-25 00:19:02,060  INFO      p2_sec_filings  [AAPL] 10-K: 10 filings saved -> AAPL_filings_10-K.json
+2026-02-25 00:19:02,093  INFO      p2_sec_filings  [AAPL] 10-Q: fetching from EDGAR...
+2026-02-25 00:19:02,964  INFO      p2_sec_filings  [AAPL] 10-Q: 10 filings saved -> AAPL_filings_10-Q.json
+2026-02-25 00:19:02,967  INFO      p2_sec_filings  [AAPL] 8-K: fetching from EDGAR...
+2026-02-25 00:19:03,640  INFO      p2_sec_filings  [AAPL] 8-K: 10 filings saved -> AAPL_filings_8-K.json
+2026-02-25 00:19:03,650  INFO      p2_sec_filings  [AAPL] 30 total filings -> AAPL_p2_filings.json
+2026-02-25 00:19:03,657  INFO      p2_sec_filings  -- P2 DONE: AAPL --
+2026-02-25 00:28:09,126  INFO      p2_sec_filings  -- P2 START: MSFT --
+2026-02-25 00:28:09,128  INFO      p2_sec_filings  [MSFT] Looking up CIK...
+2026-02-25 00:28:10,085  INFO      p2_sec_filings  [MSFT] CIK found: 0000789019
+2026-02-25 00:28:10,088  INFO      p2_sec_filings  [MSFT] 10-K: fetching from EDGAR...
+2026-02-25 00:28:10,798  INFO      p2_sec_filings  [MSFT] 10-K: 6 filings saved -> MSFT_filings_10-K.json
+2026-02-25 00:28:10,805  INFO      p2_sec_filings  [MSFT] 10-Q: fetching from EDGAR...
+2026-02-25 00:28:11,457  INFO      p2_sec_filings  [MSFT] 10-Q: 10 filings saved -> MSFT_filings_10-Q.json
+2026-02-25 00:28:11,462  INFO      p2_sec_filings  [MSFT] 8-K: fetching from EDGAR...
+2026-02-25 00:28:12,105  INFO      p2_sec_filings  [MSFT] 8-K: 10 filings saved -> MSFT_filings_8-K.json
+2026-02-25 00:28:12,110  INFO      p2_sec_filings  [MSFT] 26 total filings -> MSFT_p2_filings.json
+2026-02-25 00:28:12,111  INFO      p2_sec_filings  -- P2 DONE: MSFT --
+2026-02-25 01:48:01,810  INFO      p2_sec_filings  -- P2 START: NFLX --
+2026-02-25 01:48:01,810  INFO      p2_sec_filings  [NFLX] 10-K: cache hit
+2026-02-25 01:48:01,810  INFO      p2_sec_filings  [NFLX] 10-Q: cache hit
+2026-02-25 01:48:01,810  INFO      p2_sec_filings  [NFLX] 8-K: cache hit
+2026-02-25 01:48:01,823  INFO      p2_sec_filings  [NFLX] 23 total filings -> NFLX_p2_filings.json
+2026-02-25 01:48:01,823  INFO      p2_sec_filings  -- P2 DONE: NFLX --

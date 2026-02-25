@@ -72,3 +72,21 @@
 2026-02-25 00:02:39,517  INFO      run_ingestion  =======================================================
 2026-02-25 00:02:39,724  INFO      run_ingestion  [NFLX] Run summary -> NFLX_ingestion_run.json
 2026-02-25 00:02:40,233  INFO      run_ingestion  Watchlist complete. Summary -> watchlist_run_summary.json
+2026-02-25 00:18:58,028  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-25 00:18:58,028  INFO      run_ingestion  =======================================================
+2026-02-25 00:18:58,029  INFO      run_ingestion  INGESTION START: AAPL  pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-25 00:18:58,029  INFO      run_ingestion  =======================================================
+2026-02-25 00:19:09,287  INFO      run_ingestion  [AAPL] Run summary -> AAPL_ingestion_run.json
+2026-02-25 00:19:09,789  INFO      run_ingestion  Watchlist complete. Summary -> watchlist_run_summary.json
+2026-02-25 00:28:06,791  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-25 00:28:06,792  INFO      run_ingestion  =======================================================
+2026-02-25 00:28:06,792  INFO      run_ingestion  INGESTION START: MSFT  pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-25 00:28:06,793  INFO      run_ingestion  =======================================================
+2026-02-25 00:28:21,295  INFO      run_ingestion  [MSFT] Run summary -> MSFT_ingestion_run.json
+2026-02-25 00:28:21,801  INFO      run_ingestion  Watchlist complete. Summary -> watchlist_run_summary.json
+2026-02-25 01:48:01,672  INFO      run_ingestion  Starting watchlist ingestion: 1 tickers, pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-25 01:48:01,672  INFO      run_ingestion  =======================================================
+2026-02-25 01:48:01,672  INFO      run_ingestion  INGESTION START: NFLX  pipelines=['p1', 'p2', 'p3', 'p4']
+2026-02-25 01:48:01,672  INFO      run_ingestion  =======================================================
+2026-02-25 01:48:07,418  INFO      run_ingestion  [NFLX] Run summary -> NFLX_ingestion_run.json
+2026-02-25 01:48:07,929  INFO      run_ingestion  Watchlist complete. Summary -> watchlist_run_summary.json
