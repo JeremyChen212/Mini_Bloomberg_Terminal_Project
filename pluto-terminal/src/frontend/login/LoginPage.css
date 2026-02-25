@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* ---- ROOT ---- */
+.login-root {
+  height: 100vh;
+  width: 100vw;
+  background: #080810;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'IBM Plex Mono', monospace;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* ---- ANIMATED ORBS ---- */
+.orb {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.orb-purple-top {
+  width: 300px; height: 300px;
+  background: radial-gradient(circle at 40% 40%, #c026d3, #7c3aed 60%, transparent 100%);
+  top: -80px; left: 140px;
+  animation: orb1 9s ease-in-out infinite;
+}
+.orb-dark-top {
+  width: 170px; height: 170px;
+  background: radial-gradient(circle at 40% 30%, #2e2e42, #111118 70%, transparent 100%);
+  top: -30px; right: 200px;
+  animation: orb2 11s ease-in-out infinite;
+}
+.orb-purple-bl {
+  width: 400px; height: 400px;
+  background: radial-gradient(circle at 50% 50%, #5b21b6 0%, #3b0764 55%, transparent 82%);
+  bottom: -120px; left: -90px;
+  animation: orb3 13s ease-in-out infinite;
+}
+.orb-purple-br {
+  width: 340px; height: 340px;
+  background: radial-gradient(circle at 50% 50%, #6d28d9 0%, #4c1d95 55%, transparent 82%);
+  bottom: -80px; right: -80px;
+  animation: orb4 10s ease-in-out infinite;
+}
+.orb-accent {
+  width: 180px; height: 180px;
+  background: radial-gradient(circle, rgba(192, 38, 211, 0.22) 0%, transparent 70%);
+  top: 40%; left: 10%;
+  animation: orb5 15s ease-in-out infinite;
+}
+
+@keyframes orb1 {
+  0%   { transform: translate(0px,   0px)  scale(1);    }
+  25%  { transform: translate(18px,  22px) scale(1.04); }
+  50%  { transform: translate(-10px, 30px) scale(0.97); }
+  75%  { transform: translate(22px,  10px) scale(1.02); }
+  100% { transform: translate(0px,   0px)  scale(1);    }
+}
+@keyframes orb2 {
+  0%   { transform: translate(0px,   0px);  }
+  30%  { transform: translate(-15px, 20px); }
+  60%  { transform: translate(10px,  30px); }
+  100% { transform: translate(0px,   0px);  }
+}
+@keyframes orb3 {
+  0%   { transform: translate(0px,   0px)   scale(1);    }
+  33%  { transform: translate(25px,  -18px) scale(1.03); }
+  66%  { transform: translate(-12px, -30px) scale(0.98); }
+  100% { transform: translate(0px,   0px)   scale(1);    }
+}
+@keyframes orb4 {
+  0%   { transform: translate(0px,   0px)   scale(1);    }
+  40%  { transform: translate(-20px, -25px) scale(1.05); }
+  80%  { transform: translate(15px,  -10px) scale(0.96); }
+  100% { transform: translate(0px,   0px)   scale(1);    }
+}
+@keyframes orb5 {
+  0%   { transform: translate(0px,  0px);   }
+  50%  { transform: translate(30px, -40px); }
+  100% { transform: translate(0px,  0px);   }
+}
+
+/* ---- CARD ---- */
+.card {
+  position: relative;
+  z-index: 10;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+.logo-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeUp 0.7s 0.1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ---- FORM ---- */
+.form-container {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  animation: fadeUp 0.7s 0.2s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.social-btn {
+  width: 420px;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #e2e2f0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: background 0.2s, border-color 0.2s;
+  backdrop-filter: blur(8px);
+  box-sizing: border-box;
+}
+.social-btn:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 2px 0;
+}
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.divider-text {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.input-field {
+  width: 420px;
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #e2e2f0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+  backdrop-filter: blur(8px);
+  box-sizing: border-box;
+}
+.input-field::placeholder { color: rgba(255, 255, 255, 0.3); }
+.input-field:focus {
+  border-color: rgba(192, 38, 211, 0.6);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.signin-btn {
+  width: 420px;
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #c026d3, #9333ea);
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+.signin-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+.signin-btn:active { transform: translateY(0); }
+
+/* ---- FOOTER ---- */
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  animation: fadeUp 0.7s 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.footer-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.footer-link {
+  color: #c026d3;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.footer-link:hover { color: #e040fb; }
+
+/* ---- TQT LOGO — bottom left ---- */
+.tqt-logo-corner {
+  position: fixed;
+  bottom: 24px;
+  left: 28px;
+  z-index: 20;
+  animation: fadeUp 0.7s 0.5s cubic-bezier(0.22, 1, 0.36, 1) both, logoFloat 6s 1.5s ease-in-out infinite;
+  transition: opacity 0.2s;
+}
+.tqt-logo-corner:hover { opacity: 0.8; }
+.tqt-logo-corner img {
+  width: 170px;
+  height: auto;
+  mix-blend-mode: lighten;
+}
+
+@keyframes logoFloat {
+  0%,  100% { transform: translate(0px,   0px)  rotate(0deg);    }
+  25%        { transform: translate(4px,  -8px)  rotate(0.5deg);  }
+  50%        { transform: translate(-3px, -12px) rotate(-0.5deg); }
+  75%        { transform: translate(5px,  -6px)  rotate(0.3deg);  }
+}
+
+/* ---- BULL MASCOT — bottom right ---- */
+.bull-corner {
+  position: fixed;
+  bottom: 0;
+  right: 24px;
+  z-index: 20;
+  animation: fadeUp 0.7s 0.5s cubic-bezier(0.22, 1, 0.36, 1) both, bullBob 5s 1.5s ease-in-out infinite;
+}
+.bull-corner img {
+  width: 165px;
+  height: auto;
+  display: block;
+  mix-blend-mode: lighten;
+}
+
+@keyframes bullBob {
+  0%,  100% { transform: translateY(0px);   }
+  50%        { transform: translateY(-12px); }
+}
