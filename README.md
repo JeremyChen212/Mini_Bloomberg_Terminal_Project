@@ -21,4 +21,14 @@
 7. After successful execution
    * Raw data will be saved in the `/raw` directory
    * Processed data will be saved in the `/processed` directory
-   
+
+### Steps to run the frontend
+1. Navigate to the client app
+cd Mini_Bloomberg_Terminal_Project/client
+
+2. Install dependencies (only needed once)
+npm install
+
+3. Start the dev server
+npm run dev
+→ App runs at http://localhost:5173
