@@ -157,6 +157,7 @@ The dashboard runs entirely on mock data out of the box, so you can get it runni
 ```bash
 cd Mini_Bloomberg_Terminal_Project/client
 npm install
+npx vite build
 npm run dev
 ```
 
