@@ -16,7 +16,7 @@ export default function Navbar() {
     <header
       className="
         fixed top-0 left-0 right-0 z-50 h-[64px]
-        bg-[#0a0a0f]/95 backdrop-blur-sm
+        bg-terminal-bg/95 backdrop-blur-sm
         border-b border-white/10
         flex items-center px-4 gap-4
       "

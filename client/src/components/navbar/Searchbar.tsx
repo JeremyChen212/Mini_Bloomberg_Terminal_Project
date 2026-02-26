@@ -182,7 +182,7 @@ export default function SearchBar() {
             w-full bg-white/5 border border-white/15 rounded
             pl-9 pr-10 py-1.5 text-xs text-white/70
             placeholder:text-white/25
-            focus:outline-none focus:border-terminal-positive/50 focus:bg-white/[0.08]
+            focus:outline-none focus:border-terminal-accent/50 focus:bg-white/[0.08]
             transition-colors duration-150
           "
         />
@@ -217,7 +217,7 @@ export default function SearchBar() {
           aria-label="Search results"
           className="
             absolute top-[calc(100%+6px)] left-0 right-0 z-50
-            bg-[#111118] border border-white/15 rounded-lg
+            bg-terminal-surface border border-white/15 rounded-lg
             shadow-2xl overflow-hidden
           "
         >

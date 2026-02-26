@@ -27,7 +27,7 @@ export default function TimeRangeSelector() {
             className={clsx(
               "px-2.5 py-1 text-xs rounded border transition-all duration-150",
               isActive
-                ? "bg-terminal-positive/15 border-terminal-positive/50 text-terminal-positive"
+                ? "bg-terminal-accent/15 border-terminal-accent/50 text-terminal-accent"
                 : "bg-transparent border-white/15 text-white/50 hover:border-white/30 hover:text-white/70"
             )}
           >

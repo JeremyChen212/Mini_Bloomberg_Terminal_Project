@@ -11,24 +11,27 @@
  *      (@apply in @layer base crashes v4 because theme isn't resolved yet)
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+
 @import "tailwindcss";
 
 @theme {
   /* Colors — the --color-* prefix makes these available as Tailwind utilities:
-     bg-terminal-bg, text-terminal-positive, border-terminal-border, etc. */
-  --color-terminal-bg:       #020617;
-  --color-terminal-surface:  #0f172a;
-  --color-terminal-border:   #1e293b;
-  --color-terminal-muted:    #475569;
-  --color-terminal-accent:   #f59e0b;
-  --color-terminal-positive: #4ade80;
-  --color-terminal-negative: #f87171;
-  --color-terminal-info:     #0ea5e9;
-  --color-terminal-purple:   #a78bfa;
-  --color-terminal-cyan:     #22d3ee;
+     bg-terminal-bg, text-terminal-positive, border-terminal-border, etc.
+     Palette is aligned with the LoginPage purple/fuchsia theme. */
+  --color-terminal-bg:       #080810;  /* matches login root background */
+  --color-terminal-surface:  #0f0f1e;  /* panels — purple-tinted dark */
+  --color-terminal-border:   #1e1e3a;  /* borders — purple-tinted */
+  --color-terminal-muted:    #5a5a80;  /* muted text — purple-gray */
+  --color-terminal-accent:   #c026d3;  /* fuchsia — matches login button */
+  --color-terminal-positive: #4ade80;  /* green — kept for financial data */
+  --color-terminal-negative: #f87171;  /* red   — kept for financial data */
+  --color-terminal-info:     #a78bfa;  /* light purple — replaces sky blue */
+  --color-terminal-purple:   #9333ea;  /* deep purple — matches login gradient end */
+  --color-terminal-cyan:     #c084fc;  /* lighter purple — replaces cyan */
 
-  /* Font — must be --font-family-* to register as font-mono utility */
-  --font-family-mono: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+  /* Font — IBM Plex Mono matches the login page font */
+  --font-family-mono: "IBM Plex Mono", "Fira Code", "Consolas", monospace;
 }
 
 @layer base {

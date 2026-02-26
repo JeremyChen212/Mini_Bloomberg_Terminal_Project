@@ -39,12 +39,12 @@ interface NodeData extends Record<string, unknown> {
 // ─── Per-category color + icon ────────────────────────────────────────────────
 
 const CAT_COLOR: Record<NodeCategory, string> = {
-  company:     "#0ea5e9",
-  executive:   "#a78bfa",
-  institution: "#22d3ee",
-  filing:      "#f59e0b",
-  news:        "#4ade80",
-  peer:        "#64748b",
+  company:     "#a78bfa",  // light purple — replaces sky blue
+  executive:   "#9333ea",  // deep purple
+  institution: "#c084fc",  // lighter purple — replaces cyan
+  filing:      "#c026d3",  // fuchsia — matches login accent
+  news:        "#4ade80",  // green — semantic (kept)
+  peer:        "#5a5a80",  // muted purple-gray
 };
 
 const CAT_ICON: Record<NodeCategory, string> = {
@@ -73,10 +73,10 @@ function GraphNode({ data, selected }: NodeProps) {
           borderLeftColor: color,
           boxShadow: selected ? `0 0 12px ${color}55` : "0 2px 10px #00000066",
         }}
-        className="bg-[#0f172a] border border-[#1e293b] border-l-2 rounded px-3 py-2 min-w-[130px] max-w-[190px] font-mono"
+        className="bg-terminal-surface border border-terminal-border border-l-2 rounded px-3 py-2 min-w-[130px] max-w-[190px] font-mono"
       >
         {/* Category label */}
-        <div className="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-[#1e293b]">
+        <div className="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-terminal-border">
           <span className="text-[10px]" aria-hidden="true">{CAT_ICON[d.category]}</span>
           <span className="text-[8px] font-bold tracking-[0.15em] uppercase" style={{ color }}>
             {d.category}
@@ -88,7 +88,7 @@ function GraphNode({ data, selected }: NodeProps) {
         </div>
         {/* Sub-label */}
         {d.sub && (
-          <div className="text-[#64748b] text-[9px] mt-0.5 leading-snug">
+          <div className="text-terminal-muted text-[9px] mt-0.5 leading-snug">
             {d.sub}
           </div>
         )}
@@ -127,8 +127,8 @@ function buildGraph(ticker: string): { nodes: Node[]; edges: Edge[] } {
     type: "smoothstep",
     animated: !dashed,
     style: { stroke: color, strokeWidth: 1, ...(dashed ? { strokeDasharray: "4 3" } : {}) },
-    labelStyle: { fill: "#64748b", fontSize: 8 },
-    labelBgStyle: { fill: "#020617", fillOpacity: 0.8 },
+    labelStyle: { fill: "#5a5a80", fontSize: 8 },
+    labelBgStyle: { fill: "#080810", fillOpacity: 0.8 },
     labelBgPadding: [3, 2] as [number, number],
   });
 
@@ -283,14 +283,15 @@ export default function KnowledgeGraph() {
           fitViewOptions={{ padding: 0.12 }}
           minZoom={0.25}
           maxZoom={2}
-          style={{ background: "#020617" }}
+          style={{ background: "#080810" }}
+          proOptions={{ hideAttribution: true }}
         >
-          <Background variant={BackgroundVariant.Dots} gap={18} size={1} color="#1e293b" />
-          <Controls style={{ background: "#0f172a", border: "1px solid #1e293b", borderRadius: 6 }} />
+          <Background variant={BackgroundVariant.Dots} gap={18} size={1} color="#1e1e3a" />
+          <Controls style={{ background: "#0f0f1e", border: "1px solid #1e1e3a", borderRadius: 6 }} />
           <MiniMap
-            style={{ background: "#0a0f1a", border: "1px solid #1e293b" }}
-            nodeColor={(n) => CAT_COLOR[(n.data as NodeData).category] ?? "#475569"}
-            maskColor="#02061788"
+            style={{ background: "#0a0a18", border: "1px solid #1e1e3a" }}
+            nodeColor={(n) => CAT_COLOR[(n.data as NodeData).category] ?? "#5a5a80"}
+            maskColor="#08081088"
           />
         </ReactFlow>
       </div>

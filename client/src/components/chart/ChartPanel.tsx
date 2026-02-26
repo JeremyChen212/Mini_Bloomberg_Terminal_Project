@@ -283,7 +283,7 @@ export default function ChartPanel() {
                 className={clsx(
                   "px-2.5 py-1 text-xs rounded border transition-all duration-150",
                   selectedRange === range
-                    ? "bg-terminal-positive/15 border-terminal-positive/50 text-terminal-positive"
+                    ? "bg-terminal-accent/15 border-terminal-accent/50 text-terminal-accent"
                     : "border-terminal-border text-terminal-muted hover:border-white/30 hover:text-white/70"
                 )}
               >
@@ -317,7 +317,7 @@ export default function ChartPanel() {
 
             <CartesianGrid
               strokeDasharray="3 3"
-              stroke="#1e293b"
+              stroke="#1e1e3a"
               vertical={false}
             />
 
@@ -325,15 +325,15 @@ export default function ChartPanel() {
               dataKey="timestamp"
               tickFormatter={(ts: number) => formatXTick(ts, selectedRange)}
               tickCount={tickCount(selectedRange)}
-              tick={{ fill: "#475569", fontSize: 10, fontFamily: "monospace" }}
-              axisLine={{ stroke: "#1e293b" }}
+              tick={{ fill: "#5a5a80", fontSize: 10, fontFamily: "monospace" }}
+              axisLine={{ stroke: "#1e1e3a" }}
               tickLine={false}
             />
 
             <YAxis
               domain={[minPrice, maxPrice]}
               tickFormatter={(v: number) => `$${v.toFixed(0)}`}
-              tick={{ fill: "#475569", fontSize: 10, fontFamily: "monospace" }}
+              tick={{ fill: "#5a5a80", fontSize: 10, fontFamily: "monospace" }}
               axisLine={false}
               tickLine={false}
               width={55}
@@ -342,14 +342,14 @@ export default function ChartPanel() {
 
             <Tooltip
               content={<PriceTooltip range={selectedRange} />}
-              cursor={{ stroke: "#475569", strokeWidth: 1, strokeDasharray: "3 3" }}
+              cursor={{ stroke: "#5a5a80", strokeWidth: 1, strokeDasharray: "3 3" }}
             />
 
             {/* Reference line at opening price */}
             {openPrice && (
               <ReferenceLine
                 y={openPrice}
-                stroke="#475569"
+                stroke="#5a5a80"
                 strokeDasharray="4 4"
                 strokeWidth={1}
               />

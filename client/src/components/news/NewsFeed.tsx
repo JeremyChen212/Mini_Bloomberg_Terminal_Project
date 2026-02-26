@@ -65,16 +65,21 @@ function ArticleCard({ article }: {
     <article className={clsx(
       "group relative pl-3 pr-3 py-3",
       "border-l-2 rounded-r",
-      "hover:bg-white/[0.03] transition-colors duration-150 cursor-default",
+      "hover:bg-white/[0.03] transition-colors duration-150",
       // Left border color by sentiment
       article.sentiment === "positive" && "border-l-terminal-positive",
       article.sentiment === "negative" && "border-l-terminal-negative",
       article.sentiment === "neutral"  && "border-l-terminal-border",
     )}>
-      {/* Headline */}
-      <p className="text-white/80 text-[11px] leading-[1.55] mb-2 group-hover:text-white transition-colors">
+      {/* Headline — clicking opens article in a new tab */}
+      <a
+        href={article.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block text-white/80 text-[11px] leading-[1.55] mb-2 group-hover:text-white hover:text-terminal-accent transition-colors cursor-pointer"
+      >
         {article.headline}
-      </p>
+      </a>
 
       {/* Footer */}
       <div className="flex items-center justify-between">
