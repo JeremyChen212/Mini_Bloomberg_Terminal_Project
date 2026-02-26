@@ -24,11 +24,11 @@
 
 ### Steps to run the frontend
 1. Navigate to the client app
-cd Mini_Bloomberg_Terminal_Project/client
+`cd Mini_Bloomberg_Terminal_Project/client`
 
 2. Install dependencies (only needed once)
-npm install
+`npm install`
 
 3. Start the dev server
-npm run dev
-→ App runs at http://localhost:5173
+`npm run dev`
+`→ App runs at http://localhost:5173`
