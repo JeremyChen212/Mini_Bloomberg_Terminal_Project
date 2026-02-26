@@ -1,6 +1,6 @@
 # Pluto Terminal
 
-An open-source Bloomberg Terminal alternative built by a student quant team. The Bloomberg Terminal costs ~$25,000/year and is out of reach for most people - we're building a version that anyone can run locally, with a planned migration to AWS.
+An open-source Bloomberg Terminal alternative built by the TQT Quantathon Team. The Bloomberg Terminal costs ~$25,000/year and is out of reach for most people - we're building a version that anyone can run locally, with a planned migration to AWS.
 
 The terminal pulls financial data, SEC filings, news sentiment, and executive/institutional ownership into a single dashboard. A knowledge graph ties everything together so you can see how a company, its leadership, its investors, and its news all connect.
 
