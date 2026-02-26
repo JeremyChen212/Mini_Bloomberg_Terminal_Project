@@ -12,7 +12,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-01-29T22:14:00Z",
       sentiment: "positive",
       related_tickers: ["AAPL"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Apple stock rises on US manufacturing expansion
+      url: "https://www.newsdirectory3.com/apple-stock-rises-on-us-manufacturing-expansion-supply-chain-shift/",
     },
     {
       id: "n2",
@@ -21,7 +22,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-02-12T15:30:00Z",
       sentiment: "negative",
       related_tickers: ["AAPL"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Siri-ous problem threat to Apple stock (Nasdaq)
+      url: "https://www.nasdaq.com/articles/siri-ous-problem-could-be-biggest-threat-apple-stock",
     },
     {
       id: "n3",
@@ -30,7 +32,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-02-18T11:00:00Z",
       sentiment: "positive",
       related_tickers: ["AAPL"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Apple Mac mini US manufacturing (Ars Technica)
+      url: "https://arstechnica.com/apple/2026/02/in-a-replay-of-2019-apple-says-a-single-desktop-mac-will-be-manufactured-in-the-us/",
     },
     {
       id: "n4",
@@ -39,7 +42,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-02-20T09:45:00Z",
       sentiment: "negative",
       related_tickers: ["AAPL"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Apple shareholders vote against China business scrutiny (IT Watch)
+      url: "https://itwatch.dk/ITNyt/teknologi/article19051099.ece",
     },
     {
       id: "n5",
@@ -48,7 +52,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-02-21T04:20:00Z",
       sentiment: "positive",
       related_tickers: ["AAPL", "TSMC"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Apple Mac mini soon made in US (NewsBytesApp)
+      url: "https://www.newsbytesapp.com/news/science/apple-to-shift-mac-mini-production-to-us/story",
     },
     {
       id: "n6",
@@ -57,7 +62,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-02-22T13:10:00Z",
       sentiment: "neutral",
       related_tickers: ["AAPL"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Tim Cook remembers Steve Jobs on his birthday
+      url: "https://www.letemsvetemapplem.eu/2026/02/24/steve-jobs-by-dnes-oslavil-71-narozeniny-takto-na-nej-vzpomnel-tim-cook/",
     },
     {
       id: "n7",
@@ -66,7 +72,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-01-30T16:00:00Z",
       sentiment: "neutral",
       related_tickers: ["AAPL"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Apple holds more cash than most countries ($144.8B)
+      url: "https://www.letemsvetemapplem.eu/2026/02/24/apple-ma-vic-hotovosti-nez-vetsina-statu-sveta-drzi-1448-miliardy-dolaru/",
     },
     {
       id: "n8",
@@ -75,7 +82,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-02-15T19:30:00Z",
       sentiment: "negative",
       related_tickers: ["AAPL", "BRK.B"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Mac Minis to be made in America (The Register)
+      url: "https://www.theregister.com/2026/02/24/apple_mac_mini_us/",
     },
     {
       id: "n9",
@@ -84,7 +92,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-02-23T10:15:00Z",
       sentiment: "positive",
       related_tickers: ["AAPL"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — Harbor Long-Term Growers ETF Q4 2025 (Apple featured)
+      url: "https://seekingalpha.com/article/4874072-harbor-long-term-growers-etf-q4-2025-commentary",
     },
     {
       id: "n10",
@@ -93,7 +102,8 @@ export const MOCK_NEWS: Record<string, NewsArticle[]> = {
       published_at: "2026-02-24T08:00:00Z",
       sentiment: "negative",
       related_tickers: ["AAPL", "MSFT", "NVDA"],
-      url: "#",
+      // Real article from AAPL_p3_news.json — CIA warned Apple/Nvidia of China-Taiwan chip threat
+      url: "https://www.digit.in/news/general/us-warned-apple-nvidia-and-others-of-china-taiwan-chip-threat-industry-slow-to-shift-production-report.html",
     },
   ],
   MSFT: [

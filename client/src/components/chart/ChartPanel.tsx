@@ -229,12 +229,12 @@ export default function ChartPanel() {
   // ── Render ────────────────────────────────────────────────────────────
   return (
     <section
-      className="bg-terminal-bg rounded-lg border border-terminal-border overflow-hidden"
+      className="h-full flex flex-col bg-terminal-bg rounded-lg border border-terminal-border overflow-hidden"
       aria-label={`${ticker} stock chart`}
     >
 
-      {/* ── HEADER ─────────────────────────────────────────────────── */}
-      <div className="px-5 pt-4 pb-3 border-b border-terminal-border">
+      {/* ── HEADER — pinned, never scrolls ─────────────────────────── */}
+      <div className="shrink-0 px-5 pt-4 pb-3 border-b border-terminal-border">
         <div className="flex items-start justify-between">
 
           {/* Left: price + change */}
@@ -293,6 +293,12 @@ export default function ChartPanel() {
           </div>
         </div>
       </div>
+
+      {/* ── SCROLLABLE BODY: chart + volume + metrics ──────────────── */}
+      <div
+        className="flex-1 min-h-0 overflow-y-auto"
+        style={{ scrollbarWidth: "thin", scrollbarColor: "#1e1e3a transparent" }}
+      >
 
       {/* ── PRICE CHART ────────────────────────────────────────────── */}
       <div className="px-2 pt-4" aria-label="Price chart" role="img">
@@ -486,6 +492,7 @@ export default function ChartPanel() {
         </div>
       )}
 
+      </div>{/* end scrollable body */}
     </section>
   );
 }
